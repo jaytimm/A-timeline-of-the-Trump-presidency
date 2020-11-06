@@ -1,7 +1,7 @@
 A timeline of the Trump Presidency
 ==================================
 
-Timeline scraped from [Wikipedia’s Timeline of the Donald Trump
+Timeline scraped from Wikipedia’s [Timeline of the Donald Trump
 presidency](https://en.wikipedia.org/wiki/Timeline_of_the_Donald_Trump_presidency),
 and made available as a simple function (with clean table output) in the
 [uspols](https://github.com/jaytimm/uspols) R package – dubbed
@@ -15,18 +15,21 @@ library(uspols)
 ```
 
 ``` r
-longs <- uspols::uspols_wiki_timeline()
+daily_events <- uspols::uspols_wiki_timeline()
 ```
 
 ``` r
 library(tidyverse)
 ## Some cleaning for web/pdf
-longs$Events <- gsub('&', '+', longs$Events)
-longs$Events <- gsub('\\$', '', longs$Events)
-longs$Events <- stringi::stri_trans_general(longs$Events, 
+daily_events$Events <- gsub('&', '\\+', daily_events$Events)
+daily_events$Events <- gsub('\\$', '', daily_events$Events)
+daily_events$Events <- gsub('\\!', '\\! ', daily_events$Events)
+
+daily_events$Events <- stringi::stri_trans_general(daily_events$Events, 
                                             "latin-ascii")
 
-longs2 <- longs %>% 
+
+daily_events2 <- daily_events %>% 
   filter(!is.na(Events)) %>%
   mutate(daypres = as.integer(daypres)) %>%
   group_by(daypres, date) %>%
@@ -39,7 +42,7 @@ longs2 <- longs %>%
                          date, '**: ', 
                          Events))
 
-l1 <- paste0(longs2$Events, 
+l1 <- paste0(daily_events2$Events, 
              collapse = ' || ')  # `r l1` inline 
 ```
 
@@ -1131,40 +1134,39 @@ lumber imports from Canada, worth about 1 billion. \|\| **96 \|
 2017-04-25**: The president publicly suggests breaking up the United
 States Court of Appeals for the Ninth Circuit after it block his
 defunding of sanctuary cities. \| Sonny Perdue is sworn in as the 31st
-Secretary of Agriculture.\[citation needed\] \| President Trump speaks
-at the U.S. Capitol for the Holocaust Memorial Museum (USHMM) “Days of
-Remembrance” event. \| President Trump signs an executive order,
-“Promoting Agriculture and Rural Prosperity in America”. The executive
-order instructs the Secretary of Agriculture to chair an interagency
-task force to examine legislative, regulatory, and policy changes in
-support of rural America. \| U.S. District Judge William Orrick III
-issues a preliminary injunction blocking President Trump’s Executive
-Order 13768 of 25 January, which ordered the withholding of federal
-funds from cities which refuse to comply with federal immigration
-enforcement measures. \|\| **97 \| 2017-04-26**: President Trump
-welcomes the Senate to the Eisenhower Executive Office Building prior to
-their briefing with the Secretary of Defense, State, Director of
-National Intelligence, and chairman of the Joint Chiefs of Staff on the
-issue of North Korea. Pence and the four officials brief the House of
-Representatives at the Capitol complex later in the day. \| Steve
-Mnuchin and Gary Cohn release President Trump’s tax-reform outline plan,
-the proposals of which include among other items a cut in the rate of
-business tax from 35% to 15%, a simplification of the tax system by
-reducing seven existing tax brackets to three, and the elimination of
-the alternative minimum tax. \| President Trump signs a pair of
-executive orders for reviews of national monuments and of public
-schools. \| Secretary of State Tillerson and Secretary of Defense Mattis
-lead a briefing on North Korea for members of the house and senate. \|\|
-**98 \| 2017-04-27**: Speaking at the Oval Office, President Trump
-praises President Xi Jinping’s diplomacy in respect of North Korea but
-warns of the continuing possibility of a “major, major conflict”. \|
-President Trump holds a bilateral meeting with Argentine President
-Mauricio Macri at the White House. \| A renewed attempt to secure a
-Congressional vote on President Trump’s plan to repeal and replace the
-Affordable Care Act is abandoned. \| The Senate confirms Alex Acosta as
-the 28th Secretary of Labor in a vote of 60-38.\[citation needed\] \|\|
-**99 \| 2017-04-28**: Alex Acosta is sworn in as the 28th Secretary of
-Labor.\[citation needed\] \| At the Georgia World Congress Center in
+Secretary of Agriculture. \| President Trump speaks at the U.S. Capitol
+for the Holocaust Memorial Museum (USHMM) “Days of Remembrance” event.
+\| President Trump signs an executive order, “Promoting Agriculture and
+Rural Prosperity in America”. The executive order instructs the
+Secretary of Agriculture to chair an interagency task force to examine
+legislative, regulatory, and policy changes in support of rural America.
+\| U.S. District Judge William Orrick III issues a preliminary
+injunction blocking President Trump’s Executive Order 13768 of 25
+January, which ordered the withholding of federal funds from cities
+which refuse to comply with federal immigration enforcement measures.
+\|\| **97 \| 2017-04-26**: President Trump welcomes the Senate to the
+Eisenhower Executive Office Building prior to their briefing with the
+Secretary of Defense, State, Director of National Intelligence, and
+chairman of the Joint Chiefs of Staff on the issue of North Korea. Pence
+and the four officials brief the House of Representatives at the Capitol
+complex later in the day. \| Steve Mnuchin and Gary Cohn release
+President Trump’s tax-reform outline plan, the proposals of which
+include among other items a cut in the rate of business tax from 35% to
+15%, a simplification of the tax system by reducing seven existing tax
+brackets to three, and the elimination of the alternative minimum tax.
+\| President Trump signs a pair of executive orders for reviews of
+national monuments and of public schools. \| Secretary of State
+Tillerson and Secretary of Defense Mattis lead a briefing on North Korea
+for members of the house and senate. \|\| **98 \| 2017-04-27**: Speaking
+at the Oval Office, President Trump praises President Xi Jinping’s
+diplomacy in respect of North Korea but warns of the continuing
+possibility of a “major, major conflict”. \| President Trump holds a
+bilateral meeting with Argentine President Mauricio Macri at the White
+House. \| A renewed attempt to secure a Congressional vote on President
+Trump’s plan to repeal and replace the Affordable Care Act is abandoned.
+\| The Senate confirms Alex Acosta as the 28th Secretary of Labor in a
+vote of 60-38. \|\| **99 \| 2017-04-28**: Alex Acosta is sworn in as the
+28th Secretary of Labor. \| At the Georgia World Congress Center in
 Atlanta, President Trump delivers the first presidential address to the
 National Rifle Association since 1983, reiterating his guarantee of the
 Second Amendment. \| The EPA removes all references to climate change
@@ -1409,36 +1411,36 @@ had an audience with Belgian King Philippe and Queen Mathilde. \|
 Secretary of Housing and Urban development Ben Carson calls poverty “a
 state of mind”. \|\| **126 \| 2017-05-25**: President Trump meets with
 European Council President Donald Tusk and European Commission President
-Jean-Claude Juncker at the European Council headquarters.\[citation
-needed\] \| During a NATO meeting, the president visibly pushes the
-Montenegrin Prime Minister Dusko Markovic during a photo-op. \|
-President Trump hosts a lunch meeting with French President Emmanuel
-Macron at the U.S. ambassador’s residence in Brussels. \| At the new
-NATO headquarters President Trump unveils a memorial to the September 11
-attacks. In a speech to NATO leaders, President Trump criticizes member
-states for their levels of defence spending and receives a commitment
-from NATO to formally join the international anti-ISIS coalition. \| The
-federal appeals court in Richmond, Virginia, refuses to reinstate
-President Trump’s travel ban, citing religious discrimination. The
-Justice Department declares an intent to appeal to the Supreme Court.
-\|\| **127 \| 2017-05-26**: President Trump attends the 43rd G7 summit
-with world leaders of G7 in Taormina, Italy to discuss world issues such
-as trade, climate change and the migration crisis. Trump criticizes the
-large imports of German automobiles, pointing to the large U.S. trade
-deficit with Germany. Trump refuses to commit the U.S. to the Paris
-Agreement on climate change and cutting greenhouse emissions. \|
-President Trump holds a bilateral meeting with Japanese Prime Minister
-Shinzo Abe to discuss the threat of North Korea’s ballistic missile
-program. \| Secretary of State Tillerson meets with Secretary Johnson in
-London with regards to the Manchester Arena bombing that occurred on May
-22. \|\| **128 \| 2017-05-27**: President Trump continues discussions
-with G7 leaders on a whole range of issues, agreeing on a communique on
-fighting protectionism in international trade, but disagreeing with a
-majority of a leaders on endorsing the Paris climate change accord. \|
-President Trump addresses American troops stationed in Italy at the
-Naval Air Station Sigonella before leaving for the U.S. \| At a press
-briefing, National Security Advisor McMaster remarks that he “would not
-be concerned”, when responding to questions about a recent report that
+Jean-Claude Juncker at the European Council headquarters. \| During a
+NATO meeting, the president visibly pushes the Montenegrin Prime
+Minister Dusko Markovic during a photo-op. \| President Trump hosts a
+lunch meeting with French President Emmanuel Macron at the U.S.
+ambassador’s residence in Brussels. \| At the new NATO headquarters
+President Trump unveils a memorial to the September 11 attacks. In a
+speech to NATO leaders, President Trump criticizes member states for
+their levels of defence spending and receives a commitment from NATO to
+formally join the international anti-ISIS coalition. \| The federal
+appeals court in Richmond, Virginia, refuses to reinstate President
+Trump’s travel ban, citing religious discrimination. The Justice
+Department declares an intent to appeal to the Supreme Court. \|\| **127
+\| 2017-05-26**: President Trump attends the 43rd G7 summit with world
+leaders of G7 in Taormina, Italy to discuss world issues such as trade,
+climate change and the migration crisis. Trump criticizes the large
+imports of German automobiles, pointing to the large U.S. trade deficit
+with Germany. Trump refuses to commit the U.S. to the Paris Agreement on
+climate change and cutting greenhouse emissions. \| President Trump
+holds a bilateral meeting with Japanese Prime Minister Shinzo Abe to
+discuss the threat of North Korea’s ballistic missile program. \|
+Secretary of State Tillerson meets with Secretary Johnson in London with
+regards to the Manchester Arena bombing that occurred on May 22. \|\|
+**128 \| 2017-05-27**: President Trump continues discussions with G7
+leaders on a whole range of issues, agreeing on a communique on fighting
+protectionism in international trade, but disagreeing with a majority of
+a leaders on endorsing the Paris climate change accord. \| President
+Trump addresses American troops stationed in Italy at the Naval Air
+Station Sigonella before leaving for the U.S. \| At a press briefing,
+National Security Advisor McMaster remarks that he “would not be
+concerned”, when responding to questions about a recent report that
 Kushner had discussed with Kislyak the possibility of creating a secret
 communication channel between President Trump’s team and the Kremlin.
 \|\| **129 \| 2017-05-28**: President Trump issues an extended series of
@@ -1674,54 +1676,53 @@ Chicago Cubs at the Oval Office. \|\| **161 \| 2017-06-29**: The
 president tweets about Mika Brzezinski, saying she had been “bleeding
 badly from a face-lift.” \| In a speech at the Energy Department,
 President Trump calls for a review of American nuclear energy policy and
-for increased energy exports.\[citation needed\] \| President Trump
-hosts South Korean President Moon Jae-in at the White House. \|
-President Trump’s partial travel ban comes into effect at 8:00 p.m. EDT.
-\|\| **162 \| 2017-06-30**: Joe Scarborough and Mika Brzezinski claim
-that the White House had blackmailed with an article about their
-relationship in the National Enquirer, demanding they change their news
-coverage of him. \| President Trump holds a bilateral meeting and joint
-press conference with South Korean President Moon Jae-in at the White
-House to discuss trade and the North Korean threat in a second day of
-summit talks. \| Vice President Pence and South Korean President Moon
-Jae-in attend a wreath-laying ceremony at the Korean War Veterans
-Memorial. \| President Trump speaks by telephone with Turkish President
-Recep Tayyip Erdogan to discuss issues such as America’s support of the
-YPG in Syria and the extradition of Fethullah Gulen who is accused of
-masterminding the 2016 Turkish coup. \| President Trump reiterates a
-prior suggestion to repeal the Affordable Care Act immediately, and
-replace it later. \| President Trump signs an executive order reviving
-the National Space Council. \|\| **163 \| 2017-07-01**: President Trump
-attends the Celebrate Freedom Concert in Washington, paying tribute to
-military veterans. \| President Trump highlights on Twitter the refusal
-of 25 states to submit some or all requested voter information to the
-Presidential Advisory Commission on Election Integrity. \|\| **164 \|
-2017-07-02**: President Trump makes telephone calls to Chinese President
-Xi Jinping and Japanese Prime Minister Shinzo Abe to discuss trade
-issues and the North Korean threat. \| President Trump has telephone
-conversations with Saudi Arabia’s King Salman bin Abdulaziz, Abu Dhabi’s
-crown prince Sheikh Mohammed bin Zayed Al Nahyan, and Qatar’s Emir
-Sheikh Tamim bin Hamad Al Thani, regarding regional peace and
-counter-terrorism. \|\| **165 \| 2017-07-03**: President Trump speaks by
-telephone to German Chancellor Angela Merkel discussing issues including
-climate change, the Women’s Entrepreneurship Financing Initiative and
-trade. \| President Trump discusses by telephone the migration crisis
-and the upcoming G20 summit with Italian Prime Minister Paolo Gentiloni.
-\|\| **166 \| 2017-07-04**: President Trump condemns on Twitter the
-successful test launch of a North Korean ICBM potentially capable of
-reaching Alaska or Australia. \| Vice President Pence attends a Fourth
-of July Parade at Grandville, Michigan, with governor Rick Snyder. \|
-Secretary of State Rex Tillerson says the U.S. “will never accept a
-nuclear-armed North Korea”. \| The number of U.S. states refusing to
-comply with President Trump’s Commission on Election Integrity is
-reported to have risen to 44. \| President Trump hosts military
-personnel and their families for a picnic and fireworks show at the
-White House as part of Independence Day celebrations. \|\| **167 \|
-2017-07-05**: President Trump, his family and advisors arrive in Warsaw,
-Poland, ahead of the G20 summit. \| Ambassador Haley informs the UN
-Security Council that the U.S. is prepared to deploy any of its military
-options to defend itself and its allies from North Korea if other
-options fail. \| Kris Kobach, vice-chairman of the Commission on
+for increased energy exports. \| President Trump hosts South Korean
+President Moon Jae-in at the White House. \| President Trump’s partial
+travel ban comes into effect at 8:00 p.m. EDT. \|\| **162 \|
+2017-06-30**: Joe Scarborough and Mika Brzezinski claim that the White
+House had blackmailed with an article about their relationship in the
+National Enquirer, demanding they change their news coverage of him. \|
+President Trump holds a bilateral meeting and joint press conference
+with South Korean President Moon Jae-in at the White House to discuss
+trade and the North Korean threat in a second day of summit talks. \|
+Vice President Pence and South Korean President Moon Jae-in attend a
+wreath-laying ceremony at the Korean War Veterans Memorial. \| President
+Trump speaks by telephone with Turkish President Recep Tayyip Erdogan to
+discuss issues such as America’s support of the YPG in Syria and the
+extradition of Fethullah Gulen who is accused of masterminding the 2016
+Turkish coup. \| President Trump reiterates a prior suggestion to repeal
+the Affordable Care Act immediately, and replace it later. \| President
+Trump signs an executive order reviving the National Space Council. \|\|
+**163 \| 2017-07-01**: President Trump attends the Celebrate Freedom
+Concert in Washington, paying tribute to military veterans. \| President
+Trump highlights on Twitter the refusal of 25 states to submit some or
+all requested voter information to the Presidential Advisory Commission
+on Election Integrity. \|\| **164 \| 2017-07-02**: President Trump makes
+telephone calls to Chinese President Xi Jinping and Japanese Prime
+Minister Shinzo Abe to discuss trade issues and the North Korean threat.
+\| President Trump has telephone conversations with Saudi Arabia’s King
+Salman bin Abdulaziz, Abu Dhabi’s crown prince Sheikh Mohammed bin Zayed
+Al Nahyan, and Qatar’s Emir Sheikh Tamim bin Hamad Al Thani, regarding
+regional peace and counter-terrorism. \|\| **165 \| 2017-07-03**:
+President Trump speaks by telephone to German Chancellor Angela Merkel
+discussing issues including climate change, the Women’s Entrepreneurship
+Financing Initiative and trade. \| President Trump discusses by
+telephone the migration crisis and the upcoming G20 summit with Italian
+Prime Minister Paolo Gentiloni. \|\| **166 \| 2017-07-04**: President
+Trump condemns on Twitter the successful test launch of a North Korean
+ICBM potentially capable of reaching Alaska or Australia. \| Vice
+President Pence attends a Fourth of July Parade at Grandville, Michigan,
+with governor Rick Snyder. \| Secretary of State Rex Tillerson says the
+U.S. “will never accept a nuclear-armed North Korea”. \| The number of
+U.S. states refusing to comply with President Trump’s Commission on
+Election Integrity is reported to have risen to 44. \| President Trump
+hosts military personnel and their families for a picnic and fireworks
+show at the White House as part of Independence Day celebrations. \|\|
+**167 \| 2017-07-05**: President Trump, his family and advisors arrive
+in Warsaw, Poland, ahead of the G20 summit. \| Ambassador Haley informs
+the UN Security Council that the U.S. is prepared to deploy any of its
+military options to defend itself and its allies from North Korea if
+other options fail. \| Kris Kobach, vice-chairman of the Commission on
 Election Integrity, confirms that 20 states have provided them with
 voter information, while 14 states and the District of Columbia have
 refused to do so. \|\| **168 \| 2017-07-06**: President Trump attends a
@@ -2635,61 +2636,57 @@ Commerce Secretary Wilbur Ross denies hiding his large stake in a
 shipping company which has business ties to the Putin family, following
 the release of the Paradise Papers. \|\| **292 \| 2017-11-07**:
 President Trump arrives in Seoul, South Korea during his second leg of
-five-nation tour of Asia.\[citation needed\] \| President Trump visits
-U.S. and South Korean troops at Camp Humphreys.\[citation needed\] \|
-President Trump holds a joint press conference with South Korean
-President Moon Jae-in at the Blue House. \| At a press conference in
-South Korea, President Trump announces that he “hoped to God” not to
-have to use military force against North Korea, and urges Kim Jong-un to
-negotiate. \| President Trump tweets his support for Republican
-candidate Ed Gillespie and attacks Democratic candidate Ralph Northam in
-advance of the election of a new Governor of Virginia. Northam wins.
-\|\| **293 \| 2017-11-08**: President Trump addressed the National
-Assembly of South Korea.\[citation needed\] \| President Trump laid a
-wreath at the Seoul National Cemetery to honor the victims of the Korean
-War.\[citation needed\] \| President Trump arrives in Beijing, China
-during his third leg of five-nation tour of Asia.\[citation needed\] \|
-President Trump meets with Chinese President Xi Jinping at the Forbidden
-City.\[citation needed\] \| Former Senior Adviser to the President, Carl
-Icahn, is subpoenaed for information related to his work on biofuels
-policy while a part of the administration. \|\| **294 \| 2017-11-09**:
-President Trump signs a number of binding and non-binding gas, aviation,
-communications and food-crop deals with Chinese President Xi Jinping.
-Speaking alongside President Xi Jinping in Beijing, President Trump
-refers to the U.S.-Chinese trade imbalance, praising China for “taking
-advantage” of prior U.S. administrations. \| President Trump holds a
-joint press conference with Chinese President Xi Jinping at the Great
-Hall of the People.\[citation needed\] \| The State Department rejects
-an essay released by Ambassador Barbara Stephenson, which claims that
-the continuing depletion of State officials under the Trump
-administration will “forfeit the game to our adversaries”. \|\| **295 \|
-2017-11-10**: President Trump arrives Saturday morning UTC+7 in Da Nang,
-Vietnam during his fourth leg of five-nation tour of Asia.\[citation
-needed\] \| In a speech to delegates, President Trump talks of “chronic
-trade abuses”, and of Kim Jong-un’s “twisted fantasies of \[…\] nuclear
-blackmail”, urging Russia and China to place pressure on North Korea. \|
-President Trump attends the 2017 APEC summit hosted by Vietnamese
-President Tran Dai Quang.\[citation needed\] \| Vice President Pence
-joins other senior Republicans in stating that Republican Senate nominee
-Roy Moore ought to abandon his election campaign if there is truth in
+five-nation tour of Asia. \| President Trump visits U.S. and South
+Korean troops at Camp Humphreys. \| President Trump holds a joint press
+conference with South Korean President Moon Jae-in at the Blue House. \|
+At a press conference in South Korea, President Trump announces that he
+“hoped to God” not to have to use military force against North Korea,
+and urges Kim Jong-un to negotiate. \| President Trump tweets his
+support for Republican candidate Ed Gillespie and attacks Democratic
+candidate Ralph Northam in advance of the election of a new Governor of
+Virginia. Northam wins. \|\| **293 \| 2017-11-08**: President Trump
+addressed the National Assembly of South Korea. \| President Trump laid
+a wreath at the Seoul National Cemetery to honor the victims of the
+Korean War. \| President Trump arrives in Beijing, China during his
+third leg of five-nation tour of Asia. \| President Trump meets with
+Chinese President Xi Jinping at the Forbidden City. \| Former Senior
+Adviser to the President, Carl Icahn, is subpoenaed for information
+related to his work on biofuels policy while a part of the
+administration. \|\| **294 \| 2017-11-09**: President Trump signs a
+number of binding and non-binding gas, aviation, communications and
+food-crop deals with Chinese President Xi Jinping. Speaking alongside
+President Xi Jinping in Beijing, President Trump refers to the
+U.S.-Chinese trade imbalance, praising China for “taking advantage” of
+prior U.S. administrations. \| President Trump holds a joint press
+conference with Chinese President Xi Jinping at the Great Hall of the
+People. \| The State Department rejects an essay released by Ambassador
+Barbara Stephenson, which claims that the continuing depletion of State
+officials under the Trump administration will “forfeit the game to our
+adversaries”. \|\| **295 \| 2017-11-10**: President Trump arrives
+Saturday morning UTC+7 in Da Nang, Vietnam during his fourth leg of
+five-nation tour of Asia. \| In a speech to delegates, President Trump
+talks of “chronic trade abuses”, and of Kim Jong-un’s “twisted fantasies
+of \[…\] nuclear blackmail”, urging Russia and China to place pressure
+on North Korea. \| President Trump attends the 2017 APEC summit hosted
+by Vietnamese President Tran Dai Quang. \| Vice President Pence joins
+other senior Republicans in stating that Republican Senate nominee Roy
+Moore ought to abandon his election campaign if there is truth in
 allegations of historical sexual activity with minors, as published by
 The Washington Post on Thursday 9th. \|\| **296 \| 2017-11-11**:
-President Trump arrives in Hanoi, Vietnam.\[citation needed\] \|
-President Trump attends a state dinner hosted by Vietnamese President
-Tran Dai Quang.\[citation needed\] \|\| **297 \| 2017-11-12**: President
-Trump holds a joint press conference with Vietnamese President Tran Dai
-Quang at the Presidential Palace.\[citation needed\] \| President Trump
-holds a bilateral meeting with Vietnamese General Secretary Nguyen Phu
-Trong and Prime Minister Nguyen Xuan Phuc.\[citation needed\] \|
+President Trump arrives in Hanoi, Vietnam. \| President Trump attends a
+state dinner hosted by Vietnamese President Tran Dai Quang. \|\| **297
+\| 2017-11-12**: President Trump holds a joint press conference with
+Vietnamese President Tran Dai Quang at the Presidential Palace. \|
+President Trump holds a bilateral meeting with Vietnamese General
+Secretary Nguyen Phu Trong and Prime Minister Nguyen Xuan Phuc. \|
 President Trump arrives in Manila, Philippines on his fifth and final
 leg of five-nation tour of Asia. \|\| **298 \| 2017-11-13**: President
 Trump attends the 2017 ASEAN summit hosted by Filipino President Rodrigo
-Duterte.\[citation needed\] \| President Trump holds a bilateral meeting
-with Filipino President Rodrigo Duterte.\[citation needed\] \| President
-Trump holds a bilateral meeting with Indian Prime Minister Narendra
-Modi.\[citation needed\] \| President Trump holds a trilateral meeting
-with Australian Prime Minister Malcolm Turnbull and Japanese Prime
-Minister Shinzo Abe.\[citation needed\] \|\| **299 \| 2017-11-14**:
+Duterte. \| President Trump holds a bilateral meeting with Filipino
+President Rodrigo Duterte. \| President Trump holds a bilateral meeting
+with Indian Prime Minister Narendra Modi. \| President Trump holds a
+trilateral meeting with Australian Prime Minister Malcolm Turnbull and
+Japanese Prime Minister Shinzo Abe. \|\| **299 \| 2017-11-14**:
 President Trump returns to Washington from Manila at the end of his
 five-nation tour of Asia. \| Attorney General Jeff Sessions testifies to
 the House Judiciary Committee. He states that he now recalls learning of
@@ -2716,92 +2713,91 @@ injunction with a nationwide permanent injunction declaring that section
 violates “the separation of powers doctrine and deprives \[the
 plaintiffs\] of their Tenth and Fifth Amendment rights.” \|\| **306 \|
 2017-11-21**: President Trump and First Lady Melania Trump participate
-in the National Thanksgiving Turkey Presentation.\[citation needed\] \|
-President Trump and President Putin speak by telephone; Putin seeks
-support for his plan to end the Syrian civil war. \| President Trump
-defends Senate candidate Roy Moore from accusations of sex abuse. \|
-Ivanka Trump travels to India, to represent the U.S. at the Global
-Entrepreneurship Summit. \|\| **312 \| 2017-11-27**: President Trump
-hosts a White House event honoring Second World War Navajo code talker
-veterans. The White House later states that it is ‘ridiculous’ to
-suggest that Trump’s reiteration at the event of the name ‘Pocahontas’
-to describe Senator Elizabeth Warren is racist, following protestation
-by the National Congress of American Indians and others. \| Leandra
-English and Mick Mulvaney issue competing statements claiming leadership
-of the Consumer Financial Protection Bureau. \| Politico reports that
-White House ethics lawyer James Schultz has recently resigned. \|\|
-**313 \| 2017-11-28**: President Trump informs reporters at the White
-House of his administration’s resolve following a new North Korean
-missile test which, it is believed, for the first time places Washington
-D.C. within range of the KPA. \|\| **314 \| 2017-11-29**: President
-Trump announces “additional major sanctions” against North Korea
-following a telephone conversation with Chinese President Xi Jinping. \|
-President Trump retweets anti-Muslim propaganda posted by the convicted
-criminal Jayda Fransen, deputy leader of British far-right organization
-Britain First. British Prime Minister May condemns the action. Trump’s
-plan to visit the UK in the New Year is reportedly abandoned on the
-following day. \| Trump travels to St. Charles, Missouri, to deliver a
-speech promoting his tax plan. \| Kellyanne Conway is appointed to
-oversee the White House’s efforts to combat the opioid epidemic. \| The
-New York Times reports that Jared Kushner has been interviewed in
-November by Robert Mueller’s prosecutors. \|\| **315 \| 2017-11-30**:
-President Trump announces the donation of his third-quarter salary to
-HHS efforts to solve the opioid epidemic. \| Press Secretary Sanders
-denies reports that Secretary Tillerson is to be removed. \| Jeff
-Sessions testifies at a private meeting of the House Intelligence
-Committee. According to ranking member Schiff, Sessions refuses to say
-whether or not President Trump asked him to hinder the Russia
-investigation. \|\| **316 \| 2017-12-01**: Former NSA Michael Flynn
-pleads guilty to lying to the FBI on January 24, 2017, concerning
-contacts with Russian Ambassador Sergey Kislyak. \|\| **317 \|
-2017-12-02**: The Senate passes a 1.5 trillion tax cut bill (51 to 49)
-in support of President Trump’s tax initiative. \| President Trump
-states that there was “absolutely no collusion” between his election
-campaign and Russia. \|\| **318 \| 2017-12-03**: President Trump’s
-lawyer John M. Dowd states that Trump knew in January 2017 that Michael
-Flynn had likely lied to the FBI. \| Ambassador Nikki Haley informs UN
-Secretary-General Antonio Guterres that the U.S. is to remove itself
-from the UN’s 2016 New York declaration for refugees and migrants. \|\|
-**319 \| 2017-12-04**: Seven of the nine judges on the Supreme Court
-lift the lower court injunctions on President Trump’s third-version
-travel ban, thereby permitting its enforcement against the nations of
-Chad, Iran, Libya, Somalia, Syria, Yemen, Venezuela and North Korea.
-Unlike previous iterations, the ban has no expiry date. \| President
-Trump announces 85% and 50% reductions respectively to Utah’s Bears Ears
-National Monument and Grand Staircase-Escalante National Monument. \|
-President Trump formally endorses Senate candidate Roy Moore. \|\| **320
-\| 2017-12-05**: Special Counsel Robert Mueller reportedly subpoenas
-Deutsche Bank for records of Trump’s associates. Trump’s lawyer denies
-reports that Trump’s personal financial records were subpoenaed. \|
-Press Secretary Sanders denies that President Trump is planning to
-create his own private global spy network, following reporting by The
-Intercept and BuzzFeed News. \|\| **321 \| 2017-12-06**: President Trump
-announces that the United States is to recognize Jerusalem as the
-capital of Israel-the first nation to do so-and announces that the U.S.
-will relocate its embassy there from Tel Aviv. \|\| **322 \|
-2017-12-07**: White House Communications Director Hope Hicks is
-interviewed by Special Counsel Mueller’s team as part of the Russia
-investigation. \|\| **323 \| 2017-12-08**: President Trump holds a rally
-at Pensacola, Florida, near the Alabama border, at which he exhorts the
-Alabamian electorate to vote for Senate candidate Roy Moore on 12
-December. \| Speaking at an emergency meeting of the United Nations
-Security Council convened following Trump’s Jerusalem announcement of
-December 6, Ambassador Haley announces that the U.S. considers an
-Israeli-Palestinian peace to be “closer \[…\] than ever before”. France,
-Germany, Italy, Sweden and the U.K. issue a joint statement opposing
-Trump’s decision. \| Deputy National Security Adviser Dina Powell
-announces her resignation. \| Hope Hicks is interviewed by Mueller’s
-team for a second day. \|\| **324 \| 2017-12-09**: President Trump
-attends the openings of the Mississippi Civil Rights Museum and the
-Museum of Mississippi History in Jackson. \|\| **325 \| 2017-12-10**:
-Vice President Pence’s office describes as “unfortunate” a decision by
-Palestinian President Mahmoud Abbas to cancel a December 19 meeting
-between the two during Pence’s upcoming visit to the Middle East. \|\|
-**326 \| 2017-12-11**: President Trump calls for an end to “chain
-migration” following an attempted bombing in New York City which injures
-five people. \| President Trump signs a policy directive at the White
-House, ordering NASA to reprioritize manned voyages, including a return
-to the Moon and a mission to Mars. \| U.S. District Judge Colleen
+in the National Thanksgiving Turkey Presentation. \| President Trump and
+President Putin speak by telephone; Putin seeks support for his plan to
+end the Syrian civil war. \| President Trump defends Senate candidate
+Roy Moore from accusations of sex abuse. \| Ivanka Trump travels to
+India, to represent the U.S. at the Global Entrepreneurship Summit. \|\|
+**312 \| 2017-11-27**: President Trump hosts a White House event
+honoring Second World War Navajo code talker veterans. The White House
+later states that it is ‘ridiculous’ to suggest that Trump’s reiteration
+at the event of the name ‘Pocahontas’ to describe Senator Elizabeth
+Warren is racist, following protestation by the National Congress of
+American Indians and others. \| Leandra English and Mick Mulvaney issue
+competing statements claiming leadership of the Consumer Financial
+Protection Bureau. \| Politico reports that White House ethics lawyer
+James Schultz has recently resigned. \|\| **313 \| 2017-11-28**:
+President Trump informs reporters at the White House of his
+administration’s resolve following a new North Korean missile test
+which, it is believed, for the first time places Washington D.C. within
+range of the KPA. \|\| **314 \| 2017-11-29**: President Trump announces
+“additional major sanctions” against North Korea following a telephone
+conversation with Chinese President Xi Jinping. \| President Trump
+retweets anti-Muslim propaganda posted by the convicted criminal Jayda
+Fransen, deputy leader of British far-right organization Britain First.
+British Prime Minister May condemns the action. Trump’s plan to visit
+the UK in the New Year is reportedly abandoned on the following day. \|
+Trump travels to St. Charles, Missouri, to deliver a speech promoting
+his tax plan. \| Kellyanne Conway is appointed to oversee the White
+House’s efforts to combat the opioid epidemic. \| The New York Times
+reports that Jared Kushner has been interviewed in November by Robert
+Mueller’s prosecutors. \|\| **315 \| 2017-11-30**: President Trump
+announces the donation of his third-quarter salary to HHS efforts to
+solve the opioid epidemic. \| Press Secretary Sanders denies reports
+that Secretary Tillerson is to be removed. \| Jeff Sessions testifies at
+a private meeting of the House Intelligence Committee. According to
+ranking member Schiff, Sessions refuses to say whether or not President
+Trump asked him to hinder the Russia investigation. \|\| **316 \|
+2017-12-01**: Former NSA Michael Flynn pleads guilty to lying to the FBI
+on January 24, 2017, concerning contacts with Russian Ambassador Sergey
+Kislyak. \|\| **317 \| 2017-12-02**: The Senate passes a 1.5 trillion
+tax cut bill (51 to 49) in support of President Trump’s tax initiative.
+\| President Trump states that there was “absolutely no collusion”
+between his election campaign and Russia. \|\| **318 \| 2017-12-03**:
+President Trump’s lawyer John M. Dowd states that Trump knew in January
+2017 that Michael Flynn had likely lied to the FBI. \| Ambassador Nikki
+Haley informs UN Secretary-General Antonio Guterres that the U.S. is to
+remove itself from the UN’s 2016 New York declaration for refugees and
+migrants. \|\| **319 \| 2017-12-04**: Seven of the nine judges on the
+Supreme Court lift the lower court injunctions on President Trump’s
+third-version travel ban, thereby permitting its enforcement against the
+nations of Chad, Iran, Libya, Somalia, Syria, Yemen, Venezuela and North
+Korea. Unlike previous iterations, the ban has no expiry date. \|
+President Trump announces 85% and 50% reductions respectively to Utah’s
+Bears Ears National Monument and Grand Staircase-Escalante National
+Monument. \| President Trump formally endorses Senate candidate Roy
+Moore. \|\| **320 \| 2017-12-05**: Special Counsel Robert Mueller
+reportedly subpoenas Deutsche Bank for records of Trump’s associates.
+Trump’s lawyer denies reports that Trump’s personal financial records
+were subpoenaed. \| Press Secretary Sanders denies that President Trump
+is planning to create his own private global spy network, following
+reporting by The Intercept and BuzzFeed News. \|\| **321 \|
+2017-12-06**: President Trump announces that the United States is to
+recognize Jerusalem as the capital of Israel-the first nation to do
+so-and announces that the U.S. will relocate its embassy there from Tel
+Aviv. \|\| **322 \| 2017-12-07**: White House Communications Director
+Hope Hicks is interviewed by Special Counsel Mueller’s team as part of
+the Russia investigation. \|\| **323 \| 2017-12-08**: President Trump
+holds a rally at Pensacola, Florida, near the Alabama border, at which
+he exhorts the Alabamian electorate to vote for Senate candidate Roy
+Moore on 12 December. \| Speaking at an emergency meeting of the United
+Nations Security Council convened following Trump’s Jerusalem
+announcement of December 6, Ambassador Haley announces that the U.S.
+considers an Israeli-Palestinian peace to be “closer \[…\] than ever
+before”. France, Germany, Italy, Sweden and the U.K. issue a joint
+statement opposing Trump’s decision. \| Deputy National Security Adviser
+Dina Powell announces her resignation. \| Hope Hicks is interviewed by
+Mueller’s team for a second day. \|\| **324 \| 2017-12-09**: President
+Trump attends the openings of the Mississippi Civil Rights Museum and
+the Museum of Mississippi History in Jackson. \|\| **325 \|
+2017-12-10**: Vice President Pence’s office describes as “unfortunate” a
+decision by Palestinian President Mahmoud Abbas to cancel a December 19
+meeting between the two during Pence’s upcoming visit to the Middle
+East. \|\| **326 \| 2017-12-11**: President Trump calls for an end to
+“chain migration” following an attempted bombing in New York City which
+injures five people. \| President Trump signs a policy directive at the
+White House, ordering NASA to reprioritize manned voyages, including a
+return to the Moon and a mission to Mars. \| U.S. District Judge Colleen
 Kollar-Kotelly rejects a request by the Trump administration to enforce
 the President’s ban on transgender soldiers while the government’s
 appeal is ongoing. \|\| **327 \| 2017-12-12**: President Trump signs the
@@ -3163,97 +3159,96 @@ Minister Malcolm Turnbull at the White House. \|\| **401 \|
 2018-02-24**: A Democratic memo titled Correcting the Record-The Russia
 Investigation in response to the Nunes memo, is released after redacting
 by the FBI. \|\| **402 \| 2018-02-25**: President Trump attends the
-National Governors Association dinner.\[citation needed\] \|\| **404 \|
-2018-02-27**: Josh Raffel, a senior communications aide, announced his
-resignation from the administration. \| Joseph Yun, the top diplomat in
-charge of America’s Korean policy, announces his resignation. \|\| **405
-\| 2018-02-28**: At the lying in honor of evangelical preacher Billy
-Graham in the U.S. Capitol rotunda, President Trump and congressional
-leaders praise Graham. \| A day after being interviewed by the U.S.
-House Intelligence Committee, White House Communications Director Hope
-Hicks submits her resignation. \|\| **406 \| 2018-03-01**: Two-time NBA
-champions Golden State Warriors toured the National Museum of African
-American History and Culture as an alternative to the traditional White
-House visit. \| The U.S. Fish and Wildlife Service removes the blanket
-ban on imports of sport-hunted trophies of elephants from certain
-African countries originally imposed by the Obama administration. The
-trophies will now be evaluated on a case-by-case basis. The organization
-also withdrew several Endangered Species Act findings regarding African
-elephants, lions and the bontebok antelopes. \| Roberta Jacobson, the
-Ambassador to Mexico, resigns from her post. \|\| **408 \| 2018-03-03**:
-In a private speech to Republican donors at Mar-a-Lago, President Trump
-says “it’s great” that Chinese President Xi Jinping was able to become
-“president for life”, and that “maybe we’ll have to give that a shot
-some day.” \|\| **410 \| 2018-03-05**: President Trump holds a bilateral
-meeting with Israeli Prime Minister Benjamin Netanyahu at the White
-House. \|\| **411 \| 2018-03-06**: The U.S. Office of Special Counsel
-(OSC) says Counselor to the President Kellyanne Conway violated federal
-law in the form of the Hatch Act during two television interviews in
-2017 by advocating for the defeat of Doug Jones and the election of Roy
-Moore for Alabama’s election for a Senate seat. The White House has
-disputed this finding by the OSC. \| Chief economic adviser Gary Cohn
-announces plan to resign after President Trump announced he would impose
-tariffs on steel and aluminum imports. \| President Trump holds a
-bilateral meeting and joint press conference with Swedish Prime Minister
-Stefan Lofven at the White House. \|\| **412 \| 2018-03-07**: White
-House Press Secretary Sarah Huckabee Sanders says President Trump’s
-personal attorneys have won an arbitration case against adult-film
-actress Stormy Daniels.NBC News reports that Trump’s lawyer, Michael
-Cohen, on February 27 initiated a private arbitration case against
-Daniels and obtained a restraining order that states that Daniels will
-face penalties if she discusses, in public, her alleged relationship
-with Trump. Daniels has filed a lawsuit that her non-disclosure
-agreement regarding her alleged relationship with Trump is invalid
-because Trump never signed it. \| U.S. Forest Service Chief Tom Tooke
-resigns from his post. \|\| **413 \| 2018-03-08**: President Trump signs
-proclamations which will impose tariffs on imported steel and aluminum
-from most countries in 15 days. Canada and Mexico are initially exempted
-from these tariffs while they talk with the U.S. about renegotiating
-NAFTA. \| President Trump accepts an invitation to meet with North
-Korean Leader Kim Jong-un by May 2018. \| President Trump meets with
-video-game executives to discuss how violent video games might
-contribute to mass shootings. \|\| **414 \| 2018-03-09**: President
-Trump pardons Kristian Saucier, who was convicted of unauthorized
-possession and retention of national defense information. \| White House
-Press Secretary Sarah Huckabee Sanders says the White House would need
-to see “concrete and verifiable steps” toward the denuclearization of
-North Korea before Trump would meet with Kim Jong-un. An unidentified
-Trump official tells The Wall Street Journal that Trump has still
-accepted Jong-un’s invitation. \|\| **415 \| 2018-03-10**: President
-Trump holds a rally at the Pittsburgh International Airport to support
-Rick Saccone in an upcoming special election. He introduces his 2020
-campaign slogan: “Keep America Great!” \|\| **416 \| 2018-03-11**: The
-Trump administration proposes gun and school safety measures, including
-improving the system of background checks and training school personnel
-to handle firearms. \|\| **417 \| 2018-03-12**: Citing national security
-concerns, President Trump blocks Broadcom’s proposed acquisition of
-Qualcomm. \|\| **418 \| 2018-03-13**: President Trump fires Rex
-Tillerson as Secretary of State, names former CIA director Mike Pompeo
-as the new Secretary of State, and nominates Gina Haspel as the next
-director of the CIA. Deputy Secretary of State John J. Sullivan becomes
-Acting Secretary of State. \| Steve Goldstein, the United States Under
-Secretary of State for Public Diplomacy and Public Affairs and fourth
-ranking diplomatic official, is fired by the White House. Trump
-designates Heather Nauert as Goldstein’s replacement. \| John McEntee, a
-long-time personal assistant to President Trump, is fired and escorted
-from the White House. McEntee then joins Trump’s re-election campaign as
-a senior adviser, along with Katrina Pierson. \|\| **419 \|
-2018-03-14**: President Trump chooses Larry Kudlow as director of the
-National Economic Council, replacing Gary Cohn. \|\| **420 \|
-2018-03-15**: The Trump administration uses the Countering America’s
-Adversaries Through Sanctions Act to impose financial sanctions on the
-13 Russian government hackers and spy agencies indicted in the Special
-Counsel investigation. \| President Trump holds a bilateral meeting with
-Irish Taoiseach Leo Varadkar at the White House. \|\| **421 \|
-2018-03-16**: Andrew McCabe, former acting director of the FBI who was
-due to retire with benefits in two days, was fired from the FBI by
-Attorney General Jeff Sessions on the recommendation of FBI disciplinary
-officials for “lack of candor”. \|\| **425 \| 2018-03-20**: The Kremlin
-announces President Trump’s call to congratulate Russian President
-Vladimir Putin on his election victory. National security advisers
-warned Trump against the call. \| President Trump meets with Crown
-Prince Mohammad bin Salman of Saudi Arabia in the Oval Office. \|\|
-**427 \| 2018-03-22**: H.R. McMaster resigns as National Security
+National Governors Association dinner. \|\| **404 \| 2018-02-27**: Josh
+Raffel, a senior communications aide, announced his resignation from the
+administration. \| Joseph Yun, the top diplomat in charge of America’s
+Korean policy, announces his resignation. \|\| **405 \| 2018-02-28**: At
+the lying in honor of evangelical preacher Billy Graham in the U.S.
+Capitol rotunda, President Trump and congressional leaders praise
+Graham. \| A day after being interviewed by the U.S. House Intelligence
+Committee, White House Communications Director Hope Hicks submits her
+resignation. \|\| **406 \| 2018-03-01**: Two-time NBA champions Golden
+State Warriors toured the National Museum of African American History
+and Culture as an alternative to the traditional White House visit. \|
+The U.S. Fish and Wildlife Service removes the blanket ban on imports of
+sport-hunted trophies of elephants from certain African countries
+originally imposed by the Obama administration. The trophies will now be
+evaluated on a case-by-case basis. The organization also withdrew
+several Endangered Species Act findings regarding African elephants,
+lions and the bontebok antelopes. \| Roberta Jacobson, the Ambassador to
+Mexico, resigns from her post. \|\| **408 \| 2018-03-03**: In a private
+speech to Republican donors at Mar-a-Lago, President Trump says “it’s
+great” that Chinese President Xi Jinping was able to become “president
+for life”, and that “maybe we’ll have to give that a shot some day.”
+\|\| **410 \| 2018-03-05**: President Trump holds a bilateral meeting
+with Israeli Prime Minister Benjamin Netanyahu at the White House. \|\|
+**411 \| 2018-03-06**: The U.S. Office of Special Counsel (OSC) says
+Counselor to the President Kellyanne Conway violated federal law in the
+form of the Hatch Act during two television interviews in 2017 by
+advocating for the defeat of Doug Jones and the election of Roy Moore
+for Alabama’s election for a Senate seat. The White House has disputed
+this finding by the OSC. \| Chief economic adviser Gary Cohn announces
+plan to resign after President Trump announced he would impose tariffs
+on steel and aluminum imports. \| President Trump holds a bilateral
+meeting and joint press conference with Swedish Prime Minister Stefan
+Lofven at the White House. \|\| **412 \| 2018-03-07**: White House Press
+Secretary Sarah Huckabee Sanders says President Trump’s personal
+attorneys have won an arbitration case against adult-film actress Stormy
+Daniels.NBC News reports that Trump’s lawyer, Michael Cohen, on February
+27 initiated a private arbitration case against Daniels and obtained a
+restraining order that states that Daniels will face penalties if she
+discusses, in public, her alleged relationship with Trump. Daniels has
+filed a lawsuit that her non-disclosure agreement regarding her alleged
+relationship with Trump is invalid because Trump never signed it. \|
+U.S. Forest Service Chief Tom Tooke resigns from his post. \|\| **413 \|
+2018-03-08**: President Trump signs proclamations which will impose
+tariffs on imported steel and aluminum from most countries in 15 days.
+Canada and Mexico are initially exempted from these tariffs while they
+talk with the U.S. about renegotiating NAFTA. \| President Trump accepts
+an invitation to meet with North Korean Leader Kim Jong-un by May 2018.
+\| President Trump meets with video-game executives to discuss how
+violent video games might contribute to mass shootings. \|\| **414 \|
+2018-03-09**: President Trump pardons Kristian Saucier, who was
+convicted of unauthorized possession and retention of national defense
+information. \| White House Press Secretary Sarah Huckabee Sanders says
+the White House would need to see “concrete and verifiable steps” toward
+the denuclearization of North Korea before Trump would meet with Kim
+Jong-un. An unidentified Trump official tells The Wall Street Journal
+that Trump has still accepted Jong-un’s invitation. \|\| **415 \|
+2018-03-10**: President Trump holds a rally at the Pittsburgh
+International Airport to support Rick Saccone in an upcoming special
+election. He introduces his 2020 campaign slogan: “Keep America Great!”
+\|\| **416 \| 2018-03-11**: The Trump administration proposes gun and
+school safety measures, including improving the system of background
+checks and training school personnel to handle firearms. \|\| **417 \|
+2018-03-12**: Citing national security concerns, President Trump blocks
+Broadcom’s proposed acquisition of Qualcomm. \|\| **418 \| 2018-03-13**:
+President Trump fires Rex Tillerson as Secretary of State, names former
+CIA director Mike Pompeo as the new Secretary of State, and nominates
+Gina Haspel as the next director of the CIA. Deputy Secretary of State
+John J. Sullivan becomes Acting Secretary of State. \| Steve Goldstein,
+the United States Under Secretary of State for Public Diplomacy and
+Public Affairs and fourth ranking diplomatic official, is fired by the
+White House. Trump designates Heather Nauert as Goldstein’s replacement.
+\| John McEntee, a long-time personal assistant to President Trump, is
+fired and escorted from the White House. McEntee then joins Trump’s
+re-election campaign as a senior adviser, along with Katrina Pierson.
+\|\| **419 \| 2018-03-14**: President Trump chooses Larry Kudlow as
+director of the National Economic Council, replacing Gary Cohn. \|\|
+**420 \| 2018-03-15**: The Trump administration uses the Countering
+America’s Adversaries Through Sanctions Act to impose financial
+sanctions on the 13 Russian government hackers and spy agencies indicted
+in the Special Counsel investigation. \| President Trump holds a
+bilateral meeting with Irish Taoiseach Leo Varadkar at the White House.
+\|\| **421 \| 2018-03-16**: Andrew McCabe, former acting director of the
+FBI who was due to retire with benefits in two days, was fired from the
+FBI by Attorney General Jeff Sessions on the recommendation of FBI
+disciplinary officials for “lack of candor”. \|\| **425 \| 2018-03-20**:
+The Kremlin announces President Trump’s call to congratulate Russian
+President Vladimir Putin on his election victory. National security
+advisers warned Trump against the call. \| President Trump meets with
+Crown Prince Mohammad bin Salman of Saudi Arabia in the Oval Office.
+\|\| **427 \| 2018-03-22**: H.R. McMaster resigns as National Security
 Adviser and John Bolton, a former ambassador to the United Nations, is
 named to succeed him. \|\| **428 \| 2018-03-23**: The White House issues
 a memorandum on Jim Mattis’s recommended military policies, which state
@@ -3626,7 +3621,7 @@ Trump tweets a threat to Iranian President Hassan Rouhani:NEVER, EVER
 THREATEN THE UNITED STATES AGAIN OR YOU WILL SUFFER CONSEQUENCES THE
 LIKES OF WHICH FEW THROUGHOUT HISTORY HAVE EVER SUFFERED BEFORE. WE ARE
 NO LONGER A COUNTRY THAT WILL STAND FOR YOUR DEMENTED WORDS OF VIOLENCE
-+ DEATH. BE CAUTIOUS!The threat was the culmination of a weekend of
++ DEATH. BE CAUTIOUS! The threat was the culmination of a weekend of
 intense rhetorical exchange between the Trump administration and the
 Rouhani administration. Trump’s tweet was in response to Rouhani’s
 message that war with Iran would be “the mother of all wars”; Rouhani
@@ -3652,35 +3647,34 @@ under-secretary in the U.S. Department of Defense since November 2017
 also served as acting Veterans’ Affairs secretary from March 2018 to May
 2018 following David Shulkin’s resignation. \| President Trump launches
 “Made in America Week” at the White House by showcasing products made in
-all 50 states.\[citation needed\] \|\| **550 \| 2018-07-24**: At a
-speech to the annual convention of a veterans’ organization (Veterans of
-Foreign Wars) in Kansas City, Trump says that “what you’re seeing and
-what you’re reading \[in the media\] is not what’s happening”. Some
-observers describe this quote as “Orwellian”. \| The September 2016
-tape, the existence of which was revealed on July 20, is published by
-CNN on its 9:00 p.m. show, Cuomo Prime Time. The three-minute recording
-proves that Trump and his then-lawyer, Michael Cohen, did discuss the
-150,000 payment to American Media, Inc., as claimed on July 20.
-Moreover, Trump and Cohen can be heard discussing whether to make the
-payment in cash; on the recording, Trump appears to suggest a cash
-payment, and Cohen appears to dismiss the suggestion. According to The
-New York Times, the salient portion of the “sometimes muddled” recording
-reads as follows: \| Mr. Cohen is heard telling Mr. Trump that he will
-need to set up a company to arrange the payments. \| Mr. Trump then
-asked, “What financing?” \| “We’ll have to pay,” Mr. Cohen said. \|
-Mr. Trump then appears to say, “Pay with cash.” \| Mr. Cohen then says,
-“No, no.” \| The word “check” is uttered, but it is not clear by whom,
-and the audio is then cut off. \| \| However, Trump’s legal team
-disputes this. \|\| **551 \| 2018-07-25**: Eleven Republican members of
-the House Judiciary Committee (all members of the House Freedom Caucus)
-file an impeachment resolution against Deputy Attorney General Rod
-Rosenstein, claiming that Rosenstein in his role as overseer of the
-Special Counsel investigation committed “high crimes and misdemeanors”
-in refusing to turn over information relating to the ongoing
-investigation to the House Judiciary Committee. \| President Trump holds
-a bilateral meeting and joint press conference with European Commission
-President Jean-Claude Juncker at the White House.\[citation needed\]
-\|\| **552 \| 2018-07-26**: The House Republicans who filed an
+all 50 states. \|\| **550 \| 2018-07-24**: At a speech to the annual
+convention of a veterans’ organization (Veterans of Foreign Wars) in
+Kansas City, Trump says that “what you’re seeing and what you’re reading
+\[in the media\] is not what’s happening”. Some observers describe this
+quote as “Orwellian”. \| The September 2016 tape, the existence of which
+was revealed on July 20, is published by CNN on its 9:00 p.m. show,
+Cuomo Prime Time. The three-minute recording proves that Trump and his
+then-lawyer, Michael Cohen, did discuss the 150,000 payment to American
+Media, Inc., as claimed on July 20. Moreover, Trump and Cohen can be
+heard discussing whether to make the payment in cash; on the recording,
+Trump appears to suggest a cash payment, and Cohen appears to dismiss
+the suggestion. According to The New York Times, the salient portion of
+the “sometimes muddled” recording reads as follows: \| Mr. Cohen is
+heard telling Mr. Trump that he will need to set up a company to arrange
+the payments. \| Mr. Trump then asked, “What financing?” \| “We’ll have
+to pay,” Mr. Cohen said. \| Mr. Trump then appears to say, “Pay with
+cash.” \| Mr. Cohen then says, “No, no.” \| The word “check” is uttered,
+but it is not clear by whom, and the audio is then cut off. \| \|
+However, Trump’s legal team disputes this. \|\| **551 \| 2018-07-25**:
+Eleven Republican members of the House Judiciary Committee (all members
+of the House Freedom Caucus) file an impeachment resolution against
+Deputy Attorney General Rod Rosenstein, claiming that Rosenstein in his
+role as overseer of the Special Counsel investigation committed “high
+crimes and misdemeanors” in refusing to turn over information relating
+to the ongoing investigation to the House Judiciary Committee. \|
+President Trump holds a bilateral meeting and joint press conference
+with European Commission President Jean-Claude Juncker at the White
+House. \|\| **552 \| 2018-07-26**: The House Republicans who filed an
 impeachment resolution against Deputy Attorney General Rod Rosenstein on
 July 26 back down, deciding not to continue with impeachment
 proceedings. This decision comes after many high-profile Republicans,
@@ -3939,17 +3933,17 @@ of ‘friendly blackmail’; a National Enquirer reporter told the
 Associated Press, “It’s ‘I did this for you, now what can you do for me’
 … they \[the National Enquirer\] always got something in return.” \|\|
 **584 \| 2018-08-27**: President Trump holds a bilateral meeting with
-Kenyan President Uhuru Kenyatta at the White House.\[citation needed\]
-\|\| **587 \| 2018-08-30**: President Trump reveals that Jeff Sessions
-will remain Attorney General until after the fall 2018 mid-term
-elections in November during an interview on Bloomberg. \|\| **591 \|
-2018-09-03**: President Trump sarcastically tweets “Good job Jeff …”
-following the Justice Department indictments of Duncan Hunter and Chris
-Collins. Trump was criticizing Attorney General Jeff Sessions’ handling
-of the investigations as supporting the Democratic agenda, adding that
-“the Democrats, none of whom voted for Jeff Sessions, must love him
-now.” \|\| **592 \| 2018-09-04**: The Senate confirmation hearing for
-Brett Kavanaugh begins. \|\| **593 \| 2018-09-05**: The New York Times
+Kenyan President Uhuru Kenyatta at the White House. \|\| **587 \|
+2018-08-30**: President Trump reveals that Jeff Sessions will remain
+Attorney General until after the fall 2018 mid-term elections in
+November during an interview on Bloomberg. \|\| **591 \| 2018-09-03**:
+President Trump sarcastically tweets “Good job Jeff …” following the
+Justice Department indictments of Duncan Hunter and Chris Collins. Trump
+was criticizing Attorney General Jeff Sessions’ handling of the
+investigations as supporting the Democratic agenda, adding that “the
+Democrats, none of whom voted for Jeff Sessions, must love him now.”
+\|\| **592 \| 2018-09-04**: The Senate confirmation hearing for Brett
+Kavanaugh begins. \|\| **593 \| 2018-09-05**: The New York Times
 publishes an editorial written by an anonymous senior administration
 official in the Trump administration which is critical of President
 Trump. \| President Trump holds a bilateral meeting with Emir Sabah
@@ -3966,57 +3960,55 @@ sexual assault allegation against Kavanaugh. \| President Trump states
 that he will not withdraw Kavanaugh’s nomination. \| The Senate
 Judiciary Committee delays the confirmation vote to allow Kavanaugh and
 Ford to testify. \| President Trump celebrates Hispanic Heritage Month
-at the White House.\[citation needed\] \|\| **606 \| 2018-09-18**:
-President Trump holds a bilateral meeting and joint press conference
-with Polish President Andrzej Duda at the White House. \|\| **611 \|
-2018-09-23**: The New Yorker reports that Senate Democrats were informed
-of a second allegation of sexual assault against Kavanaugh. \| President
-Trump holds a bilateral meeting and dinner with Japanese Prime Minister
-Shinzo Abe at Trump Tower.\[citation needed\] \|\| **612 \|
-2018-09-24**: President Trump attends the United Nations event on
-‘Global Drug Problem’ at the Headquarters of the United
-Nations.\[citation needed\] \| President Trump holds a bilateral meeting
-with South Korean President Moon Jae-in to sign new revisions into their
-free trade agreement. \| President Trump holds bilateral meetings with
-Egyptian President Abdel Fattah el-Sisi\[citation needed\] and French
-President Emmanuel Macron at the UN General Assembly in New York City.
-\|\| **613 \| 2018-09-25**: President Trump holds a bilateral meeting
-with Colombian President Ivan Duque Marquez at the UN General Assembly
-in New York City. \| President Trump addressed the United Nations
-General Assembly at the Headquarters of the United Nations, and drew
-laughter from international representatives when he said that the Trump
-“administration has accomplished more than almost any administration in
-the history of the United States-”so true“. Trump immediately commented
-that he had not expected that type of reaction. \|\| **614 \|
-2018-09-26**: President Trump holds bilateral meetings with Israeli
-Prime Minister Benjamin Netanyahu, Japanese Prime Minister Shinzo Abe,
-and British Prime Minister Theresa May at the UN General Assembly in New
-York City.\[citation needed\] \| Michael Avenatti tweets the details of
-a third accusation against Brett Kavanaugh. \|\| **615 \| 2018-09-27**:
-President Trump visits the United States Mission to the United
-Nations.\[citation needed\] \| The Senate Judiciary Committee holds a
-hearing in which Professor Christine Blasey Ford and Supreme Court
-nominee Brett Kavanaugh are questioned about Ford’s allegations. \|\|
-**616 \| 2018-09-28**: President Trump holds a bilateral meeting with
-Chilean President Sebastian Pinera at the White House.\[citation
-needed\] \|\| **619 \| 2018-10-01**: President Trump announces the new
-USMCA trade agreement between the United States, Mexico and Canada as a
-renegotiation of the former North American Trade Agreement (NAFTA). \|\|
-**620 \| 2018-10-02**: The White House corrects the official transcript
-from yesterday’s press conference to now include his initial insult of a
+at the White House. \|\| **606 \| 2018-09-18**: President Trump holds a
+bilateral meeting and joint press conference with Polish President
+Andrzej Duda at the White House. \|\| **611 \| 2018-09-23**: The New
+Yorker reports that Senate Democrats were informed of a second
+allegation of sexual assault against Kavanaugh. \| President Trump holds
+a bilateral meeting and dinner with Japanese Prime Minister Shinzo Abe
+at Trump Tower. \|\| **612 \| 2018-09-24**: President Trump attends the
+United Nations event on ‘Global Drug Problem’ at the Headquarters of the
+United Nations. \| President Trump holds a bilateral meeting with South
+Korean President Moon Jae-in to sign new revisions into their free trade
+agreement. \| President Trump holds bilateral meetings with Egyptian
+President Abdel Fattah el-Sisi and French President Emmanuel Macron at
+the UN General Assembly in New York City. \|\| **613 \| 2018-09-25**:
+President Trump holds a bilateral meeting with Colombian President Ivan
+Duque Marquez at the UN General Assembly in New York City. \| President
+Trump addressed the United Nations General Assembly at the Headquarters
+of the United Nations, and drew laughter from international
+representatives when he said that the Trump “administration has
+accomplished more than almost any administration in the history of the
+United States-”so true“. Trump immediately commented that he had not
+expected that type of reaction. \|\| **614 \| 2018-09-26**: President
+Trump holds bilateral meetings with Israeli Prime Minister Benjamin
+Netanyahu, Japanese Prime Minister Shinzo Abe, and British Prime
+Minister Theresa May at the UN General Assembly in New York City. \|
+Michael Avenatti tweets the details of a third accusation against Brett
+Kavanaugh. \|\| **615 \| 2018-09-27**: President Trump visits the United
+States Mission to the United Nations. \| The Senate Judiciary Committee
+holds a hearing in which Professor Christine Blasey Ford and Supreme
+Court nominee Brett Kavanaugh are questioned about Ford’s allegations.
+\|\| **616 \| 2018-09-28**: President Trump holds a bilateral meeting
+with Chilean President Sebastian Pinera at the White House. \|\| **619
+\| 2018-10-01**: President Trump announces the new USMCA trade agreement
+between the United States, Mexico and Canada as a renegotiation of the
+former North American Trade Agreement (NAFTA). \|\| **620 \|
+2018-10-02**: The White House corrects the official transcript from
+yesterday’s press conference to now include his initial insult of a
 reporter. \|\| **621 \| 2018-10-03**: President Trump mocks Senate
 Judiciary Committee witness Christine Blasey Ford at a Mississippi
 campaign rally. \|\| **623 \| 2018-10-05**: In a vote of 51-49 the
 Senate moves to advance the nomination of Brett Kavanaugh as Supreme
 Court Justice. \|\| **626 \| 2018-10-08**: President Trump attends the
 swearing in of Brett M. Kavanaugh as an Associate Justice of the Supreme
-Court in a East Room of the White House ceremony.\[citation needed\]
-\|\| **627 \| 2018-10-09**: United Nations Ambassador Nikki Haley
-announces her resignation. \|\| **629 \| 2018-10-11**: President Trump
-expresses concern over the disappearance of Washington Post journalist
-Jamal Khashoggi from the Saudi Arabian embassy in Turkey on October 2.
-\|\| **633 \| 2018-10-15**: President Trump suggests”rogue killers" may
-be responsible for the murder of Jamal Khashoggi. \|\| **635 \|
+Court in a East Room of the White House ceremony. \|\| **627 \|
+2018-10-09**: United Nations Ambassador Nikki Haley announces her
+resignation. \|\| **629 \| 2018-10-11**: President Trump expresses
+concern over the disappearance of Washington Post journalist Jamal
+Khashoggi from the Saudi Arabian embassy in Turkey on October 2. \|\|
+**633 \| 2018-10-15**: President Trump suggests”rogue killers" may be
+responsible for the murder of Jamal Khashoggi. \|\| **635 \|
 2018-10-17**: President Trump says the U.S. is requesting that Turkey
 provide audio and video relating to missing Saudi journalist Jamal
 Khashoggi, “if it exists”. \| Donald McGahn resigns as White House Chief
@@ -4078,28 +4070,28 @@ for an interview on Fox News Sunday with Chris Wallace. \|\| **668 \|
 Seal and former head of Special Operations Command for not killing Osama
 bin Laden sooner. \|\| **669 \| 2018-11-20**: President Trump and First
 Lady Melania Trump participate in the National Thanksgiving Turkey
-Presentation.\[citation needed\] \| President Trump issues a statement
-called extraordinary and remarkable by the media, declaring unwavering
-loyalty to Saudi Arabia despite its killing of Khashoggi. \| Details
-emerge of attempts by President Trump to order the Justice Department to
-prosecute his political enemies, 2016 presidential election opponent
-Hillary Clinton and former FBI Director James Comey. \| President
-Trump’s lawyers hand in his responses to questions for the Mueller
-investigation. \| President Trump defends Ivanka Trump’s use of personal
-email for official government business declining to acknowledge
-hypocrisy given his calls for Hillary Clinton to be imprisoned for her
-use of personal emails during her time as Secretary of State. \| United
-States Court of Appeals for the Ninth Circuit, based in San Francisco,
-rules against President Trump’s immigration policy. The President lashes
-out against the court calling it ‘a lawless disgrace’ and threatening
-unspecified retaliation. Chief Justice John G. Roberts issues a rare
-statement defending the impartiality of courts. \|\| **670 \|
-2018-11-21**: President Trump fires back at Chief Justice Roberts on
-Twitter. \|\| **671 \| 2018-11-22**: President Trump spends Thanksgiving
-at his Mar-a-Lago estate, visiting a Coast Guard station in Palm Beach.
-He uses calls to overseas troops to vent on immigration and trade and to
-boast about his own success in a break from non-partisan traditions of
-such calls. \| President Trump authorizes troops stationed at the
+Presentation. \| President Trump issues a statement called extraordinary
+and remarkable by the media, declaring unwavering loyalty to Saudi
+Arabia despite its killing of Khashoggi. \| Details emerge of attempts
+by President Trump to order the Justice Department to prosecute his
+political enemies, 2016 presidential election opponent Hillary Clinton
+and former FBI Director James Comey. \| President Trump’s lawyers hand
+in his responses to questions for the Mueller investigation. \|
+President Trump defends Ivanka Trump’s use of personal email for
+official government business declining to acknowledge hypocrisy given
+his calls for Hillary Clinton to be imprisoned for her use of personal
+emails during her time as Secretary of State. \| United States Court of
+Appeals for the Ninth Circuit, based in San Francisco, rules against
+President Trump’s immigration policy. The President lashes out against
+the court calling it ‘a lawless disgrace’ and threatening unspecified
+retaliation. Chief Justice John G. Roberts issues a rare statement
+defending the impartiality of courts. \|\| **670 \| 2018-11-21**:
+President Trump fires back at Chief Justice Roberts on Twitter. \|\|
+**671 \| 2018-11-22**: President Trump spends Thanksgiving at his
+Mar-a-Lago estate, visiting a Coast Guard station in Palm Beach. He uses
+calls to overseas troops to vent on immigration and trade and to boast
+about his own success in a break from non-partisan traditions of such
+calls. \| President Trump authorizes troops stationed at the
 U.S.-Mexican border to use lethal force if deemed necessary and also
 threatens to close the entire southern border with Mexico. \| President
 Trump rebuffs the CIA for concluding that the Saudi crown prince was
@@ -4140,17 +4132,17 @@ Shinzo Abe and South Korean President Moon Jae-in. \|\| **680 \|
 former President George H. W. Bush and declares December 5, 2018, as a
 national day of mourning. \| President Trump holds bilateral meetings
 with German Chancellor Angela Merkel and Turkish President Recep Tayyip
-Erdogan.\[citation needed\] \| President Trump holds a bilateral meeting
-and dinner with Chinese President Xi Jinping, claiming they have reached
-an agreement to halt the escalating trade war between the United States
-and China. The following Tuesday senior officials play down expectations
-and acknowledged that key provisions were not finalized. Trump tweets
-that he is a “Tariff Man”, causing stock markets to plunge three
-percent. \|\| **682 \| 2018-12-03**: In a series of tweets, President
-Trump calls for harsh sentencing of Michael Cohen, following a guilty
-plea in cooperation with the Mueller investigation. The president also
-praises longtime associate Roger Stone for not cooperating with Mueller.
-\| President Trump and First Lady Melania Trump visit the body of late
+Erdogan. \| President Trump holds a bilateral meeting and dinner with
+Chinese President Xi Jinping, claiming they have reached an agreement to
+halt the escalating trade war between the United States and China. The
+following Tuesday senior officials play down expectations and
+acknowledged that key provisions were not finalized. Trump tweets that
+he is a “Tariff Man”, causing stock markets to plunge three percent.
+\|\| **682 \| 2018-12-03**: In a series of tweets, President Trump calls
+for harsh sentencing of Michael Cohen, following a guilty plea in
+cooperation with the Mueller investigation. The president also praises
+longtime associate Roger Stone for not cooperating with Mueller. \|
+President Trump and First Lady Melania Trump visit the body of late
 former President George H. W. Bush, lying in state at the Capitol
 Rotunda, to pay their respects. \|\| **683 \| 2018-12-04**: Senate
 leaders attend a closed-door security briefing by CIA Director Gina
@@ -4284,44 +4276,44 @@ issue of a border wall. \| Day 14 of the partial government shutdown
 televised address on border security for the following day. \| Day 17 of
 the partial government shutdown \|\| **718 \| 2019-01-08**: President
 Trump addresses the nation on prime-time television concerning the
-ongoing federal government shutdown.\[citation needed\] \| Day 18 of the
-partial government shutdown \|\| **719 \| 2019-01-09**: President Trump
-abruptly walks out of a meeting with Democratic leaders. \| Day 19 of
-the partial government shutdown \|\| **720 \| 2019-01-10**: President
-Trump visits McAllen, Texas, along the southern border and meets with
-Border Patrol personnel. \| Secretary of the Treasury Steven Mnuchin
-gives Congress a classified briefing about his decision to lift
-sanctions on companies linked to Russian oligarch Oleg Deripaska. \| Day
-20 of the partial government shutdown \|\| **721 \| 2019-01-11**: Day 21
-of the partial government shutdown \|\| **722 \| 2019-01-12**: The
-partial government shutdown enters its 22nd day, becoming the longest
-government shutdown in U.S. history after passing the United States
-federal government shutdowns of 1995-1996. \|\| **723 \| 2019-01-13**:
-Day 23 of the partial government shutdown \|\| **724 \| 2019-01-14**:
-President Trump entertains the Clemson Tigers, 2018 College Football
-Playoff National Champions, at the White House with a menu of various
-fast foods. \| President Trump travels to New Orleans to address the
-American Farm Bureau. \| Day 24 of the partial government shutdown \|\|
-**725 \| 2019-01-15**: William P. Barr undergoes his confirmation
-hearing for the position of Attorney General. \| Trump Administration
-calls on some FAA and IRS furloughed employees to return to work to
-provide air safety and to implement the upcoming tax filing season. \|
-Day 25 of the partial government shutdown \|\| **726 \| 2019-01-16**:
-Day 2 of William Barr’s confirmation hearing \| Speaker Pelosi sends a
-letter to President Trump that suggests he either reschedule his 2019
-State of the Union Address or submit a written State of the Union to
-Congress instead of a televised oral speech, citing fears of security
-concerns regarding unpaid Secret Service members as a consequence of the
-government shutdown. \| President Trump meets in the White House with
-rank and file House Democrats to discuss the shutdown. \| Day 26 of the
-partial government shutdown \|\| **727 \| 2019-01-17**: President Trump
-sends a letter to Speaker Pelosi, postponing her planned trips to
-Brussels, Egypt and Afghanistan, a move which is seen by both Democrats
-and Republicans as an indirect response to her letter requesting that
-the State of the Union Address be rescheduled. \| A report by BuzzFeed
-News journalists Jason Leopold and Anthony Cormier is released, alleging
-that President Trump directed his former attorney Michael Cohen to lie
-to Congress about their Moscow Tower Project. The report further alleges
+ongoing federal government shutdown. \| Day 18 of the partial government
+shutdown \|\| **719 \| 2019-01-09**: President Trump abruptly walks out
+of a meeting with Democratic leaders. \| Day 19 of the partial
+government shutdown \|\| **720 \| 2019-01-10**: President Trump visits
+McAllen, Texas, along the southern border and meets with Border Patrol
+personnel. \| Secretary of the Treasury Steven Mnuchin gives Congress a
+classified briefing about his decision to lift sanctions on companies
+linked to Russian oligarch Oleg Deripaska. \| Day 20 of the partial
+government shutdown \|\| **721 \| 2019-01-11**: Day 21 of the partial
+government shutdown \|\| **722 \| 2019-01-12**: The partial government
+shutdown enters its 22nd day, becoming the longest government shutdown
+in U.S. history after passing the United States federal government
+shutdowns of 1995-1996. \|\| **723 \| 2019-01-13**: Day 23 of the
+partial government shutdown \|\| **724 \| 2019-01-14**: President Trump
+entertains the Clemson Tigers, 2018 College Football Playoff National
+Champions, at the White House with a menu of various fast foods. \|
+President Trump travels to New Orleans to address the American Farm
+Bureau. \| Day 24 of the partial government shutdown \|\| **725 \|
+2019-01-15**: William P. Barr undergoes his confirmation hearing for the
+position of Attorney General. \| Trump Administration calls on some FAA
+and IRS furloughed employees to return to work to provide air safety and
+to implement the upcoming tax filing season. \| Day 25 of the partial
+government shutdown \|\| **726 \| 2019-01-16**: Day 2 of William Barr’s
+confirmation hearing \| Speaker Pelosi sends a letter to President Trump
+that suggests he either reschedule his 2019 State of the Union Address
+or submit a written State of the Union to Congress instead of a
+televised oral speech, citing fears of security concerns regarding
+unpaid Secret Service members as a consequence of the government
+shutdown. \| President Trump meets in the White House with rank and file
+House Democrats to discuss the shutdown. \| Day 26 of the partial
+government shutdown \|\| **727 \| 2019-01-17**: President Trump sends a
+letter to Speaker Pelosi, postponing her planned trips to Brussels,
+Egypt and Afghanistan, a move which is seen by both Democrats and
+Republicans as an indirect response to her letter requesting that the
+State of the Union Address be rescheduled. \| A report by BuzzFeed News
+journalists Jason Leopold and Anthony Cormier is released, alleging that
+President Trump directed his former attorney Michael Cohen to lie to
+Congress about their Moscow Tower Project. The report further alleges
 that Cohen did not reveal this to the Mueller investigation himself, but
 rather confirmed it when prompted with evidence such as text and e-mail
 exchanges between implicated parties. \| President Trump, alongside Vice
@@ -4461,86 +4453,85 @@ declared on February 15. \|\| **796 \| 2019-03-27**: President Trump
 meets with Fabiana Rosales, wife of Venezuelan Opposition Leader Juan
 Guaido, at the White House. \| President Trump participates in an
 interview with author Kate Andersen Brower, who was working on the book,
-“Team of Five: The President’s Club in the Age of Trump”\[citation
-needed\] \|\| **797 \| 2019-03-28**: President Trump holds a rally in
-Grand Rapids, Michigan. \|\| **802 \| 2019-04-02**: President Trump
-holds a bilateral meeting with NATO Secretary General Jens Stoltenberg
-at the White House. \|\| **804 \| 2019-04-04**: President Trump
-threatens to close the United States-Mexico border within one year if
-Mexico does not stop the “massive amounts of drugs” coming into the
-United States. \|\| **805 \| 2019-04-05**: President Trump visits
-Calexico, California, along the southern border and meets with Border
-Patrol personnel. \| President Trump withdraws his nomination of Ronald
-Vitiello to be the director of Immigration and Customs Enforcement. \|\|
-**806 \| 2019-04-06**: President Trump speaks at the Republican Jewish
-Coalition in Las Vegas, Nevada. \|\| **807 \| 2019-04-07**: President
-Trump announces in a tweet that Department of Homeland Security
-Secretary Kirstjen Nielsen is resigning. \|\| **808 \| 2019-04-08**:
-Secret Service director Randolph Alles to leave his position in May at
-President Trump’s request. \|\| **809 \| 2019-04-09**: President Trump
-holds a bilateral meeting with Egyptian President Abdel Fattah el-Sisi
-at the White House. \| President Trump has installed senior White House
-adviser Stephen Miller to be in charge of the administration’s
-immigration policy. \|\| **810 \| 2019-04-10**: Kevin McAleenan assumes
-the role of Acting Secretary of Homeland Security. \|\| **811 \|
-2019-04-11**: President Trump holds a bilateral meeting with South
-Korean President Moon Jae-in at the White House. \| The Senate confirms
-David Bernhardt as the 53rd U.S. Secretary of the Interior in a vote of
-56-41. \| Secretary of the Treasury Department Steve Mnuchin advised the
-House Ways and Means Committee that he has “serious issues” with the
-committees request for recent Donald Trump tax returns. \|\| **812 \|
-2019-04-12**: President Trump confirms reports that he is considering
-the release of detained undocumented immigrants into “sanctuary cities”.
-\| Linda McMahon’s resignation becomes effective as head of the Small
-Business Administration. President Trump made the original announcement
-on March 29, 2019. \|\| **815 \| 2019-04-15**: Attorney General William
-Barr issues an order directing immigration judges to deny posting of
-bail by asylum seekers. \|\| **816 \| 2019-04-16**: President Trump uses
-the second veto of his Administration on a bipartisan resolution to end
-American involvement in the military campaign in Yemen. Congress had
-earlier voted to invoke the War Powers Act of 1973. \|\| **818 \|
-2019-04-18**: Attorney General William Barr and Deputy Attorney General
-Rod Rosenstein hold a press conference on the Mueller Report and, soon
-after, release it to Congress and the American public. \|\| **822 \|
-2019-04-22**: President Trump and First Lady Melania Trump host the
-White House Easter Egg Roll. \|\| **826 \| 2019-04-26**: President Trump
-and Vice President Pence speak at National Rifle Association’s annual
-convention in Indianapolis, Indiana. \| President Trump holds a
-bilateral meeting with Japanese Prime Minister Shinzo Abe at the White
-House. \|\| **827 \| 2019-04-27**: President Trump and Japanese Prime
-Minister Shinzo Abe play golf together at the Trump National Golf Club.
-\| President Trump holds a rally in Green Bay, Wisconsin. \|\| **829 \|
-2019-04-29**: President Trump entertains the Baylor Lady Bear, 2019
-College Basketball Playoff National Champions, at the White House with a
-menu of various fast foods. \| Deputy Attorney General Rod Rosenstein
-submits a letter of resignation effective May 11. \|\| **831 \|
-2019-05-01**: James M. Murray is sworn in as Director of the United
-States Secret Service. \| Attorney General William Barr appeared before
-the Senate Judiciary Committee, answering questions about the Mueller
-Report. \|\| **832 \| 2019-05-02**: President Trump speaks at the
-National Day of Prayer service in the Rose Garden. \|\| **833 \|
-2019-05-03**: President Trump holds a bilateral meeting with Slovak
-Prime Minister Peter Pellegrini at the White House. \|\| **836 \|
-2019-05-06**: President Trump presents the Commander-in-Chief’s Trophy
-to the Army Black Knights football team. \| President Trump presents the
-Presidential Medal of Freedom to golfer Tiger Woods. \| Treasury
-Secretary Steven Mnuchin fails to meet the House Ways and Means
-Committee deadline to provide President Trump’s tax returns. \|\| **838
-\| 2019-05-08**: President Trump asserts executive privilege over the
-full Mueller Report. \| President Trump holds a rally in Panama City
-Beach, Florida. \| The House Judiciary Committee, in a 24-16 vote, moves
-to hold Attorney General William Barr in contempt of Congress for
-failing to deliver the unredacted version of the Mueller report. \|
-House Intelligence Committee issues a subpoena to the Justice Department
-for all “counterintelligence and foreign intelligence” collected for the
-pre-redacted version of special counsel Robert Mueller’s report. \|\|
-**839 \| 2019-05-09**: President Trump entertains the Boston Red Sox,
-2018 World Series Champions, at the White House. However, manager Alex
-Cora and several star players chose not to attend. \|\| **840 \|
-2019-05-10**: The Trump Administration raises tariffs on 200 billion
-worth of Chinese imports. \| House Ways and Means Committee chairman
-Richard Neal subpoenas the Treasury Department and the Internal Revenue
-Service for the tax returns of President Trump. \|\| **841 \|
+“Team of Five: The President’s Club in the Age of Trump” \|\| **797 \|
+2019-03-28**: President Trump holds a rally in Grand Rapids, Michigan.
+\|\| **802 \| 2019-04-02**: President Trump holds a bilateral meeting
+with NATO Secretary General Jens Stoltenberg at the White House. \|\|
+**804 \| 2019-04-04**: President Trump threatens to close the United
+States-Mexico border within one year if Mexico does not stop the
+“massive amounts of drugs” coming into the United States. \|\| **805 \|
+2019-04-05**: President Trump visits Calexico, California, along the
+southern border and meets with Border Patrol personnel. \| President
+Trump withdraws his nomination of Ronald Vitiello to be the director of
+Immigration and Customs Enforcement. \|\| **806 \| 2019-04-06**:
+President Trump speaks at the Republican Jewish Coalition in Las Vegas,
+Nevada. \|\| **807 \| 2019-04-07**: President Trump announces in a tweet
+that Department of Homeland Security Secretary Kirstjen Nielsen is
+resigning. \|\| **808 \| 2019-04-08**: Secret Service director Randolph
+Alles to leave his position in May at President Trump’s request. \|\|
+**809 \| 2019-04-09**: President Trump holds a bilateral meeting with
+Egyptian President Abdel Fattah el-Sisi at the White House. \| President
+Trump has installed senior White House adviser Stephen Miller to be in
+charge of the administration’s immigration policy. \|\| **810 \|
+2019-04-10**: Kevin McAleenan assumes the role of Acting Secretary of
+Homeland Security. \|\| **811 \| 2019-04-11**: President Trump holds a
+bilateral meeting with South Korean President Moon Jae-in at the White
+House. \| The Senate confirms David Bernhardt as the 53rd U.S. Secretary
+of the Interior in a vote of 56-41. \| Secretary of the Treasury
+Department Steve Mnuchin advised the House Ways and Means Committee that
+he has “serious issues” with the committees request for recent Donald
+Trump tax returns. \|\| **812 \| 2019-04-12**: President Trump confirms
+reports that he is considering the release of detained undocumented
+immigrants into “sanctuary cities”. \| Linda McMahon’s resignation
+becomes effective as head of the Small Business Administration.
+President Trump made the original announcement on March 29, 2019. \|\|
+**815 \| 2019-04-15**: Attorney General William Barr issues an order
+directing immigration judges to deny posting of bail by asylum seekers.
+\|\| **816 \| 2019-04-16**: President Trump uses the second veto of his
+Administration on a bipartisan resolution to end American involvement in
+the military campaign in Yemen. Congress had earlier voted to invoke the
+War Powers Act of 1973. \|\| **818 \| 2019-04-18**: Attorney General
+William Barr and Deputy Attorney General Rod Rosenstein hold a press
+conference on the Mueller Report and, soon after, release it to Congress
+and the American public. \|\| **822 \| 2019-04-22**: President Trump and
+First Lady Melania Trump host the White House Easter Egg Roll. \|\|
+**826 \| 2019-04-26**: President Trump and Vice President Pence speak at
+National Rifle Association’s annual convention in Indianapolis, Indiana.
+\| President Trump holds a bilateral meeting with Japanese Prime
+Minister Shinzo Abe at the White House. \|\| **827 \| 2019-04-27**:
+President Trump and Japanese Prime Minister Shinzo Abe play golf
+together at the Trump National Golf Club. \| President Trump holds a
+rally in Green Bay, Wisconsin. \|\| **829 \| 2019-04-29**: President
+Trump entertains the Baylor Lady Bear, 2019 College Basketball Playoff
+National Champions, at the White House with a menu of various fast
+foods. \| Deputy Attorney General Rod Rosenstein submits a letter of
+resignation effective May 11. \|\| **831 \| 2019-05-01**: James M.
+Murray is sworn in as Director of the United States Secret Service. \|
+Attorney General William Barr appeared before the Senate Judiciary
+Committee, answering questions about the Mueller Report. \|\| **832 \|
+2019-05-02**: President Trump speaks at the National Day of Prayer
+service in the Rose Garden. \|\| **833 \| 2019-05-03**: President Trump
+holds a bilateral meeting with Slovak Prime Minister Peter Pellegrini at
+the White House. \|\| **836 \| 2019-05-06**: President Trump presents
+the Commander-in-Chief’s Trophy to the Army Black Knights football team.
+\| President Trump presents the Presidential Medal of Freedom to golfer
+Tiger Woods. \| Treasury Secretary Steven Mnuchin fails to meet the
+House Ways and Means Committee deadline to provide President Trump’s tax
+returns. \|\| **838 \| 2019-05-08**: President Trump asserts executive
+privilege over the full Mueller Report. \| President Trump holds a rally
+in Panama City Beach, Florida. \| The House Judiciary Committee, in a
+24-16 vote, moves to hold Attorney General William Barr in contempt of
+Congress for failing to deliver the unredacted version of the Mueller
+report. \| House Intelligence Committee issues a subpoena to the Justice
+Department for all “counterintelligence and foreign intelligence”
+collected for the pre-redacted version of special counsel Robert
+Mueller’s report. \|\| **839 \| 2019-05-09**: President Trump entertains
+the Boston Red Sox, 2018 World Series Champions, at the White House.
+However, manager Alex Cora and several star players chose not to attend.
+\|\| **840 \| 2019-05-10**: The Trump Administration raises tariffs on
+200 billion worth of Chinese imports. \| House Ways and Means Committee
+chairman Richard Neal subpoenas the Treasury Department and the Internal
+Revenue Service for the tax returns of President Trump. \|\| **841 \|
 2019-05-11**: Effective day of Deputy Attorney General Rod Rosenstein’s
 resignation. \|\| **843 \| 2019-05-13**: President Trump holds a
 bilateral meeting with Hungarian Prime Minister Viktor Orban at the
@@ -5919,150 +5910,146 @@ autonomy. \| President Trump announces new measures against China during
 a 54-minute stream-of-consciousness press conference promising a vaccine
 for the coronavirus, blaming China for “unleashing \[the coronavirus\]
 upon the world” and various other topics from Joe Biden to crime in
-“Democrat cities”.\[citation needed\] \|\| **1272 \| 2020-07-15**: The
-number of deaths in the United States attributed to the coronavirus
-disease is 136,356. There are more than 3.4 million certified
-coronavirus cases. \|\| **1273 \| 2020-07-16**: The Trump administration
-announces that hospitals will begin to send coronavirus patient
-information to a central database maintained by the Department of Health
-and Human Services rather than the CDC.\[citation needed\] \|\| **1278
-\| 2020-07-21**: President Trump signs a presidential memorandum
-requesting a ban of undocumented immigrants being counted in the 2020
-census. \| President Trump announces plans to deploy federal law
-enforcement officers to “Democrat” cities to quell ongoing protests over
-racism and police brutality. Chicago Mayor Lori Lightfoot expressed
-concern saying, “We don’t need federal agents without any insignia
-taking people off the streets and holding them, I think, unlawfully.”
-\|\| **1279 \| 2020-07-22**: Calling the protests in Portland, Oregon
-“worse than Afghanistan,” President Trump defended the use of excessive
-force against the peaceful protestors by officers in military camouflage
-fatigues. \| The number of deaths in the United States attributed to the
-coronavirus disease is 142,031. There are more than 3.9 million
-certified coronavirus cases. \|\| **1281 \| 2020-07-24**: President
-Trump signs four executive orders designed to lower prices on
-prescription drugs. \|\| **1284 \| 2020-07-27**: National security
-advisor Robert O’Brien tests positive for COVID-19. He has since been
-working remotely. \|\| **1285 \| 2020-07-28**: Without any evidence that
-mail-in ballots increase electoral fraud, President Trump continues to
-suggest that the November election should be delayed. \|\| **1286 \|
-2020-07-29**: The number of deaths in the United States attributed to
-the coronavirus disease is 150,100. There are more than 4.3 million
-certified coronavirus cases. \|\| **1287 \| 2020-07-30**: The U.S. GDP
-indicator declined 9.5% during the second quarter of 2020, the most
-drastic decline in 70 years.\[citation needed\] \| President Trump
-suggests postponing the 2020 United States presidential election. \|\|
-**1288 \| 2020-07-31**: President Trump says he plans to use
-presidential authority to terminate the Chinese social media platform
-TikTok from operating in the U.S. \|\| **1292 \| 2020-08-04**: The House
-of Representatives Oversight Committee calls Postmaster General Louis
-DeJoy to testify about recent delays and staff changes at the U.S.
-Postal Service.\[citation needed\] \|\| **1293 \| 2020-08-05**:
-President Trump meets with Governor of Arizona Doug Ducey in the Oval
-Office. \| The number of deaths in the United States attributed to the
-coronavirus disease is 157,297. There are more than 4.7 million
-certified coronavirus cases. \| Stephen Akard, the acting State
-Department’s inspector general, resigns after less than three months.
-His deputy, Diana Shaw is appointed as the temporary acting inspector
-general effective on August 7. \|\| **1294 \| 2020-08-06**: President
-Trump signs executive orders banning the use of TikTok and WeChat in the
-United States within 45 days if their Chinese parent companies refuse to
-sell them as a result of national security concerns. \| President Trump
-tours Whirlpool Corporation. \|\| **1296 \| 2020-08-08**: President
-Trump signs an executive order and memoranda restoring coronavirus
-relief pay for unemployed Americans at 400 per week. \|\| **1300 \|
-2020-08-12**: The number of deaths in the United States attributed to
-the coronavirus disease is 164,462. There are more than 5.1 million
-certified coronavirus cases. \|\| **1301 \| 2020-08-13**: The Trump
-Administration brokers a peace agreement between United Arab Emirates
-and Israel, the first agreement between Israel and an Arab-Muslim
-nation.\[citation needed\] \|\| **1302 \| 2020-08-14**: During a White
-House press conference, President Trump mentions the Kevin Clinesmith
-plea agreement, in which a former FBI lawyer admitted to altering an
-email for the C.I.A. used by the agency to continue a secret wiretap on
-the former Trump 2016 campaign adviser Carter Page. Trump claims
-Clinesmith was “corrupt” and the plea deal was “just the beginning”.
-\|\| **1305 \| 2020-08-17**: President Trump holds a campaign rally in
-Mankato, Minnesota.\[citation needed\] \| President Trump holds a
-campaign rally in Oshkosh, Wisconsin.\[citation needed\] \|\| **1306 \|
-2020-08-18**: President Trump visits Yuma, Arizona, along the southern
-border and meets with Border Patrol personnel. \| President Trump holds
-a campaign rally in Yuma, Arizona.\[citation needed\] \|\| **1307 \|
-2020-08-19**: The number of deaths in the United States attributed to
-the coronavirus disease is 172,958. There are more than 5.5 million
-certified coronavirus cases. \|\| **1308 \| 2020-08-20**: President
-Trump holds a bilateral meeting with Iraqi prime minister Mustafa
-Al-Kadhimi at the White House. \| President Trump holds a campaign rally
-in Old Forge, Pennsylvania.\[citation needed\] \|\| **1312 \|
-2020-08-24**: The four-day Republican National Convention begins. \|
-President Trump accepts the nomination of the Republican Party for the
-2020 United States presidential election. \|\| **1313 \| 2020-08-25**:
-President Trump and Postmaster General Louis DeJoy are sued by the
-states of New York and New Jersey over changes to postal service
-operations such as the removal of mailboxes and mail sorting machines,
-the curtailing of overtime hours and the implementation of additional
-service reductions. \|\| **1314 \| 2020-08-26**: The number of deaths in
-the United States attributed to the coronavirus disease is 179,215.
-There are more than 5.8 million certified coronavirus cases. \|\| **1315
-\| 2020-08-27**: President Trump delivers acceptance speech at the
-Republican National Convention at the South Lawn of the White House.
-Saying he “profoundly” accepted the nomination for a second term he
-spoke for 70-minutes on the South Lawn of the White House. He repeatedly
-misrepresented his record while leveling false or misleading attacks on
-Democrats, blaming them for America’s problems. \| The House Foreign
-Affairs Committee proceeds with contempt proceedings and a subpoena
-against Mike Pompeo related to the State Department’s involvement in
-attempts to link Joe Biden to corruption in Ukraine. \|\| **1316 \|
-2020-08-28**: President Trump holds a campaign rally in Londonderry, New
-Hampshire. \| Four people who attended the Republican National
-Convention (which had just ended) test positive for COVID-19. \|\|
-**1319 \| 2020-08-31**: John Ratcliffe, the Director of National
-Intelligence, says his agency will no longer give Congress in-person
-briefings about election security, citing concern over “unauthorized
-disclosures of sensitive information” and will switch to written
-updates. \|\| **1320 \| 2020-09-01**: While discussing the shooting of
-Jacob Blake, President Trump compares police officers to golfers who
-might “choke” while attempting a putt. \|\| **1321 \| 2020-09-02**:
-President Trump participates in the 75th anniversary of the end of World
-War II celebrations at the battleship North Carolina in Wilmington,
-North Carolina, and designates the city as the first “American World War
-II Heritage City”, which the secretary of the interior is allowed to
-designate one city a year beginning in 2020. \| The number of deaths in
-the United States attributed to the coronavirus disease is 184,564.
-There are more than 6 million certified coronavirus cases. \| President
-Trump urges North Carolina voters to cast two votes in the upcoming
-presidential election, once by mail and then again in person, in order
-to test his unsubstantiated claims that mail-in voting is prone to
-fraud. \|\| **1322 \| 2020-09-03**: President Trump holds a campaign
-rally in Latrobe, Pennsylvania. \|\| **1323 \| 2020-09-04**: President
-Trump holds a trilateral meeting with Serbian president Aleksandar Vucic
-and Kosovan prime minister Avdullah Hoti at the White House. \| A memo
-to government agencies from the Office of Management and Budget calls on
-all agencies to ceases funding for diversity training. labelling it
-“divisive and anti-American propaganda”. \| President Trump disputes
-reports in the Atlantic magazine that he has called dead American
-service members “losers” and those signing to serve in the armed service
-as “suckers”. \|\| **1327 \| 2020-09-08**: President Trump holds a
-campaign rally in Winston-Salem, North Carolina and promotes voting by
-mail and in person. \| The Department of Justice takes over the defense
-of the President in a defamation lawsuit accusing him of sexual assault.
-\|\| **1328 \| 2020-09-09**: The number of deaths in the United States
-attributed to the coronavirus disease is 189,538. There are more than
-6.3 million certified coronavirus cases. \| Christian Tybring-Gjedde, a
-Norwegian politician, nominates President Trump for the Nobel Peace
-Prize. \|\| **1329 \| 2020-09-10**: President Trump holds a news
-conference and debates with journalists about the disparity between what
-was said about the severity of the coronavirus in interviews with Bob
-Woodward and his efforts to “play it down” to the American people. \|
-President Trump holds a campaign rally in Freeland, Michigan. \|\|
-**1330 \| 2020-09-11**: President Trump speaks at the Flight 93 National
-Memorial to commemorate the 19th anniversary of the September 11
-attacks. \| The Trump Administration brokers a peace agreement between
-Bahrain and Israel, the second agreement between Israel and an
-Arab-Muslim nation in less than one month.\[citation needed\] \|
-President Trump presents the Medal of Honor to Sergeant Major Thomas
-Payne. \| A member of the Swedish Parliament nominated President Trump
-and the governments of Kosovo and Serbia for the 2021 Nobel Peace Prize
-over economic cooperation and trade talks. \|\| **1331 \| 2020-09-12**:
+“Democrat cities”. \|\| **1272 \| 2020-07-15**: The number of deaths in
+the United States attributed to the coronavirus disease is 136,356.
+There are more than 3.4 million certified coronavirus cases. \|\| **1273
+\| 2020-07-16**: The Trump administration announces that hospitals will
+begin to send coronavirus patient information to a central database
+maintained by the Department of Health and Human Services rather than
+the CDC. \|\| **1278 \| 2020-07-21**: President Trump signs a
+presidential memorandum requesting a ban of undocumented immigrants
+being counted in the 2020 census. \| President Trump announces plans to
+deploy federal law enforcement officers to “Democrat” cities to quell
+ongoing protests over racism and police brutality. Chicago Mayor Lori
+Lightfoot expressed concern saying, “We don’t need federal agents
+without any insignia taking people off the streets and holding them, I
+think, unlawfully.” \|\| **1279 \| 2020-07-22**: Calling the protests in
+Portland, Oregon “worse than Afghanistan,” President Trump defended the
+use of excessive force against the peaceful protestors by officers in
+military camouflage fatigues. \| The number of deaths in the United
+States attributed to the coronavirus disease is 142,031. There are more
+than 3.9 million certified coronavirus cases. \|\| **1281 \|
+2020-07-24**: President Trump signs four executive orders designed to
+lower prices on prescription drugs. \|\| **1284 \| 2020-07-27**:
+National security advisor Robert O’Brien tests positive for COVID-19. He
+has since been working remotely. \|\| **1285 \| 2020-07-28**: Without
+any evidence that mail-in ballots increase electoral fraud, President
+Trump continues to suggest that the November election should be delayed.
+\|\| **1286 \| 2020-07-29**: The number of deaths in the United States
+attributed to the coronavirus disease is 150,100. There are more than
+4.3 million certified coronavirus cases. \|\| **1287 \| 2020-07-30**:
+The U.S. GDP indicator declined 9.5% during the second quarter of 2020,
+the most drastic decline in 70 years. \| President Trump suggests
+postponing the 2020 United States presidential election. \|\| **1288 \|
+2020-07-31**: President Trump says he plans to use presidential
+authority to terminate the Chinese social media platform TikTok from
+operating in the U.S. \|\| **1292 \| 2020-08-04**: The House of
+Representatives Oversight Committee calls Postmaster General Louis DeJoy
+to testify about recent delays and staff changes at the U.S. Postal
+Service. \|\| **1293 \| 2020-08-05**: President Trump meets with
+Governor of Arizona Doug Ducey in the Oval Office. \| The number of
+deaths in the United States attributed to the coronavirus disease is
+157,297. There are more than 4.7 million certified coronavirus cases. \|
+Stephen Akard, the acting State Department’s inspector general, resigns
+after less than three months. His deputy, Diana Shaw is appointed as the
+temporary acting inspector general effective on August 7. \|\| **1294 \|
+2020-08-06**: President Trump signs executive orders banning the use of
+TikTok and WeChat in the United States within 45 days if their Chinese
+parent companies refuse to sell them as a result of national security
+concerns. \| President Trump tours Whirlpool Corporation. \|\| **1296 \|
+2020-08-08**: President Trump signs an executive order and memoranda
+restoring coronavirus relief pay for unemployed Americans at 400 per
+week. \|\| **1300 \| 2020-08-12**: The number of deaths in the United
+States attributed to the coronavirus disease is 164,462. There are more
+than 5.1 million certified coronavirus cases. \|\| **1301 \|
+2020-08-13**: The Trump Administration brokers a peace agreement between
+United Arab Emirates and Israel, the first agreement between Israel and
+an Arab-Muslim nation. \|\| **1302 \| 2020-08-14**: During a White House
+press conference, President Trump mentions the Kevin Clinesmith plea
+agreement, in which a former FBI lawyer admitted to altering an email
+for the C.I.A. used by the agency to continue a secret wiretap on the
+former Trump 2016 campaign adviser Carter Page. Trump claims Clinesmith
+was “corrupt” and the plea deal was “just the beginning”. \|\| **1305 \|
+2020-08-17**: President Trump holds a campaign rally in Mankato,
+Minnesota. \| President Trump holds a campaign rally in Oshkosh,
+Wisconsin. \|\| **1306 \| 2020-08-18**: President Trump visits Yuma,
+Arizona, along the southern border and meets with Border Patrol
+personnel. \| President Trump holds a campaign rally in Yuma, Arizona.
+\|\| **1307 \| 2020-08-19**: The number of deaths in the United States
+attributed to the coronavirus disease is 172,958. There are more than
+5.5 million certified coronavirus cases. \|\| **1308 \| 2020-08-20**:
+President Trump holds a bilateral meeting with Iraqi prime minister
+Mustafa Al-Kadhimi at the White House. \| President Trump holds a
+campaign rally in Old Forge, Pennsylvania. \|\| **1312 \| 2020-08-24**:
+The four-day Republican National Convention begins. \| President Trump
+accepts the nomination of the Republican Party for the 2020 United
+States presidential election. \|\| **1313 \| 2020-08-25**: President
+Trump and Postmaster General Louis DeJoy are sued by the states of New
+York and New Jersey over changes to postal service operations such as
+the removal of mailboxes and mail sorting machines, the curtailing of
+overtime hours and the implementation of additional service reductions.
+\|\| **1314 \| 2020-08-26**: The number of deaths in the United States
+attributed to the coronavirus disease is 179,215. There are more than
+5.8 million certified coronavirus cases. \|\| **1315 \| 2020-08-27**:
+President Trump delivers acceptance speech at the Republican National
+Convention at the South Lawn of the White House. Saying he “profoundly”
+accepted the nomination for a second term he spoke for 70-minutes on the
+South Lawn of the White House. He repeatedly misrepresented his record
+while leveling false or misleading attacks on Democrats, blaming them
+for America’s problems. \| The House Foreign Affairs Committee proceeds
+with contempt proceedings and a subpoena against Mike Pompeo related to
+the State Department’s involvement in attempts to link Joe Biden to
+corruption in Ukraine. \|\| **1316 \| 2020-08-28**: President Trump
+holds a campaign rally in Londonderry, New Hampshire. \| Four people who
+attended the Republican National Convention (which had just ended) test
+positive for COVID-19. \|\| **1319 \| 2020-08-31**: John Ratcliffe, the
+Director of National Intelligence, says his agency will no longer give
+Congress in-person briefings about election security, citing concern
+over “unauthorized disclosures of sensitive information” and will switch
+to written updates. \|\| **1320 \| 2020-09-01**: While discussing the
+shooting of Jacob Blake, President Trump compares police officers to
+golfers who might “choke” while attempting a putt. \|\| **1321 \|
+2020-09-02**: President Trump participates in the 75th anniversary of
+the end of World War II celebrations at the battleship North Carolina in
+Wilmington, North Carolina, and designates the city as the first
+“American World War II Heritage City”, which the secretary of the
+interior is allowed to designate one city a year beginning in 2020. \|
+The number of deaths in the United States attributed to the coronavirus
+disease is 184,564. There are more than 6 million certified coronavirus
+cases. \| President Trump urges North Carolina voters to cast two votes
+in the upcoming presidential election, once by mail and then again in
+person, in order to test his unsubstantiated claims that mail-in voting
+is prone to fraud. \|\| **1322 \| 2020-09-03**: President Trump holds a
+campaign rally in Latrobe, Pennsylvania. \|\| **1323 \| 2020-09-04**:
+President Trump holds a trilateral meeting with Serbian president
+Aleksandar Vucic and Kosovan prime minister Avdullah Hoti at the White
+House. \| A memo to government agencies from the Office of Management
+and Budget calls on all agencies to ceases funding for diversity
+training. labelling it “divisive and anti-American propaganda”. \|
+President Trump disputes reports in the Atlantic magazine that he has
+called dead American service members “losers” and those signing to serve
+in the armed service as “suckers”. \|\| **1327 \| 2020-09-08**:
+President Trump holds a campaign rally in Winston-Salem, North Carolina
+and promotes voting by mail and in person. \| The Department of Justice
+takes over the defense of the President in a defamation lawsuit accusing
+him of sexual assault. \|\| **1328 \| 2020-09-09**: The number of deaths
+in the United States attributed to the coronavirus disease is 189,538.
+There are more than 6.3 million certified coronavirus cases. \|
+Christian Tybring-Gjedde, a Norwegian politician, nominates President
+Trump for the Nobel Peace Prize. \|\| **1329 \| 2020-09-10**: President
+Trump holds a news conference and debates with journalists about the
+disparity between what was said about the severity of the coronavirus in
+interviews with Bob Woodward and his efforts to “play it down” to the
+American people. \| President Trump holds a campaign rally in Freeland,
+Michigan. \|\| **1330 \| 2020-09-11**: President Trump speaks at the
+Flight 93 National Memorial to commemorate the 19th anniversary of the
+September 11 attacks. \| The Trump Administration brokers a peace
+agreement between Bahrain and Israel, the second agreement between
+Israel and an Arab-Muslim nation in less than one month. \| President
+Trump presents the Medal of Honor to Sergeant Major Thomas Payne. \| A
+member of the Swedish Parliament nominated President Trump and the
+governments of Kosovo and Serbia for the 2021 Nobel Peace Prize over
+economic cooperation and trade talks. \|\| **1331 \| 2020-09-12**:
 President Trump addresses a crowd of supporters at a campaign rally in
 Minden, Nevada. \|\| **1332 \| 2020-09-13**: President Trump holds a
 roundtable at the Treasure Island Hotel and Casino in Las Vegas, Nevada.
@@ -6255,73 +6242,69 @@ and Macon, Georgia. \|\| **1366 \| 2020-10-17**: President Trump
 approves a federal disaster declaration for California’s wildfires after
 having rejected the request the previous day. \| President Trump
 addresses a crowd of supporters at two campaign rallies: Muskegon,
-Michigan and Janesville, Wisconsin.\[citation needed\] \|\| **1367 \|
-2020-10-18**: President Trump addresses a crowd of supporters at a
-campaign rally in Carson City, Nevada.\[citation needed\] \|\| **1368 \|
-2020-10-19**: President Trump addresses a crowd of supporters at two
-campaign rallies in Arizona: Prescott and Tucson.\[citation needed\]
-\|\| **1369 \| 2020-10-20**: President Trump addresses a crowd of
-supporters at a campaign rally in Erie, Pennsylvania.\[citation needed\]
-\|\| **1370 \| 2020-10-21**: President Trump addresses a crowd of
-supporters at a campaign rally in Gastonia, North Carolina.\[citation
-needed\] \|\| **1371 \| 2020-10-22**: President Trump and former Vice
-President Joe Biden participate in the final presidential debate at
-Belmont University in Nashville, Tennessee. The debate was moderated by
-Kristen Welker of NBC.\[citation needed\] \|\| **1372 \| 2020-10-23**:
-The Trump Administration brokers a peace agreement between Sudan and
-Israel, the third agreement between Israel and an Arab-Muslim nation in
-less than three months. \| President Trump addresses a crowd of
-supporters at two campaign rallies in Florida: The Villages and
-Pensacola. \|\| **1373 \| 2020-10-24**: President Trump addresses a
-crowd of supporters at three campaign rallies: Lumberton, North
-Carolina; Circleville, Ohio; and Waukesha, Wisconsin.\[citation needed\]
-\|\| **1374 \| 2020-10-25**: CBS aired President Trump and Vice
-President Pence’s interview for its news show 60 Minutes which was
+Michigan and Janesville, Wisconsin. \|\| **1367 \| 2020-10-18**:
+President Trump addresses a crowd of supporters at a campaign rally in
+Carson City, Nevada. \|\| **1368 \| 2020-10-19**: President Trump
+addresses a crowd of supporters at two campaign rallies in Arizona:
+Prescott and Tucson. \|\| **1369 \| 2020-10-20**: President Trump
+addresses a crowd of supporters at a campaign rally in Erie,
+Pennsylvania. \|\| **1370 \| 2020-10-21**: President Trump addresses a
+crowd of supporters at a campaign rally in Gastonia, North Carolina.
+\|\| **1371 \| 2020-10-22**: President Trump and former Vice President
+Joe Biden participate in the final presidential debate at Belmont
+University in Nashville, Tennessee. The debate was moderated by Kristen
+Welker of NBC. \|\| **1372 \| 2020-10-23**: The Trump Administration
+brokers a peace agreement between Sudan and Israel, the third agreement
+between Israel and an Arab-Muslim nation in less than three months. \|
+President Trump addresses a crowd of supporters at two campaign rallies
+in Florida: The Villages and Pensacola. \|\| **1373 \| 2020-10-24**:
+President Trump addresses a crowd of supporters at three campaign
+rallies: Lumberton, North Carolina; Circleville, Ohio; and Waukesha,
+Wisconsin. \|\| **1374 \| 2020-10-25**: CBS aired President Trump and
+Vice President Pence’s interview for its news show 60 Minutes which was
 filmed earlier in the week. President Trump was perturbed at host Lesley
 Stahl asking “hard questions” and complained that former Vice President
 Biden had received “softball questions”. Trump then walked off the set.
 \| President Trump addresses a crowd of supporters at a campaign rally
-in Manchester, New Hampshire.\[citation needed\] \|\| **1375 \|
-2020-10-26**: President Trump addresses a crowd of supporters at three
-campaign rallies in Pennsylvania: Allentown; Lititz; and
-Martinsburg.\[citation needed\] \| In a vote of 52-48 the Senate
-confirms Amy Coney Barrett as Supreme Court Justice. \| President Trump
-attends the swearing in of Amy Coney Barrett as an Associate Justice of
-the Supreme Court by Justice Clarence Thomas on the South Lawn of the
-White House. \|\| **1376 \| 2020-10-27**: Amy Coney Barrett takes the
-final judicial oath with Chief Justice John Roberts at the Supreme Court
-of the United States thereby officially starting her tenure as Associate
-Justice of the Supreme Court. \| President Trump addresses a crowd of
-supporters at three campaign rallies: Lansing, Michigan; West Salem,
-Wisconsin; and Omaha, Nebraska.\[citation needed\] \|\| **1377 \|
+in Manchester, New Hampshire. \|\| **1375 \| 2020-10-26**: President
+Trump addresses a crowd of supporters at three campaign rallies in
+Pennsylvania: Allentown; Lititz; and Martinsburg. \| In a vote of 52-48
+the Senate confirms Amy Coney Barrett as Supreme Court Justice. \|
+President Trump attends the swearing in of Amy Coney Barrett as an
+Associate Justice of the Supreme Court by Justice Clarence Thomas on the
+South Lawn of the White House. \|\| **1376 \| 2020-10-27**: Amy Coney
+Barrett takes the final judicial oath with Chief Justice John Roberts at
+the Supreme Court of the United States thereby officially starting her
+tenure as Associate Justice of the Supreme Court. \| President Trump
+addresses a crowd of supporters at three campaign rallies: Lansing,
+Michigan; West Salem, Wisconsin; and Omaha, Nebraska. \|\| **1377 \|
 2020-10-28**: President Trump addresses a crowd of supporters at two
-campaign rallies in Arizona: Bullhead City and Goodyear.\[citation
-needed\] \|\| **1378 \| 2020-10-29**: President Trump addresses a crowd
-of supporters at a campaign rally in Tampa, Florida.\[citation needed\]
-\|\| **1379 \| 2020-10-30**: President Trump addresses a crowd of
-supporters at three campaign rallies: Waterford Township, Michigan;
-Green Bay, Wisconsin; and Rochester, Minnesota.\[citation needed\] \|\|
-**1380 \| 2020-10-31**: President Trump addresses a crowd of supporters
-at four campaign rallies in Pennsylvania: Newtown; Reading; Butler; and
-Montoursville.\[citation needed\] \|\| **1381 \| 2020-11-01**: President
-Trump addresses a crowd of supporters at five campaign rallies:
-Washington Township, Michigan; Dubuque, Iowa; Hickory, North Carolina;
-Rome, Georgia; and Opa-locka, Florida.\[citation needed\] \|\| **1382 \|
+campaign rallies in Arizona: Bullhead City and Goodyear. \|\| **1378 \|
+2020-10-29**: President Trump addresses a crowd of supporters at a
+campaign rally in Tampa, Florida. \|\| **1379 \| 2020-10-30**: President
+Trump addresses a crowd of supporters at three campaign rallies:
+Waterford Township, Michigan; Green Bay, Wisconsin; and Rochester,
+Minnesota. \|\| **1380 \| 2020-10-31**: President Trump addresses a
+crowd of supporters at four campaign rallies in Pennsylvania: Newtown;
+Reading; Butler; and Montoursville. \|\| **1381 \| 2020-11-01**:
+President Trump addresses a crowd of supporters at five campaign
+rallies: Washington Township, Michigan; Dubuque, Iowa; Hickory, North
+Carolina; Rome, Georgia; and Opa-locka, Florida. \|\| **1382 \|
 2020-11-02**: President Trump addresses a crowd of supporters at five
 campaign rallies: Fayetteville, North Carolina; Scranton, Pennsylvania;
-Traverse City, Michigan; Kenosha, Wisconsin; and Grand Rapids,
-Michigan.\[citation needed\] \|\| **1383 \| 2020-11-03**: The 2020
-United States presidential election is held. Trump carries 23 states and
-213 electoral college points but no winner is declared on election
-night. The interim results show Biden leading with 238 to 213 with many
-swing states still being counted. \|\| **1384 \| 2020-11-04**: Despite
-the lack of a clear winner, Trump declares victory at approximately 2am
-claiming concerns about fraud and mail-in ballots. He states his
-intention to request that the Supreme Court prevent any more ballots
-from being counted. \|\| **1385 \| 2020-11-05**: Election winner still
-remains to be called. Biden is leading with 264 electoral college points
-compared to Trump’s 214. Nevada, Pennsylvania, Georgia, North Carolina
-and Alaska are still yet to be called on this day. Trump leads in PA,
-GA, NC, and AK but Biden’s lead in NV puts Trump’s re-election in
-jeopardy. If Trump doesn’t overtake in NV he will lose re-election by 2
-points with 268 electoral college points.
+Traverse City, Michigan; Kenosha, Wisconsin; and Grand Rapids, Michigan.
+\|\| **1383 \| 2020-11-03**: The 2020 United States presidential
+election is held. Trump carries 23 states and 213 electoral college
+points but no winner is declared on election night. The interim results
+show Biden leading with 238 to 213 with many swing states still being
+counted. \|\| **1384 \| 2020-11-04**: Despite the lack of a clear
+winner, Trump declares victory at approximately 2am claiming concerns
+about fraud and mail-in ballots. He states his intention to request that
+the Supreme Court prevent any more ballots from being counted. \|\|
+**1385 \| 2020-11-05**: Election winner still remains to be called.
+Biden is leading with 264 electoral college points compared to Trump’s
+214. Nevada, Pennsylvania, Georgia, North Carolina and Alaska are still
+yet to be called on this day. Trump leads in PA, GA, NC, and AK but
+Biden’s lead in NV puts Trump’s re-election in jeopardy. If Trump
+doesn’t overtake in NV he will lose re-election by 2 points with 268
+electoral college points.
