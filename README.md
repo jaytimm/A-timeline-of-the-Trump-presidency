@@ -6,7 +6,9 @@ Scraped from
 and made available as a simple function (with structured table output)
 via the [uspols](https://github.com/jaytimm/uspols) R package – dubbed
 `uspols_wiki_timeline()`.
-[PDF](https://github.com/jaytimm/timeline-Trump-presidency/blob/master/lest-we-forget.pdf).
+[PDF](https://github.com/jaytimm/timeline-Trump-presidency/blob/master/trump-timeline.pdf)
+\|
+[JSON](https://github.com/jaytimm/timeline-Trump-presidency/blob/master/trump-timeline.json)
 
 ``` r
 library(devtools)
@@ -16,6 +18,12 @@ library(uspols)
 
 ``` r
 daily_events <- uspols::uspols_wiki_timeline()
+```
+
+``` r
+xx <- jsonlite::toJSON(daily_events)
+setwd('/home/jtimm/jt_work/GitHub/git_projects/timeline-Trump-presidency')
+jsonlite::write_json(xx, 'lest-we-forget.json')
 ```
 
 ``` r
@@ -6309,4 +6317,6 @@ Biden is leading with 264 electoral college points compared to Trump’s
 yet to be called on this day. Trump leads in PA, GA, NC, and AK but
 Biden’s lead in NV puts Trump’s re-election in jeopardy. If Trump
 doesn’t overtake in NV he will lose re-election by 2 points with 268
-electoral college points.
+electoral college points. \|\| **1386 \| 2020-11-06**: Biden overtakes
+Trump’s leads in Pennsylvania and Georgia further jeopardizing his
+re-election chances. Election winner still remains to be called.
