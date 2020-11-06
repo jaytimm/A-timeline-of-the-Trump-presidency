@@ -1,10 +1,10 @@
-A timeline of the Trump Presidency
+A timeline of the Trump presidency
 ==================================
 
-Timeline scraped from Wikipedia’s [Timeline of the Donald Trump
-presidency](https://en.wikipedia.org/wiki/Timeline_of_the_Donald_Trump_presidency),
+Scraped from
+[Wikipedia](https://en.wikipedia.org/wiki/Timeline_of_the_Donald_Trump_presidency),
 and made available as a simple function (with structured table output)
-in the [uspols](https://github.com/jaytimm/uspols) R package – dubbed
+via the [uspols](https://github.com/jaytimm/uspols) R package – dubbed
 `uspols_wiki_timeline()`.
 [PDF](https://github.com/jaytimm/timeline-Trump-presidency/blob/master/lest-we-forget.pdf).
 
