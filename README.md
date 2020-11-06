@@ -1,11 +1,12 @@
 A timeline of the Trump Presidency
-----------------------------------
+==================================
 
-Time-line scraped from [Wikipedia’s Timeline of the Donald Trump
+Timeline scraped from [Wikipedia’s Timeline of the Donald Trump
 presidency](https://en.wikipedia.org/wiki/Timeline_of_the_Donald_Trump_presidency),
-and made available as a simple function in the
+and made available as a simple function (with clean table output) in the
 [uspols](https://github.com/jaytimm/uspols) R package – dubbed
-`uspols_wiki_timeline()`. As [pdf]().
+`uspols_wiki_timeline()`.
+[PDF](https://github.com/jaytimm/timeline-Trump-presidency/blob/master/lest-we-forget.pdf).
 
 ``` r
 library(devtools)
@@ -42,7 +43,7 @@ l1 <- paste0(longs2$Events,
              collapse = ' || ')  # `r l1` inline 
 ```
 
-### A maelstrom in one fell swoop
+### lest we forget
 
 **1 \| 2017-01-20**: 45th President Donald Trump and 48th Vice President
 Mike Pence take the Oath of Office. \| President Trump proclaims a
