@@ -21,12 +21,6 @@ daily_events <- uspols::uspols_wiki_timeline()
 ```
 
 ``` r
-xx <- jsonlite::toJSON(daily_events)
-setwd('/home/jtimm/jt_work/GitHub/git_projects/timeline-Trump-presidency')
-jsonlite::write_json(xx, 'lest-we-forget.json')
-```
-
-``` r
 library(tidyverse)
 ## Some cleaning for web/pdf
 daily_events$Events <- gsub('VIOLENCE \\& DEATH', 
