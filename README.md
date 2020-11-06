@@ -3,8 +3,8 @@ A timeline of the Trump Presidency
 
 Timeline scraped from Wikipedia’s [Timeline of the Donald Trump
 presidency](https://en.wikipedia.org/wiki/Timeline_of_the_Donald_Trump_presidency),
-and made available as a simple function (with clean table output) in the
-[uspols](https://github.com/jaytimm/uspols) R package – dubbed
+and made available as a simple function (with structured table output)
+in the [uspols](https://github.com/jaytimm/uspols) R package – dubbed
 `uspols_wiki_timeline()`.
 [PDF](https://github.com/jaytimm/timeline-Trump-presidency/blob/master/lest-we-forget.pdf).
 
@@ -21,9 +21,11 @@ daily_events <- uspols::uspols_wiki_timeline()
 ``` r
 library(tidyverse)
 ## Some cleaning for web/pdf
+daily_events$Events <- gsub('VIOLENCE \\& DEATH', 
+                            'VIOLENCE AND DEATH', 
+                            daily_events$Events)
 daily_events$Events <- gsub('&', '\\+', daily_events$Events)
 daily_events$Events <- gsub('\\$', '', daily_events$Events)
-daily_events$Events <- gsub('\\!', '\\! ', daily_events$Events)
 
 daily_events$Events <- stringi::stri_trans_general(daily_events$Events, 
                                             "latin-ascii")
@@ -3621,7 +3623,7 @@ Trump tweets a threat to Iranian President Hassan Rouhani:NEVER, EVER
 THREATEN THE UNITED STATES AGAIN OR YOU WILL SUFFER CONSEQUENCES THE
 LIKES OF WHICH FEW THROUGHOUT HISTORY HAVE EVER SUFFERED BEFORE. WE ARE
 NO LONGER A COUNTRY THAT WILL STAND FOR YOUR DEMENTED WORDS OF VIOLENCE
-+ DEATH. BE CAUTIOUS! The threat was the culmination of a weekend of
+AND DEATH. BE CAUTIOUS!The threat was the culmination of a weekend of
 intense rhetorical exchange between the Trump administration and the
 Rouhani administration. Trump’s tweet was in response to Rouhani’s
 message that war with Iran would be “the mother of all wars”; Rouhani
