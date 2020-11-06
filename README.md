@@ -1,11 +1,17 @@
+A timeline of the Trump Presidency
+----------------------------------
+
+Time-line scraped from [Wikipedia’s Timeline of the Donald Trump
+presidency](https://en.wikipedia.org/wiki/Timeline_of_the_Donald_Trump_presidency),
+and made available as a simple function in the
+[uspols](https://github.com/jaytimm/uspols) R package – dubbed
+`uspols_wiki_timeline()`. As [pdf]().
+
 ``` r
 library(devtools)
 devtools::install_github("jaytimm/uspols")
 library(uspols) 
 ```
-
-A maelstrom in one fell swoop
------------------------------
 
 ``` r
 longs <- uspols::uspols_wiki_timeline()
@@ -13,24 +19,30 @@ longs <- uspols::uspols_wiki_timeline()
 
 ``` r
 library(tidyverse)
-
 ## Some cleaning for web/pdf
 longs$Events <- gsub('&', '+', longs$Events)
 longs$Events <- gsub('\\$', '', longs$Events)
-longs$Events <- stringi::stri_trans_general(longs$Events, "latin-ascii")
+longs$Events <- stringi::stri_trans_general(longs$Events, 
+                                            "latin-ascii")
 
 longs2 <- longs %>% 
   filter(!is.na(Events)) %>%
-  #slice(1:100) %>%
   mutate(daypres = as.integer(daypres)) %>%
   group_by(daypres, date) %>%
   arrange(daypres) %>%
-  summarize(Events = paste0(Events, collapse = ' | ')) %>%
+  summarize(Events = paste0(Events, 
+                            collapse = ' | ')) %>%
   ungroup() %>%
-  mutate(Events = paste0('**', daypres, ' | ', date, '**: ', Events))
+  mutate(Events = paste0('**', 
+                         daypres, ' | ', 
+                         date, '**: ', 
+                         Events))
 
-l1 <- paste0(longs2$Events, collapse = ' || ')  # `r l1` inline 
+l1 <- paste0(longs2$Events, 
+             collapse = ' || ')  # `r l1` inline 
 ```
+
+### A maelstrom in one fell swoop
 
 **1 \| 2017-01-20**: 45th President Donald Trump and 48th Vice President
 Mike Pence take the Oath of Office. \| President Trump proclaims a
