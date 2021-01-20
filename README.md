@@ -435,18 +435,18 @@ releases a memo that sets the policy for the deportation of undocumented
 migrants accused of any crime. \|\| **34 \| 2017-02-22**: The Trump
 International Hotel in Washington D.C. received 40-60,000 dollars from
 an event paid for by the Embassy of Kuwait, which has been argued to
-break the Emoluments Clause because the President has not divested from
-his companies. \| The Trump administration rescinds a bathroom policy
-for transgender students that had been instated by the Obama
-administration. \| Secretary of State Tillerson meets with Australian
-minister for Foreign Affairs Julie Bishop. \| Secretary of State
-Tillerson and Secretary of Homeland Security Kelly arrive in Mexico for
-bilateral talks with the government of President Enrique Pena Nieto.
-\|\| **35 \| 2017-02-23**: President Trump meets with 24 manufacturing
-CEOs at the White House. \| It is confirmed that six White House staff
-members, including Chief Digital Officer Gerrit Lansing, were removed
-from their positions earlier in the month after failing FBI background
-checks. \| Press Secretary Spicer tells reporters that the
+break the Domestic Emoluments Clause because the President has not
+divested from his companies. \| The Trump administration rescinds a
+bathroom policy for transgender students that had been instated by the
+Obama administration. \| Secretary of State Tillerson meets with
+Australian minister for Foreign Affairs Julie Bishop. \| Secretary of
+State Tillerson and Secretary of Homeland Security Kelly arrive in
+Mexico for bilateral talks with the government of President Enrique Pena
+Nieto. \|\| **35 \| 2017-02-23**: President Trump meets with 24
+manufacturing CEOs at the White House. \| It is confirmed that six White
+House staff members, including Chief Digital Officer Gerrit Lansing,
+were removed from their positions earlier in the month after failing FBI
+background checks. \| Press Secretary Spicer tells reporters that the
 administration plans on increasing enforcement of the Controlled
 Substances Act against recreational cannabis use. \| Attorney General
 Sessions rescinds a memorandum signed by former President Obama meant to
@@ -5421,133 +5421,105 @@ embassy in Iraq is attacked by protestors angered by U.S. air strikes
 targeting the Iran-backed militia group, Kataib Hezbollah. \| President
 Trump calls the impeachment proceedings against him in Congress a “big
 fat hoax” and says the Senate trial would go “very quick”. \|\| **1076
-\| 2020-01-01**: \|\| **1077 \| 2020-01-01**: The United States Senate
-votes 81-13 to override President Trump’s veto of the National Defense
-Authorization Act for Fiscal Year 2021. This marks the first successful
-veto override of the Trump presidency. \|\| **1078 \| 2020-01-02**:
-Major General Qasem Soleimani, Iran’s top security and intelligence
-commander, is killed in an airstrike at Baghdad International Airport.
-The Department of Defense issues a statement that the strike had been
-carried out “at the direction of the President”. \|\| **1079 \|
-2020-01-02**: \|\| **1080 \| 2020-01-03**: President Trump announced the
-death of Iranian Major General Qasem Soleimani at Mar-a-Lago in Palm
-Beach, Florida in his address to the nation stating “at my direction,
-the United States military successfully executed a flawless precision
-strike that killed the number-one terrorist anywhere in the world, Qasem
-Soleimani. Soleimani was plotting imminent and sinister attacks on
-American diplomats and military personnel, but we caught him in the act
-and terminated him”. \|\| **1081 \| 2020-01-03**: A phone call between
-President Trump and Georgia Secretary of State, Brad Raffensperger is
-leaked showing Trump telling him the election was a fraud and demanding
-he find “11,780 votes, which is one more than we have.” Raffensperger
-responds that the election results were correct and that Trump’s data is
-wrong. Trump continued to claim voter fraud and said Raffensperger would
-be a “criminal” if he did not change the election results. \|\| **1082
-\| 2020-01-04**: President Trump threatens on Twitter to attack Iranian
-cultural sites if Iran retaliates for the assassination of General
-Soleimani. \|\| **1083 \| 2020-01-04**: President Trump awards the Medal
-of Freedom to Devin Nunes. \| President Trump holds a rally for David
-Perdue and Kelly Loeffler ahead of the upcoming runoffs to determine who
-controls the Senate. President-elect Joe Biden and Vice President Mike
-Pence also hold rallies. \|\| **1084 \| 2020-01-05**: President Trump
-returns to Washington, DC after spending the holidays at his Mar-a-Lago
-estate in Palm Beach, Florida. \|\| **1085 \| 2020-01-05**: US District
-Judge Mark Howard Cohen denies an emergency injunction from President
-Trump to decertify the 2020 presidential election results in Georgia
-calling the lawsuit “beyond unprecedented”. \|\| **1086 \| 2020-01-06**:
-The Senate returns from winter break. \| President Trump holds a
-bilateral meeting with Saudi Arabian vice minister of defense Prince
-Khalid bin Salman. \| Former national security adviser John Bolton
-announces that he is willing to testify in the Senate trial of President
-Trump if subpoenaed. \|\| **1087 \| 2020-01-06**: President Trump holds
-a rally in Washington DC to decry the certification of Joe Biden as the
-victor in the November election. He also calls on Vice President Mike
-Pence to reject the electoral votes, even though the Vice President does
-not hold such legal power. \|\| **1088 \| 2020-01-07**: The House
-returns from winter break. \| President Trump holds a bilateral meeting
-with Greek prime minister Kyriakos Mitsotakis at the White House. \| The
-Pentagon verifies an attack on U.S. forces: “At approximately 5:30 p.m.
-(EST) on January 7, Iran launched more than a dozen ballistic missiles
-against U.S. military and coalition forces in Iraq.” \|\| **1089 \|
-2020-01-07**: \|\| **1090 \| 2020-01-08**: President Trump discusses
-diplomatic tensions with Iran in a televised address, warning Tehran of
-retaliation should they strike again, adding that “Iran appears to be
-standing down.” \| Ukrainian Airlines Flight 752 crashes on departure
-from Tehran International Airport, killing all 176 passengers aboard. \|
-President Trump wishes North Korean leader Kim Jong-Un happy birthday,
-calling him a “very good friend”. \|\| **1091 \| 2020-01-08**: \|\|
-**1092 \| 2020-01-09**: Trump Administration officials, led by the
-Secretary of State Pompeo, C.I.A. Director Haspel and Defense Secretary
-Esper, hold closed-door classified briefings with the House and the
-Senate on the strike that killed Soleimani. \| The House votes to limit
-the president’s ability to order military operations against Iran,
-unless explicitly authorized by Congress. \| President Trump suggests
-that the reason for the Soleimani strike was to prevent a plot to “blow
-up the embassy” in Baghdad. \| President Trump holds a rally in Toledo,
-Ohio. \| Senate Majority Leader Mitch McConnell endorses a resolution to
-change Senate rules to allow it to dismiss the articles of impeachment
-against President Trump if they are not transmitted from the House to
-the Senate within a period of 25 days. \|\| **1093 \| 2020-01-09**: \|\|
-**1094 \| 2020-01-10**: In an interview with Fox News’s Laura Ingraham,
-President Trump says Iran had been targeting four American embassies
-before he ordered the killing of Soleimani. “I can reveal that I believe
-it would’ve been four embassies.” \|\| **1095 \| 2020-01-10**: \|\|
-**1096 \| 2020-01-11**: Iranian officials admit that the crash of
-Ukrainian Airlines Flight 752 was caused by a missile strike brought
-about by human error and increased tensions as a result of “U.S.
-adventurism”. \|\| **1097 \| 2020-01-11**: \|\| **1098 \| 2020-01-12**:
-\|\| **1099 \| 2020-01-12**: \|\| **1100 \| 2020-01-13**: \|\| **1101 \|
-2020-01-13**: \|\| **1102 \| 2020-01-14**: Speaker of the House Nancy
-Pelosi announces that the House will vote on Wednesday to send the
-articles of impeachment against President Trump to the Senate and
-appoint impeachment managers. \| President Trump holds a rally in
-Milwaukee, Wisconsin. \|\| **1103 \| 2020-01-14**: \|\| **1104 \|
-2020-01-15**: President Trump and Chinese vice premier Liu He sign phase
-one of a trade deal, pausing two years of dispute between China and the
-United States. \| The House votes 228-193 to transmit the articles of
-impeachment against President Trump to the Senate and appoints
-impeachment managers. \|\| **1105 \| 2020-01-15**: \|\| **1106 \|
-2020-01-16**: The Senate trial on the removal from office of President
-Trump begins. \| The United States-Mexico-Canada Agreement (USMCA),
-President Trump’s replacement for the North American Free Trade
-Agreement (NAFTA), is ratified by the Senate 89-10. \|\| **1107 \|
-2020-01-16**: \|\| **1108 \| 2020-01-17**: President Trump entertains
-the Louisiana State University football team, 2019 College Football
-Champions, at the White House. \|\| **1109 \| 2020-01-17**: \|\| **1110
-\| 2020-01-18**: \|\| **1111 \| 2020-01-18**: \|\| **1112 \|
-2020-01-19**: President Trump travels to Austin to address the American
-Farm Bureau, touting the greatness of his administration through
-achievements such as the trade agreement with China and USMCA. \|\|
-**1113 \| 2020-01-19**: \|\| **1114 \| 2020-01-20**: The fourth year of
-the Trump presidency begins. \| President Trump and Vice President Pence
-visit the Martin Luther King Jr. Memorial. \| President Trump’s legal
-team submits a 110-page brief to the Senate concerning the articles of
-impeachment against him, arguing that adopting those articles was a
-“dangerous perversion of the Constitution” and that President Trump must
-be acquitted. \|\| **1115 \| 2020-01-20**: \|\| **1116 \| 2020-01-21**:
+\| 2020-01-01**: \|\| **1077 \| 2020-01-02**: Major General Qasem
+Soleimani, Iran’s top security and intelligence commander, is killed in
+an airstrike at Baghdad International Airport. The Department of Defense
+issues a statement that the strike had been carried out “at the
+direction of the President”. \|\| **1078 \| 2020-01-03**: President
+Trump announced the death of Iranian Major General Qasem Soleimani at
+Mar-a-Lago in Palm Beach, Florida in his address to the nation stating
+“at my direction, the United States military successfully executed a
+flawless precision strike that killed the number-one terrorist anywhere
+in the world, Qasem Soleimani. Soleimani was plotting imminent and
+sinister attacks on American diplomats and military personnel, but we
+caught him in the act and terminated him”. \|\| **1079 \| 2020-01-04**:
+President Trump threatens on Twitter to attack Iranian cultural sites if
+Iran retaliates for the assassination of General Soleimani. \|\| **1080
+\| 2020-01-05**: President Trump returns to Washington, DC after
+spending the holidays at his Mar-a-Lago estate in Palm Beach, Florida.
+\|\| **1081 \| 2020-01-06**: The Senate returns from winter break. \|
+President Trump holds a bilateral meeting with Saudi Arabian vice
+minister of defense Prince Khalid bin Salman. \| Former national
+security adviser John Bolton announces that he is willing to testify in
+the Senate trial of President Trump if subpoenaed. \|\| **1082 \|
+2020-01-07**: The House returns from winter break. \| President Trump
+holds a bilateral meeting with Greek prime minister Kyriakos Mitsotakis
+at the White House. \| The Pentagon verifies an attack on U.S. forces:
+“At approximately 5:30 p.m. (EST) on January 7, Iran launched more than
+a dozen ballistic missiles against U.S. military and coalition forces in
+Iraq.” \|\| **1083 \| 2020-01-08**: President Trump discusses diplomatic
+tensions with Iran in a televised address, warning Tehran of retaliation
+should they strike again, adding that “Iran appears to be standing
+down.” \| Ukrainian Airlines Flight 752 crashes on departure from Tehran
+International Airport, killing all 176 passengers aboard. \| President
+Trump wishes North Korean leader Kim Jong-Un happy birthday, calling him
+a “very good friend”. \|\| **1084 \| 2020-01-09**: Trump Administration
+officials, led by the Secretary of State Pompeo, C.I.A. Director Haspel
+and Defense Secretary Esper, hold closed-door classified briefings with
+the House and the Senate on the strike that killed Soleimani. \| The
+House votes to limit the president’s ability to order military
+operations against Iran, unless explicitly authorized by Congress. \|
+President Trump suggests that the reason for the Soleimani strike was to
+prevent a plot to “blow up the embassy” in Baghdad. \| President Trump
+holds a rally in Toledo, Ohio. \| Senate Majority Leader Mitch McConnell
+endorses a resolution to change Senate rules to allow it to dismiss the
+articles of impeachment against President Trump if they are not
+transmitted from the House to the Senate within a period of 25 days.
+\|\| **1085 \| 2020-01-10**: In an interview with Fox News’s Laura
+Ingraham, President Trump says Iran had been targeting four American
+embassies before he ordered the killing of Soleimani. “I can reveal that
+I believe it would’ve been four embassies.” \|\| **1086 \| 2020-01-11**:
+Iranian officials admit that the crash of Ukrainian Airlines Flight 752
+was caused by a missile strike brought about by human error and
+increased tensions as a result of “U.S. adventurism”. \|\| **1087 \|
+2020-01-12**: \|\| **1088 \| 2020-01-13**: \|\| **1089 \| 2020-01-14**:
+Speaker of the House Nancy Pelosi announces that the House will vote on
+Wednesday to send the articles of impeachment against President Trump to
+the Senate and appoint impeachment managers. \| President Trump holds a
+rally in Milwaukee, Wisconsin. \|\| **1090 \| 2020-01-15**: President
+Trump and Chinese vice premier Liu He sign phase one of a trade deal,
+pausing two years of dispute between China and the United States. \| The
+House votes 228-193 to transmit the articles of impeachment against
+President Trump to the Senate and appoints impeachment managers. \|\|
+**1091 \| 2020-01-16**: The Senate trial on the removal from office of
+President Trump begins. \| The United States-Mexico-Canada Agreement
+(USMCA), President Trump’s replacement for the North American Free Trade
+Agreement (NAFTA), is ratified by the Senate 89-10. \|\| **1092 \|
+2020-01-17**: President Trump entertains the Louisiana State University
+football team, 2019 College Football Champions, at the White House. \|\|
+**1093 \| 2020-01-18**: \|\| **1094 \| 2020-01-19**: President Trump
+travels to Austin to address the American Farm Bureau, touting the
+greatness of his administration through achievements such as the trade
+agreement with China and USMCA. \|\| **1095 \| 2020-01-20**: The fourth
+year of the Trump presidency begins. \| President Trump and Vice
+President Pence visit the Martin Luther King Jr. Memorial. \| President
+Trump’s legal team submits a 110-page brief to the Senate concerning the
+articles of impeachment against him, arguing that adopting those
+articles was a “dangerous perversion of the Constitution” and that
+President Trump must be acquitted. \|\| **1096 \| 2020-01-21**:
 President Trump arrives in Switzerland to attend the 2020 Davos World
 Economic Forum. \| President Trump’s impeachment trial begins as
 senators debate procedural rules that will govern the proceedings.
-Eleven Democratic amendments are rejected 53-47. \|\| **1117 \|
+Eleven Democratic amendments are rejected 53-47. \|\| **1097 \|
 2020-01-22**: President Trump returns to the White House from
 Switzerland. \| The Senate votes 53-47 to approve the rules of President
 Trump’s impeachment trial, blocking the inclusion of new evidence or
 witness testimony. \| Opening arguments begin, with impeachment managers
 accusing Trump of trying to cheat in the upcoming 2020 election, adding
 that his actions demonstrate that “he believes that he’s above the law
-and scornful of constraint.” \|\| **1118 \| 2020-01-23**: Impeachment
+and scornful of constraint.” \|\| **1098 \| 2020-01-23**: Impeachment
 managers present their case that President Trump abused his office in an
 attempt to discredit former vice president Joe Biden, calling on
-Republican senators to allow new witness testimony. \|\| **1119 \|
+Republican senators to allow new witness testimony. \|\| **1099 \|
 2020-01-24**: President Trump delivers remarks at an anti-abortion March
 for Life rally in Washington, DC. \| Democratic house managers conclude
 their opening arguments on the first article of impeachment, abuse of
 power, as well as the second article of impeachment, obstruction of
-Congress. \|\| **1120 \| 2020-01-25**: President Trump’s legal defense
+Congress. \|\| **1100 \| 2020-01-25**: President Trump’s legal defense
 in his impeachment trial begin opening arguments, refuting the
 accusations made by the impeachment managers and accusing them of trying
 to remove him from office as they believed they could not win the 2020
-presidential election. \|\| **1121 \| 2020-01-26**: \|\| **1122 \|
+presidential election. \|\| **1101 \| 2020-01-26**: \|\| **1102 \|
 2020-01-27**: President Trump’s legal defense team continue their
 opening statements arguing that Trump did nothing wrong and the
 impeachment inquiry was illegitimate from the start. John Bolton makes a
@@ -5558,42 +5530,42 @@ Trump’s legal counsel, claims that “nothing in the Bolton revelations,
 even if true, would rise to the level of an abuse of power, or an
 impeachable offense.” \| President Trump holds a bilateral meeting with
 Israeli prime minister Benjamin Netanyahu at the White House. \|\|
-**1123 \| 2020-01-28**: President Trump holds a joint press conference
+**1103 \| 2020-01-28**: President Trump holds a joint press conference
 with Israeli prime minister Benjamin Netanyahu at the White House to
 announce a proposed Middle East peace plan. \| President Trump’s legal
 defense team completes its opening arguments. \| President Trump holds a
-rally in Wildwood, New Jersey. \|\| **1124 \| 2020-01-29**: President
+rally in Wildwood, New Jersey. \|\| **1104 \| 2020-01-29**: President
 Trump signs the United States-Mexico-Canada Agreement (USMCA). \| U.S.
 senators begin the two-day question portion in President Trump’s
 impeachment trial. Senate Republicans move to further block new
-witnesses, instead opting to push the trial to a verdict. \|\| **1125 \|
+witnesses, instead opting to push the trial to a verdict. \|\| **1105 \|
 2020-01-30**: U.S. senators conclude the two-day question period in
 President Trump’s impeachment trial. \| President Trump holds a rally in
-Des Moines, Iowa. \|\| **1126 \| 2020-01-31**: President Trump signs an
+Des Moines, Iowa. \|\| **1106 \| 2020-01-31**: President Trump signs an
 executive order adding six more countries to his ban on travel from
 certain mainly-Muslim countries. The added countries are Nigeria,
 Myanmar, Eritrea, Kyrgyzstan, Sudan, and Tanzania. \| The Senate
 formally blocks an attempt to call new witnesses in President Trump’s
 impeachment trial in a vote of 51-49, with Senators Mitt Romney and
-Susan Collins siding with the Democrats. \|\| **1127 \| 2020-02-01**:
-\|\| **1128 \| 2020-02-02**: The Trump administration announces travel
+Susan Collins siding with the Democrats. \|\| **1107 \| 2020-02-01**:
+\|\| **1108 \| 2020-02-02**: The Trump administration announces travel
 restrictions on air traffic to and from China take effect. Secretary of
 Health and Human Services Alex Azar declares that COVID-19 “poses a
-public health emergency in the United States”. \|\| **1129 \|
+public health emergency in the United States”. \|\| **1109 \|
 2020-02-03**: President Trump’s legal team and house managers begin
 closing arguments. \| Senator Lisa Murkowski (R-AK) calls President
 Trump’s actions “shameful and wrong” while announcing that she would
 vote to acquit him. “I cannot vote to convict,” Murkowski told the
 Senate chamber. “The Constitution provides for impeachment but does not
 demand it in all instances.” \| President Trump wins the Republican Iowa
-Caucus. \|\| **1130 \| 2020-02-04**: President Trump delivers his third
+Caucus. \|\| **1110 \| 2020-02-04**: President Trump delivers his third
 official State of the Union Address. \| President Trump awards Rush
 Limbaugh the Presidential Medal of Freedom during the State of the Union
 address. \| Senator Susan Collins (R-ME) announces that she will vote to
 acquit President Trump in his impeachment trial, despite saying that
 what he did was wrong. Collins says her decision is based on the fact
 that she believes Trump has learned from this case" and “will be more
-careful in the future”. \|\| **1131 \| 2020-02-05**: President Trump
+careful in the future”. \|\| **1111 \| 2020-02-05**: President Trump
 holds a bilateral meeting with Venezuelan opposition leader Juan Guaido
 at the White House. \| President Trump is acquitted by the United States
 Senate on charges of abuse of power and obstruction of Congress, 48-52
@@ -5601,19 +5573,19 @@ on the first article and 47-53 on the second. \| Senator Mitt Romney
 (R-UT) votes to convict in President Trump’s impeachment trial on
 Article I, becoming the only Republican to do so and the first senator
 from the same party as the president to vote for removal from office.
-\|\| **1132 \| 2020-02-06**: President Trump speaks about politics at
+\|\| **1112 \| 2020-02-06**: President Trump speaks about politics at
 the National Prayer Breakfast. \| In what he calls a “celebration”
 President Trump delivers remarks in the White House East Room to
 supporters following his acquittal in the impeachment trial. \|
 President Trump holds a bilateral meeting with Kenyan president Uhuru
-Kenyatta at the White House. \|\| **1133 \| 2020-02-07**: President
+Kenyatta at the White House. \|\| **1113 \| 2020-02-07**: President
 Trump fires Lieutenant Colonel Alexander Vindman and ambassador Gordon
 Sondland in retaliation for their cooperation in his impeachment
 inquiry. Vindman’s brother is also fired and escorted from the White
-House. \|\| **1134 \| 2020-02-08**: \|\| **1135 \| 2020-02-09**:
+House. \|\| **1114 \| 2020-02-08**: \|\| **1115 \| 2020-02-09**:
 President Trump attends the National Governors Association dinner. \|\|
-**1136 \| 2020-02-10**: President Trump holds a rally in Manchester, New
-Hampshire. \|\| **1137 \| 2020-02-11**: President Trump wins the 2020
+**1116 \| 2020-02-10**: President Trump holds a rally in Manchester, New
+Hampshire. \|\| **1117 \| 2020-02-11**: President Trump wins the 2020
 New Hampshire Republican Primary, with the most votes for any incumbent
 President in history. \| The Justice Department announces that it will
 overrule federal prosecutors in the trial of Trump associate Roger Stone
@@ -5623,34 +5595,34 @@ sentence the prosecutors had been recommending to Stone was “unfair” and
 a “miscarriage of justice”. \| In response to the DoJ request for a
 reduced sentence, all four prosecutors (Michael Marando, Adam Jed,
 Jonathan Kravis and Aaron Zelinsky) withdraw from the Stone trial. \|\|
-**1138 \| 2020-02-12**: President Trump holds a bilateral meeting with
+**1118 \| 2020-02-12**: President Trump holds a bilateral meeting with
 Ecuadorian president Lenin Moreno at the White House. \| Jessie Liu, the
 U.S. attorney who headed the prosecutions of Roger Stone and Michael
 Flynn, resigns after President Trump’s withdrawal of her nomination as
 the Treasury Department’s undersecretary for terrorism and financial
-crimes. \|\| **1139 \| 2020-02-13**: President Trump publicly
+crimes. \|\| **1119 \| 2020-02-13**: President Trump publicly
 acknowledges sending Rudy Giuliani to Ukraine in an attempt to find
 damaging information on Joe and Hunter Biden, despite his fervent
 denials of such a search during his impeachment inquiry and trial. \|\|
-**1140 \| 2020-02-14**: Army Secretary Ryan McCarthy announces that the
+**1120 \| 2020-02-14**: Army Secretary Ryan McCarthy announces that the
 Army will not investigate or take any disciplinary action against
 Lieutenant Colonel Alexander Vindman in spite of President Trump’s
 comment that the military should “take a look at” whether Vindman said
 “horrible things” about him. \| Justice Department attorney J.P. Cooney
 says, “The Government has decided not to pursue criminal charges against
 … Andrew G. McCabe …”, ending the nearly two-year-long investigation.
-\|\| **1141 \| 2020-02-15**: \|\| **1142 \| 2020-02-16**: More than
+\|\| **1121 \| 2020-02-15**: \|\| **1122 \| 2020-02-16**: More than
 2,000 former Justice Department officials present an open letter
 strongly condemning President Trump and Attorney General William Barr’s
 “interference in the fair administration of justice”, and call on Barr
-to resign due to his involvement in the Stone case. \|\| **1143 \|
-2020-02-17**: \|\| **1144 \| 2020-02-18**: President Trump commutes the
+to resign due to his involvement in the Stone case. \|\| **1123 \|
+2020-02-17**: \|\| **1124 \| 2020-02-18**: President Trump commutes the
 sentences of eleven individuals, including former Illinois governor Rod
 Blagojevich, who was convicted of attempting to sell a seat in the U.S.
 Senate, former NYPD commissioner Bernie Kerik, financier Mike Milken,
 and Eddie DeBartolo Jr., all of whom were convicted on corruption
-charges. \|\| **1145 \| 2020-02-19**: President Trump holds a rally in
-Phoenix, Arizona. \|\| **1146 \| 2020-02-20**: President Trump fires
+charges. \|\| **1125 \| 2020-02-19**: President Trump holds a rally in
+Phoenix, Arizona. \|\| **1126 \| 2020-02-20**: President Trump fires
 acting director of national intelligence, Joseph Maguire, after last
 weeks briefing to the House Intelligence Committee by the top election
 security official, Shelby Pierson, on Russian interference in the
@@ -5659,12 +5631,12 @@ Maguire with Richard Grenell, the current ambassador to Germany, who
 will oversee 17 U.S. intelligence agencies. \| President Trump holds a
 rally in Colorado Springs, Colorado. \| Roger Stone is sentenced to 40
 months in prison for, in the words of Judge Amy Berman Jackson,
-“covering up for the president”. \|\| **1147 \| 2020-02-21**: President
-Trump holds a rally in Las Vegas, Nevada. \|\| **1148 \| 2020-02-22**:
-\|\| **1149 \| 2020-02-23**: \|\| **1150 \| 2020-02-24**: President
+“covering up for the president”. \|\| **1127 \| 2020-02-21**: President
+Trump holds a rally in Las Vegas, Nevada. \|\| **1128 \| 2020-02-22**:
+\|\| **1129 \| 2020-02-23**: \|\| **1130 \| 2020-02-24**: President
 Trump begins a two-day state visit to India. \| President Trump attends
 a “Namaste, Trump” rally in Gujarat and visits the Taj Mahal. \|\|
-**1151 \| 2020-02-25**: President Trump holds a bilateral meeting and
+**1131 \| 2020-02-25**: President Trump holds a bilateral meeting and
 joint press conference with Indian prime minister Narendra Modi. \|
 President Trump attends a state dinner hosted by Indian president Ram
 Nath Kovind. \| Supreme Court Justices Sonia Sotomayor and Ruth Bader
@@ -5673,33 +5645,33 @@ they recuse themselves from “all Trump, or Trump-related” cases. \| In a
 press briefing at the White House, Nancy Messonnier, Director of
 National Center for Immunization and Respiratory Diseases warned of the
 impending community spread of the coronavirus in the United States,
-stating: “Disruption to everyday life might be severe.” \|\| **1152 \|
+stating: “Disruption to everyday life might be severe.” \|\| **1132 \|
 2020-02-26**: President Trump and First Lady Melania Trump return to
 Washington after a two-day trip to India. \| At the onset of the
 COVID-19 pandemic, President Trump announces vice-president Mike Pence
-to be in charge of the U.S. coronavirus response. \|\| **1153 \|
-2020-02-27**: \|\| **1154 \| 2020-02-28**: President Trump holds a rally
+to be in charge of the U.S. coronavirus response. \|\| **1133 \|
+2020-02-27**: \|\| **1134 \| 2020-02-28**: President Trump holds a rally
 in North Charleston, South Carolina. \| President Trump tweets that he
 will nominate Representative John Ratcliffe (R-TX) to be his director of
 national intelligence. \| National Economic Council Director Larry
 Kudlow responds from the White House to questions about the coronavirus.
-\|\| **1155 \| 2020-02-29**: President Trump gives a speech in Oxon
+\|\| **1135 \| 2020-02-29**: President Trump gives a speech in Oxon
 Hill, Maryland, to the 2020 Conservative Political Action Conference. \|
 The first patient death in the United States from COVID-19 is reported
-by Washington state health officials. \|\| **1156 \| 2020-03-01**: \|\|
-**1157 \| 2020-03-02**: President Trump holds a bilateral meeting with
+by Washington state health officials. \|\| **1136 \| 2020-03-01**: \|\|
+**1137 \| 2020-03-02**: President Trump holds a bilateral meeting with
 Colombian president Ivan Duque Marquez at the White House. \| President
 Trump holds a rally in Charlotte, North Carolina. \| President Trump
 meets with representatives from numerous pharmaceutical companies in an
 effort to develop an efficient plan to develop a vaccine and treatments
-for COVID-19. \|\| **1158 \| 2020-03-03**: President Trump speaks to the
+for COVID-19. \|\| **1138 \| 2020-03-03**: President Trump speaks to the
 press concerning the COVID-19 pandemic in the United States after Trump
 was criticized for his delayed response to the virus. Trump also
 disputed the World Health Organization’s (WHO) official mortality rate
 for the virus of 3.4%, instead claiming the death rate to be “a fraction
-of 1%”. \|\| **1159 \| 2020-03-04**: The total number of deaths in the
+of 1%”. \|\| **1139 \| 2020-03-04**: The total number of deaths in the
 United States from the coronavirus disease is eleven, ten in Washington
-state and one in California. \|\| **1160 \| 2020-03-05**: \|\| **1161 \|
+state and one in California. \|\| **1140 \| 2020-03-05**: \|\| **1141 \|
 2020-03-06**: President Trump signs the Coronavirus Preparedness and
 Response Supplemental Appropriations Act into law. \| While visiting the
 CDC center in Atlanta, Georgia, President Trump praises the CDC’s
@@ -5708,11 +5680,11 @@ Jay Inslee “a snake” for criticizing his response to the COVID-19
 pandemic after Inslee called on Trump to “\[stick\] to the science and
 \[tell\] the truth”. \| President Trump fires acting Chief of Staff Mick
 Mulvaney and announces Representative Mark Meadows (R-NC) as his
-replacement. \|\| **1162 \| 2020-03-07**: President Trump holds a
+replacement. \|\| **1142 \| 2020-03-07**: President Trump holds a
 working dinner with Brazilian president Jair Bolsonaro at Mar-a-Lago.
-\|\| **1163 \| 2020-03-08**: \|\| **1164 \| 2020-03-09**: \|\| **1165 \|
+\|\| **1143 \| 2020-03-08**: \|\| **1144 \| 2020-03-09**: \|\| **1145 \|
 2020-03-10**: President Trump presents the Medal of Freedom to General
-Jack Keane. \|\| **1166 \| 2020-03-11**: The total number of deaths in
+Jack Keane. \|\| **1146 \| 2020-03-11**: The total number of deaths in
 the United States from the coronavirus disease is 31. Twenty-four are in
 Washington state, two are in California, two are in Florida and one is
 in New Jersey. There are 1,004 total cases in the United States. \|
@@ -5720,24 +5692,24 @@ President Trump addresses the nation on prime-time television concerning
 the COVID-19 pandemic as the total number of confirmed cases passes a
 thousand. During the address, Trump announces that he will suspend all
 travel to and from Europe for thirty days, starting midnight Friday. The
-United Kingdom is exempt from this restriction. \|\| **1167 \|
+United Kingdom is exempt from this restriction. \|\| **1147 \|
 2020-03-12**: President Trump holds a bilateral meeting with Taoiseach
 Leo Varadkar of Ireland at the White House. \| Due to the COVID-19
 pandemic, the Dow Jones Industrial Average (DJIA) drops ten percent-its
-worst day since 1987. \|\| **1168 \| 2020-03-13**: President Trump
+worst day since 1987. \|\| **1148 \| 2020-03-13**: President Trump
 declares a national emergency to mitigate the COVID-19 pandemic. The
 declaration opens access to 50 billion in emergency funding, lifts
 restrictions on doctors and hospitals, and waives student loan interest.
 When challenged about the slow response to provide testing, Trump blamed
 prior administrations saying, “I don’t take responsibility at all.” \|\|
-**1169 \| 2020-03-14**: \|\| **1170 \| 2020-03-15**: Due to the COVID-19
+**1149 \| 2020-03-14**: \|\| **1150 \| 2020-03-15**: Due to the COVID-19
 pandemic, the Federal Reserve cuts interest rates to zero and releases
-700 billion in quantitative easing. \|\| **1171 \| 2020-03-16**: In a
+700 billion in quantitative easing. \|\| **1151 \| 2020-03-16**: In a
 press conference at the White House, President Trump urges Americans to
 avoid gatherings of more than ten people, warning that the COVID-19
 pandemic could last into the summer. \| The Dow Jones Industrial Average
 (DJIA) falls 2,997 points, losing 12.9% in its largest point drop ever.
-\|\| **1172 \| 2020-03-17**: \|\| **1173 \| 2020-03-18**: The number of
+\|\| **1152 \| 2020-03-17**: \|\| **1153 \| 2020-03-18**: The number of
 deaths in the United States from the coronavirus disease is 150. 68
 deaths are in Washington state, 20 in New York state, 16 in California,
 8 in Florida, 7 in Louisiana and 5 in New Jersey. 15 other states have
@@ -5748,18 +5720,18 @@ benefits, free coronavirus testing, and food and medical aid to people
 affected by the COVID-19 pandemic, into law. \| In an effort to mitigate
 the COVID-19 pandemic, President Trump and Canadian prime minister
 Justin Trudeau close the border between the United States and Canada,
-allowing only essential traffic through. \|\| **1174 \| 2020-03-19**:
-\|\| **1175 \| 2020-03-20**: \|\| **1176 \| 2020-03-21**: President
+allowing only essential traffic through. \|\| **1154 \| 2020-03-19**:
+\|\| **1155 \| 2020-03-20**: \|\| **1156 \| 2020-03-21**: President
 Trump announces in a press conference that he will invoke the Defense
 Production Act to increase production of hospital masks, saying he views
 the country as entering a wartime setting and that he is “a wartime
-president”. \|\| **1177 \| 2020-03-22**: \|\| **1178 \| 2020-03-23**:
-\|\| **1179 \| 2020-03-24**: In a virtual town hall held at the White
+president”. \|\| **1157 \| 2020-03-22**: \|\| **1158 \| 2020-03-23**:
+\|\| **1159 \| 2020-03-24**: In a virtual town hall held at the White
 House, President Trump declares that his hope is that the American
 economy will open back up by Easter Sunday, eliciting concerns from the
 medical and scientific community. He also expressed desire to ease
 social distancing restrictions set up to control the spread of
-coronavirus. \|\| **1180 \| 2020-03-25**: The number of deaths in the
+coronavirus. \|\| **1160 \| 2020-03-25**: The number of deaths in the
 United States from the coronavirus disease is 826. Two hundred
 eighty-six are in New York state, one hundred twenty-six in Washington
 state, fifty-eight in California, forty-six in Louisiana and
@@ -5767,18 +5739,18 @@ thirty-eight in Georgia. Thirty-six other states have recorded deaths
 which combined are two hundred seventy-four. There are 53,852 total
 cases in the United States. \| The Senate passes the 2 trillion
 Coronavirus Aid, Relief, and Economic Security Act (H.R. 748), also
-known as the CARES Act, in a vote of 96-0. \|\| **1181 \| 2020-03-26**:
-\|\| **1182 \| 2020-03-27**: The House passes the 2 trillion Coronavirus
+known as the CARES Act, in a vote of 96-0. \|\| **1161 \| 2020-03-26**:
+\|\| **1162 \| 2020-03-27**: The House passes the 2 trillion Coronavirus
 Aid, Relief, and Economic Security Act (CARES Act), with President Trump
 signing the Act into law later that same day. \| In a press conference
 on the COVID-19 pandemic, President Trump announces that the government
 will buy more than 100,000 ventilators to meet growing demand. Officials
 are doubtful whether they can be produced in time to help hospitals that
-are currently overwhelmed with patients. \|\| **1183 \| 2020-03-28**:
+are currently overwhelmed with patients. \|\| **1163 \| 2020-03-28**:
 President Trump visits Naval Air Station Norfolk to watch the Navy
-hospital ship Comfort depart for New York City. \|\| **1184 \|
-2020-03-29**: \|\| **1185 \| 2020-03-30**: \|\| **1186 \| 2020-03-31**:
-\|\| **1187 \| 2020-04-01**: President Trump reveals that his decision
+hospital ship Comfort depart for New York City. \|\| **1164 \|
+2020-03-29**: \|\| **1165 \| 2020-03-30**: \|\| **1166 \| 2020-03-31**:
+\|\| **1167 \| 2020-04-01**: President Trump reveals that his decision
 to extend the social distancing guidelines to April 30 was motivated by
 models which predicted that if the restrictions were removed as many as
 2.2 million people would die and about half the country would be
@@ -5789,21 +5761,21 @@ in the United States from the coronavirus disease. 1,941 have died in
 New York state, 267 in New Jersey, 259 in Michigan, 239 in Louisiana,
 225 in Washington state, 184 in California and 139 in Georgia. Every
 other state except Wyoming has recorded at least one death attributed to
-the virus. \|\| **1188 \| 2020-04-02**: Acting Secretary of the Navy
+the virus. \|\| **1168 \| 2020-04-02**: Acting Secretary of the Navy
 Thomas Modly announces he has relieved Captain Brett Crozier from the
 USS Theodore Roosevelt (CVN-71) for going outside the chain of command
 for help with 114 positive coronavirus cases on board the aircraft
 carrier. \| In the daily coronavirus press conference, Jared Kushner
 declares that the “notion of the federal stockpile was it’s supposed to
 be our stockpile; it’s not supposed to be state stockpiles that they
-then use.” \|\| **1189 \| 2020-04-03**: President Trump notifies
+then use.” \|\| **1169 \| 2020-04-03**: President Trump notifies
 Congress he has “removed from office” Intelligence Community Inspector
 General Michael Atkinson, the individual who had informed Congress about
 the whistleblower complaint that led to the Ukraine probe and the
-president’s impeachment. \|\| **1190 \| 2020-04-04**: \|\| **1191 \|
-2020-04-05**: \|\| **1192 \| 2020-04-06**: President Trump nominates
+president’s impeachment. \|\| **1170 \| 2020-04-04**: \|\| **1171 \|
+2020-04-05**: \|\| **1172 \| 2020-04-06**: President Trump nominates
 Brian D. Miller to fill the newly created position of Special Inspector
-General for Pandemic Recovery. \|\| **1193 \| 2020-04-07**: President
+General for Pandemic Recovery. \|\| **1173 \| 2020-04-07**: President
 Trump announces that Kayleigh McEnany will become the 31st White House
 press secretary, replacing Stephanie Grisham, who was moved to be the
 First Lady’s chief of staff. \| President Trump dismisses Glenn A. Fine
@@ -5811,66 +5783,66 @@ as acting inspector general for the Defense Department, making him
 ineligible to chair the recently created Pandemic Response
 Accountability Committee that he had been appointed to eight days
 previously. \| Acting Navy Secretary Thomas Modly submits a letter of
-resignation to Defense Secretary Mark Esper. \|\| **1194 \|
+resignation to Defense Secretary Mark Esper. \|\| **1174 \|
 2020-04-08**: The number of deaths in the United States attributed to
 the coronavirus disease is 12,956. There are more than 397,000 certified
-coronavirus cases. \|\| **1195 \| 2020-04-09**: \|\| **1196 \|
-2020-04-10**: \|\| **1197 \| 2020-04-11**: \|\| **1198 \| 2020-04-12**:
-\|\| **1199 \| 2020-04-13**: \|\| **1200 \| 2020-04-14**: \|\| **1201 \|
+coronavirus cases. \|\| **1175 \| 2020-04-09**: \|\| **1176 \|
+2020-04-10**: \|\| **1177 \| 2020-04-11**: \|\| **1178 \| 2020-04-12**:
+\|\| **1179 \| 2020-04-13**: \|\| **1180 \| 2020-04-14**: \|\| **1181 \|
 2020-04-15**: The number of deaths in the United States attributed to
 the coronavirus disease is 25,922. There are more than 606,800 certified
 coronavirus cases. \| President Trump announces that the US will stop
 funding the World Health Organization (WHO), after Trump criticized the
 WHO for being too lenient on China. \| President Trump threatens to
 prorogue both houses of Congress in order to make recess appointments.
-\|\| **1202 \| 2020-04-16**: President Trump announces that the states
+\|\| **1182 \| 2020-04-16**: President Trump announces that the states
 can begin lifting restrictions for coronavirus by May 1 while
 acknowledging that the decision to reopen is best left to the states.
-\|\| **1203 \| 2020-04-17**: President Trump openly encourages far-right
+\|\| **1183 \| 2020-04-17**: President Trump openly encourages far-right
 political groups to protest social distancing restrictions and calls on
-states to lift restrictions. \|\| **1204 \| 2020-04-18**: \|\| **1205 \|
-2020-04-19**: \|\| **1206 \| 2020-04-20**: President Trump announces on
+states to lift restrictions. \|\| **1184 \| 2020-04-18**: \|\| **1185 \|
+2020-04-19**: \|\| **1186 \| 2020-04-20**: President Trump announces on
 Twitter that he will temporarily suspend all immigration in an effort to
-protect America from “the Invisible Enemy”. \|\| **1207 \| 2020-04-21**:
-\|\| **1208 \| 2020-04-22**: The number of deaths in the United States
+protect America from “the Invisible Enemy”. \|\| **1187 \| 2020-04-21**:
+\|\| **1188 \| 2020-04-22**: The number of deaths in the United States
 attributed to the coronavirus disease is 42,200. There are more than
 830,000 certified coronavirus cases. \| Health Dept. official Dr. Rick
 Bright is fired by President Trump after questioning the effectiveness
 of Hydroxychloroquine as a drug to treat COVID-19 and requesting
-extensive tests to confirm Trump’s claims. \|\| **1209 \| 2020-04-23**:
+extensive tests to confirm Trump’s claims. \|\| **1189 \| 2020-04-23**:
 After the Senate passes a 480 billion aid bill to help small businesses
 and hospitals as well as to increase the number of COVID-19 tests
 performed the House of Representatives approves the bill in a vote of
-388-5, sending the bill to President Trump for signing. \|\| **1210 \|
+388-5, sending the bill to President Trump for signing. \|\| **1190 \|
 2020-04-24**: President Trump signs the Paycheck Protection Program and
 Health Care Enhancement Act to provide hospitals with 484 billion in
 funding to increase COVID-19 testing. \| At the daily coronavirus press
 briefing, President Trump promotes the use of ultraviolet light as a
 remedy to COVID-19, and muses about injecting bleach or disinfectant
-into the lungs or other areas of the body to kill the virus. \|\| **1211
-\| 2020-04-25**: \|\| **1212 \| 2020-04-26**: \|\| **1213 \|
-2020-04-27**: \|\| **1214 \| 2020-04-28**: President Trump meets with
-Governor of Florida Ron DeSantis in the Oval Office. \|\| **1215 \|
+into the lungs or other areas of the body to kill the virus. \|\| **1191
+\| 2020-04-25**: \|\| **1192 \| 2020-04-26**: \|\| **1193 \|
+2020-04-27**: \|\| **1194 \| 2020-04-28**: President Trump meets with
+Governor of Florida Ron DeSantis in the Oval Office. \|\| **1195 \|
 2020-04-29**: President Trump meets with Governor of Louisiana John Bel
 Edwards in the Oval Office. \| The number of deaths in the United States
 attributed to the coronavirus disease is 53,034. There are more than 1
-million certified coronavirus cases. \|\| **1216 \| 2020-04-30**:
+million certified coronavirus cases. \|\| **1196 \| 2020-04-30**:
 President Trump meets with Governor of New Jersey Phil Murphy in the
-Oval Office. \|\| **1217 \| 2020-05-01**: President Trump dismisses
+Oval Office. \|\| **1197 \| 2020-05-01**: President Trump dismisses
 Acting Health and Human Services inspector general Christi Grimm, who
 had issued an April report describing severe shortages of coronavirus
-testing materials and personal protective equipment. \|\| **1218 \|
-2020-05-02**: \|\| **1219 \| 2020-05-03**: During a Fox News town hall
+testing materials and personal protective equipment. \|\| **1198 \|
+2020-05-02**: \|\| **1199 \| 2020-05-03**: During a Fox News town hall
 in the Lincoln Memorial, President Trump revises his forecast for the
 death toll from COVID-19, increasing it to 100,000. He also admits the
 disease has been more lethal than he expected, adding that early
 intelligence briefings indicated the virus was “not a big deal”. \|\|
-**1220 \| 2020-05-04**: \|\| **1221 \| 2020-05-05**: President Trump
-tours Honeywell Aerospace. \|\| **1222 \| 2020-05-06**: President Trump
+**1200 \| 2020-05-04**: \|\| **1201 \| 2020-05-05**: President Trump
+tours Honeywell Aerospace. \|\| **1202 \| 2020-05-06**: President Trump
 meets with Governor of Iowa Kim Reynolds in the Oval Office. \| The
 number of deaths in the United States attributed to the coronavirus
 disease is 71,077. There are more than 1.2 million certified coronavirus
-cases. \|\| **1223 \| 2020-05-07**: One of Trump’s personal valets tests
+cases. \|\| **1203 \| 2020-05-07**: One of Trump’s personal valets tests
 positive for coronavirus. White House staffers, including valets,
 generally do not wear masks. Trump claims, however, that he requires all
 his aides to take rapid tests for the virus before he travels anywhere
@@ -5878,76 +5850,76 @@ with them. \| President Trump meets with Governor of Texas Greg Abbott
 in the Oval Office. \| President Trump speaks at the National Day of
 Prayer service in the Rose Garden. \| The Justice Department announces
 that it is dropping all charges against President Trump’s former
-National Security Advisor, Michael Flynn. \|\| **1224 \| 2020-05-08**:
+National Security Advisor, Michael Flynn. \|\| **1204 \| 2020-05-08**:
 President Trump and First Lady Melania Trump participate in the 75th
 anniversary of VE Day celebrations. \| Katie Miller, the top
 spokesperson for Vice President Mike Pence, tests positive for
 coronavirus. She is married to Stephen Miller, a top aide and
 speechwriter for President Trump. This suggests multiple people who work
-in the West Wing may have been exposed. \|\| **1225 \| 2020-05-09**:
-\|\| **1226 \| 2020-05-10**: Despite the coronavirus diagnosis for one
+in the West Wing may have been exposed. \|\| **1205 \| 2020-05-09**:
+\|\| **1206 \| 2020-05-10**: Despite the coronavirus diagnosis for one
 of his staff members, Vice President Pence said he would not
 self-isolate and would continue to work in person at the White House.
 Other members of the coronavirus Task Force, including Drs. Redfield,
-Hahn, and Fauci, however, planned to self-isolate. \|\| **1227 \|
+Hahn, and Fauci, however, planned to self-isolate. \|\| **1207 \|
 2020-05-11**: During a press conference, CBS News White House
 correspondent Weijia Jiang asks President Trump, “Why is this a global
 competition to you if every day Americans are still losing their lives?”
 referring to the number of coronavirus tests performed daily. Trump
 responds by saying, “They’re losing their lives everywhere in the world.
 And maybe that’s a question you should ask China. Don’t ask me, ask
-China that question, OK?”. \|\| **1228 \| 2020-05-12**: \|\| **1229 \|
+China that question, OK?”. \|\| **1208 \| 2020-05-12**: \|\| **1209 \|
 2020-05-13**: President Trump meets with Governor of Colorado Jared
 Polis and Governor of North Dakota Doug Burgum. \| The number of deaths
 in the United States attributed to the coronavirus disease is 82,350.
 There are more than 1.37 million certified coronavirus cases. \|\|
-**1230 \| 2020-05-14**: President Trump tours Owens + Minor. \|\| **1231
-\| 2020-05-15**: \|\| **1232 \| 2020-05-16**: President Trump fires
+**1210 \| 2020-05-14**: President Trump tours Owens + Minor. \|\| **1211
+\| 2020-05-15**: \|\| **1212 \| 2020-05-16**: President Trump fires
 Inspector General of the Department of State Steve Linick, following
 reports that Linick was investigating Secretary of State Mike Pompeo
-over reports of abuse of office. \|\| **1233 \| 2020-05-17**: \|\|
-**1234 \| 2020-05-18**: President Trump reveals that he is taking
+over reports of abuse of office. \|\| **1213 \| 2020-05-17**: \|\|
+**1214 \| 2020-05-18**: President Trump reveals that he is taking
 Hydroxychloroquine, an anti-malarial drug untested for its effectiveness
 against COVID-19, despite FDA warnings that it may cause serious heart
-problems. \|\| **1235 \| 2020-05-19**: \|\| **1236 \| 2020-05-20**:
+problems. \|\| **1215 \| 2020-05-19**: \|\| **1216 \| 2020-05-20**:
 President Trump meets with Governor of Arkansas Asa Hutchinson and
 Governor of Kansas Laura Kelly at the White House. \| The number of
 deaths in the United States attributed to the coronavirus disease is
 91,937. There are more than 1.54 million certified coronavirus cases.
-\|\| **1237 \| 2020-05-21**: President Trump tours Ford Rawsonville
-Components Plant. \|\| **1238 \| 2020-05-22**: \|\| **1239 \|
-2020-05-23**: \|\| **1240 \| 2020-05-24**: \|\| **1241 \| 2020-05-25**:
+\|\| **1217 \| 2020-05-21**: President Trump tours Ford Rawsonville
+Components Plant. \|\| **1218 \| 2020-05-22**: \|\| **1219 \|
+2020-05-23**: \|\| **1220 \| 2020-05-24**: \|\| **1221 \| 2020-05-25**:
 President Trump performs a wreath-laying ceremony at the Tomb of the
 Unknown Soldier at the Arlington National Cemetery and gives a speech
-honoring those who have died fighting for the U.S. \|\| **1242 \|
+honoring those who have died fighting for the U.S. \|\| **1222 \|
 2020-05-26**: Glenn Fine, the Defense Department Principal Deputy
 Inspector General, submitted his resignation, effective June 1. Fine
 provided leadership of the coronavirus accountability review of
-emergency funds. \|\| **1243 \| 2020-05-27**: President Trump threatens
+emergency funds. \|\| **1223 \| 2020-05-27**: President Trump threatens
 to close or impose regulation on social media after Twitter flags his
 post on mail-in ballots as inaccurate. \| The number of deaths in the
 United States attributed to the coronavirus disease is 98,937. There are
 more than 1.6 million certified coronavirus cases. \| President Trump
 and First Lady Melania Trump attend the attempted launch of the SpaceX
 Dragon 2 spacecraft from the Kennedy Space Center. However, the launch
-was postponed to May 30 due to the weather. \|\| **1244 \| 2020-05-28**:
+was postponed to May 30 due to the weather. \|\| **1224 \| 2020-05-28**:
 President Trump signs an executive order limiting the legal protection
 that social media companies have, allowing federal agencies and
 regulators to hold them liable if found to be violating free speech
-protections by deleting posts or user accounts. \|\| **1245 \|
+protections by deleting posts or user accounts. \|\| **1225 \|
 2020-05-29**: President Trump warns on Twitter that the “THUGS” using
 the protests of the murder of George Floyd, to loot and destroy
 businesses in Minneapolis would be shot if looting continued, adding
-that “when the looting starts, the shooting starts.” \|\| **1246 \|
+that “when the looting starts, the shooting starts.” \|\| **1226 \|
 2020-05-30**: President Trump attends the second attempted launch of the
 SpaceX Dragon 2 spacecraft from the Kennedy Space Center, which the
-launch was finally success. \|\| **1247 \| 2020-05-31**: In an early
+launch was finally success. \|\| **1227 \| 2020-05-31**: In an early
 morning tweet President Trump declares the United States of America will
 be designating ANTIFA as a terrorist organization. \| News reports
 surface claiming that on Friday night Secret Service agents rushed
 President Trump to a White House bunker as hundreds of protesters
 gathered outside the executive mansion, some of them throwing rocks and
-tugging at police barricades. \|\| **1248 \| 2020-06-01**: In a
+tugging at police barricades. \|\| **1228 \| 2020-06-01**: In a
 conference call with the nation’s governors, President Trump declares
 that Chairman of the Joint Chiefs of Staff Mark A. Milley, the nation’s
 highest-ranking military officer, was “in charge” of the response to
@@ -5967,42 +5939,42 @@ police use tear gas and stun grenades to clear peaceful protesters
 assembled at the park. and the clergy at the church. \| The White House
 provided clarification for President Trump’s May 31, 2020, announcement
 on Twitter that he vows to designate ANTIFA as a terrorist group. \|\|
-**1249 \| 2020-06-02**: President Trump and First Lady Melania Trump
-visit the Saint John Paul II National Shrine. \|\| **1250 \|
+**1229 \| 2020-06-02**: President Trump and First Lady Melania Trump
+visit the Saint John Paul II National Shrine. \|\| **1230 \|
 2020-06-03**: President Trump announces that the Republican National
 Committee would move the 2020 Republican National Convention from
 Charlotte, NC to another location, after North Carolina Governor Roy
 Cooper did not find the health and safety measures put forth by the
 Republican National Committee to be adequate. \| The number of deaths in
 the United States attributed to the coronavirus disease is 106,184.
-There are more than 1.8 million certified coronavirus cases. \|\| **1251
-\| 2020-06-04**: \|\| **1252 \| 2020-06-05**: \|\| **1253 \|
-2020-06-06**: \|\| **1254 \| 2020-06-07**: \|\| **1255 \| 2020-06-08**:
-\|\| **1256 \| 2020-06-09**: President Trump asserts on Twitter that
+There are more than 1.8 million certified coronavirus cases. \|\| **1231
+\| 2020-06-04**: \|\| **1232 \| 2020-06-05**: \|\| **1233 \|
+2020-06-06**: \|\| **1234 \| 2020-06-07**: \|\| **1235 \| 2020-06-08**:
+\|\| **1236 \| 2020-06-09**: President Trump asserts on Twitter that
 Martin Gugino, elderly man pushed to the ground by police in Buffalo,
 New York, during a protest over the killing of George Floyd could be a
-“set up” that Gugino was an “ANTIFA provocateur”. \|\| **1257 \|
+“set up” that Gugino was an “ANTIFA provocateur”. \|\| **1237 \|
 2020-06-10**: The number of deaths in the United States attributed to
 the coronavirus disease is 112,174. There are more than 1.9 million
-certified coronavirus cases. \|\| **1258 \| 2020-06-11**: The Republican
+certified coronavirus cases. \|\| **1238 \| 2020-06-11**: The Republican
 National Committee selects Jacksonville, Florida to host its Aug 27
-convention. \|\| **1259 \| 2020-06-12**: \|\| **1260 \| 2020-06-13**:
+convention. \|\| **1239 \| 2020-06-12**: \|\| **1240 \| 2020-06-13**:
 President Trump speaks to the cadets at the United States Military
 Academy at West Point graduation ceremony. \| President Trump announced
 that the Tulsa, Oklahoma Rally would be held on July 20, out of respect.
-\|\| **1261 \| 2020-06-14**: \|\| **1262 \| 2020-06-15**: The Supreme
+\|\| **1241 \| 2020-06-14**: \|\| **1242 \| 2020-06-15**: The Supreme
 Court rules in a 5-4 decision that LGBT rights are protected against
-discrimination by the Civil Rights Act of 1964. \|\| **1263 \|
+discrimination by the Civil Rights Act of 1964. \|\| **1243 \|
 2020-06-16**: The Trump administration announces that it is ordering
 former National Security Advisor John Bolton to cease publication of his
 new book, claiming that it violates non-disclosure agreements and
 releases classified information. \| Elaine McCusker, CFO of the Defense
-Department, resigns. \|\| **1264 \| 2020-06-17**: Solicitor General Noel
+Department, resigns. \|\| **1244 \| 2020-06-17**: Solicitor General Noel
 Francisco, who defended Trump administration policies before the Supreme
 Court, announces he is leaving the Department of Justice. \| The number
 of deaths in the United States attributed to the coronavirus disease is
 116,979. There are more than 2.1 million certified coronavirus cases.
-\|\| **1265 \| 2020-06-18**: The Supreme Court rules in a 5-4 decision
+\|\| **1245 \| 2020-06-18**: The Supreme Court rules in a 5-4 decision
 that President Trump may not immediately end Deferred Action for
 Childhood Arrivals (DACA), saying that the Administration did not
 provide “a reasoned explanation for its action”. \| Mary Elizabeth
@@ -6010,80 +5982,81 @@ Taylor, the first black woman to serve as assistant Secretary of State
 for Legislative Affairs, resigns, stating President Trump’s “comments
 and actions surrounding racial injustice…cut sharply against my core
 values and conviction”. \| Kathryn Wheelbarger, a leading Defense
-Department policy official in the Pentagon, resigns. \|\| **1266 \|
+Department policy official in the Pentagon, resigns. \|\| **1246 \|
 2020-06-19**: Geoffrey Berman, the top US attorney in the SDNY, declines
 to leave his post after Attorney General William Barr announces his
-removal and replacement earlier in the evening. \|\| **1267 \|
+removal and replacement earlier in the evening. \|\| **1247 \|
 2020-06-20**: President Trump removes Geoffrey Berman as head attorney
 for the SDNY after he refuses to step down the previous evening. \|
 President Trump holds a rally in Tulsa, Oklahoma. Two Secret Service
 agents at the event test positive for coronavirus; the Secret Service
 later asks all agents who worked at the event to self-quarantine at home
-for 14 days. \|\| **1268 \| 2020-06-21**: \|\| **1269 \| 2020-06-22**:
+for 14 days. \|\| **1248 \| 2020-06-21**: \|\| **1249 \| 2020-06-22**:
 Kevin Hassett, chair of the Council of Economic Advisers and the White
 House’s chief economist, announces he will leave this summer after
 helping deal with the economic disruptions of the continuing coronavirus
-pandemic. \|\| **1270 \| 2020-06-23**: President Trump visits Yuma,
-Arizona, along the southern border and meets with Border Patrol
-personnel. \| President Trump holds a rally with Students for Trump at
-the Dream City Megachurch in Phoenix, Arizona \|\| **1271 \|
-2020-06-24**: The number of deaths in the United States attributed to
-the coronavirus disease is 121,978. There are more than 2.3 million
-certified coronavirus cases. \| President Trump holds a bilateral
-meeting and joint press conference with Polish president Andrzej Duda at
-the White House. \| Aaron Zelinsky, a prosecutor on Robert Mueller’s
-team, and John Elias, a career official in the Antitrust Division at
-DOJ, appear before a House Judiciary Committee hearing to give testimony
-about sentencing recommendations for Roger Stone. \|\| **1272 \|
-2020-06-25**: President Trump and First Lady Melania Trump participate
-in the 70th anniversary of the start of the Korean War. \| The Justice
-Act, a Republican-sponsored police overhaul bill, falls short of the 60
-votes of support required to advance the bill after Senate Democrats
-block the bill and call it “woefully inadequate”. \| In the House of
+pandemic. \|\| **1250 \| 2020-06-23**: President Trump travels to Yuma,
+Arizona, near the U.S.-Mexico border to examine progress on the
+US-Mexico border wall and meets with Border Patrol personnel. \|
+President Trump holds a rally with Students for Trump at the Dream City
+Megachurch in Phoenix, Arizona \|\| **1251 \| 2020-06-24**: The number
+of deaths in the United States attributed to the coronavirus disease is
+121,978. There are more than 2.3 million certified coronavirus cases. \|
+President Trump holds a bilateral meeting and joint press conference
+with Polish president Andrzej Duda at the White House. \| Aaron
+Zelinsky, a prosecutor on Robert Mueller’s team, and John Elias, a
+career official in the Antitrust Division at DOJ, appear before a House
+Judiciary Committee hearing to give testimony about sentencing
+recommendations for Roger Stone. \|\| **1252 \| 2020-06-25**: President
+Trump and First Lady Melania Trump participate in the 70th anniversary
+of the start of the Korean War. \| The Justice Act, a
+Republican-sponsored police overhaul bill, falls short of the 60 votes
+of support required to advance the bill after Senate Democrats block the
+bill and call it “woefully inadequate”. \| In the House of
 Representatives, the George Floyd Justice in Policing Act is approved by
 a vote of 236 to 181. \| The Trump administration files a brief asking
-the Supreme Court to invalidate the Affordable Care Act. \|\| **1273 \|
+the Supreme Court to invalidate the Affordable Care Act. \|\| **1253 \|
 2020-06-26**: The New York Times breaks a story about bounties being
 paid by Russia to Taliban militants to kill American and coalition
-forces currently stationed in Afghanistan. \|\| **1274 \| 2020-06-27**:
-\|\| **1275 \| 2020-06-28**: \|\| **1276 \| 2020-06-29**: Director of
+forces currently stationed in Afghanistan. \|\| **1254 \| 2020-06-27**:
+\|\| **1255 \| 2020-06-28**: \|\| **1256 \| 2020-06-29**: Director of
 National Intelligence John Ratcliffe, White House chief of staff Mark
 Meadows, and national security adviser Robert C. O’Brien conduct a
 briefing for GOP lawmakers at the White House concerning intelligence
 suggesting Russia financed Taliban militants to target US and coalition
-troops. \|\| **1277 \| 2020-06-30**: \|\| **1278 \| 2020-07-01**: The
+troops. \|\| **1257 \| 2020-06-30**: \|\| **1258 \| 2020-07-01**: The
 United States-Mexico-Canada Agreement (USMCA) comes into effect,
 replacing the North American Free Trade Agreement (NAFTA). President
 Trump had campaigned on replacing NAFTA with a new trade agreement. \|
 The number of deaths in the United States attributed to the coronavirus
 disease is 127,461. There are more than 2.7 million certified
-coronavirus cases. \|\| **1279 \| 2020-07-02**: President Trump launches
+coronavirus cases. \|\| **1259 \| 2020-07-02**: President Trump launches
 “Made in America Week” at the White House by showcasing products made in
-all fifty states. \|\| **1280 \| 2020-07-03**: President Trump hosts
+all fifty states. \|\| **1260 \| 2020-07-03**: President Trump hosts
 military personnel and their families for a picnic and fireworks show at
-Mount Rushmore as part of Independence Day celebrations. \|\| **1281 \|
+Mount Rushmore as part of Independence Day celebrations. \|\| **1261 \|
 2020-07-04**: President Trump’s 2020 Salute to America occurs on
 Independence Day in Washington, D.C., in addition to other events. \|\|
-**1282 \| 2020-07-05**: \|\| **1283 \| 2020-07-06**: \|\| **1284 \|
+**1262 \| 2020-07-05**: \|\| **1263 \| 2020-07-06**: \|\| **1264 \|
 2020-07-07**: President Trump informs Congress and the United Nations
 that the United States will formally withdraw from the World Health
-Organization (WHO), effective July 6, 2021. \|\| **1285 \| 2020-07-08**:
+Organization (WHO), effective July 6, 2021. \|\| **1265 \| 2020-07-08**:
 President Trump holds a bilateral meeting and joint press conference
 with Mexican president Andres Manuel Lopez Obrador at the White House.
 \| The number of deaths in the United States attributed to the
 coronavirus disease is 131,289. There are more than 3.0 million
-certified coronavirus cases. \|\| **1286 \| 2020-07-09**: The Supreme
+certified coronavirus cases. \|\| **1266 \| 2020-07-09**: The Supreme
 Court rules 7-2 that House Democrats may not access President Trump’s
 tax returns, but also determined that he is not immune to a subpoena for
-his returns from a New York prosecutor. \|\| **1287 \| 2020-07-10**: As
+his returns from a New York prosecutor. \|\| **1267 \| 2020-07-10**: As
 Tropical Storm Fay approaches, President Trump cancels Saturday plans
 for a campaign rally in Portsmouth, New Hampshire. \| President Trump
 commutes the sentence of Roger Stone, who was convicted of witness
 tampering and lying to Congress about President Trump’s dealings with
-Russia to the Mueller probe. \|\| **1288 \| 2020-07-11**: \|\| **1289 \|
-2020-07-12**: \|\| **1290 \| 2020-07-13**: President Trump conducts a
+Russia to the Mueller probe. \|\| **1268 \| 2020-07-11**: \|\| **1269 \|
+2020-07-12**: \|\| **1270 \| 2020-07-13**: President Trump conducts a
 White House panel composed of “people who have had positive interactions
-with the police”. \|\| **1291 \| 2020-07-14**: President Trump gathers
+with the police”. \|\| **1271 \| 2020-07-14**: President Trump gathers
 reporters and press for a news conference in the Rose Garden at the
 White House. \| The Trump administration orders hospitals to forego
 sending all coronavirus patient information to the CDC and instead
@@ -6094,95 +6067,95 @@ autonomy. \| President Trump announces new measures against China during
 a 54-minute stream-of-consciousness press conference promising a vaccine
 for the coronavirus, blaming China for “unleashing \[the coronavirus\]
 upon the world” and various other topics from Joe Biden to crime in
-“Democrat cities”. \|\| **1292 \| 2020-07-15**: The number of deaths in
+“Democrat cities”. \|\| **1272 \| 2020-07-15**: The number of deaths in
 the United States attributed to the coronavirus disease is 136,356.
-There are more than 3.4 million certified coronavirus cases. \|\| **1293
+There are more than 3.4 million certified coronavirus cases. \|\| **1273
 \| 2020-07-16**: The Trump administration announces that hospitals will
 begin to send coronavirus patient information to a central database
 maintained by the Department of Health and Human Services rather than
-the CDC. \|\| **1294 \| 2020-07-17**: \|\| **1295 \| 2020-07-18**: \|\|
-**1296 \| 2020-07-19**: \|\| **1297 \| 2020-07-20**: \|\| **1298 \|
+the CDC. \|\| **1274 \| 2020-07-17**: \|\| **1275 \| 2020-07-18**: \|\|
+**1276 \| 2020-07-19**: \|\| **1277 \| 2020-07-20**: \|\| **1278 \|
 2020-07-21**: President Trump signs a presidential memorandum requesting
 a ban of undocumented immigrants being counted in the 2020 census. \|
 President Trump announces plans to deploy federal law enforcement
 officers to “Democrat” cities to quell ongoing protests over racism and
 police brutality. Chicago Mayor Lori Lightfoot expressed concern saying,
 “We don’t need federal agents without any insignia taking people off the
-streets and holding them, I think, unlawfully.” \|\| **1299 \|
+streets and holding them, I think, unlawfully.” \|\| **1279 \|
 2020-07-22**: Calling the protests in Portland, Oregon “worse than
 Afghanistan,” President Trump defended the use of excessive force
 against the peaceful protestors by officers in military camouflage
 fatigues. \| The number of deaths in the United States attributed to the
 coronavirus disease is 142,031. There are more than 3.9 million
-certified coronavirus cases. \|\| **1300 \| 2020-07-23**: \|\| **1301 \|
+certified coronavirus cases. \|\| **1280 \| 2020-07-23**: \|\| **1281 \|
 2020-07-24**: President Trump signs four executive orders designed to
-lower prices on prescription drugs. \|\| **1302 \| 2020-07-25**: \|\|
-**1303 \| 2020-07-26**: \|\| **1304 \| 2020-07-27**: National security
+lower prices on prescription drugs. \|\| **1282 \| 2020-07-25**: \|\|
+**1283 \| 2020-07-26**: \|\| **1284 \| 2020-07-27**: National security
 advisor Robert O’Brien tests positive for COVID-19. He has since been
-working remotely. \|\| **1305 \| 2020-07-28**: Without any evidence that
+working remotely. \|\| **1285 \| 2020-07-28**: Without any evidence that
 mail-in ballots increase electoral fraud, President Trump continues to
-suggest that the November election should be delayed. \|\| **1306 \|
+suggest that the November election should be delayed. \|\| **1286 \|
 2020-07-29**: The number of deaths in the United States attributed to
 the coronavirus disease is 150,100. There are more than 4.3 million
-certified coronavirus cases. \|\| **1307 \| 2020-07-30**: The U.S. GDP
+certified coronavirus cases. \|\| **1287 \| 2020-07-30**: The U.S. GDP
 indicator declined 9.5% during the second quarter of 2020, the most
 drastic decline in 70 years. \| President Trump suggests postponing the
-2020 United States presidential election. \|\| **1308 \| 2020-07-31**:
+2020 United States presidential election. \|\| **1288 \| 2020-07-31**:
 President Trump says he plans to use presidential authority to terminate
 the Chinese social media platform TikTok from operating in the U.S. \|\|
-**1309 \| 2020-08-01**: \|\| **1310 \| 2020-08-02**: \|\| **1311 \|
-2020-08-03**: \|\| **1312 \| 2020-08-04**: The House of Representatives
+**1289 \| 2020-08-01**: \|\| **1290 \| 2020-08-02**: \|\| **1291 \|
+2020-08-03**: \|\| **1292 \| 2020-08-04**: The House of Representatives
 Oversight Committee calls Postmaster General Louis DeJoy to testify
 about recent delays and staff changes at the U.S. Postal Service. \|\|
-**1313 \| 2020-08-05**: President Trump meets with Governor of Arizona
+**1293 \| 2020-08-05**: President Trump meets with Governor of Arizona
 Doug Ducey in the Oval Office. \| The number of deaths in the United
 States attributed to the coronavirus disease is 157,297. There are more
 than 4.7 million certified coronavirus cases. \| Stephen Akard, the
 acting State Department’s inspector general, resigns after less than
 three months. His deputy, Diana Shaw is appointed as the temporary
-acting inspector general effective on August 7. \|\| **1314 \|
+acting inspector general effective on August 7. \|\| **1294 \|
 2020-08-06**: President Trump signs executive orders banning the use of
 TikTok and WeChat in the United States within 45 days if their Chinese
 parent companies refuse to sell them as a result of national security
-concerns. \| President Trump tours Whirlpool Corporation. \|\| **1315 \|
-2020-08-07**: \|\| **1316 \| 2020-08-08**: President Trump signs an
+concerns. \| President Trump tours Whirlpool Corporation. \|\| **1295 \|
+2020-08-07**: \|\| **1296 \| 2020-08-08**: President Trump signs an
 executive order and memoranda restoring coronavirus relief pay for
-unemployed Americans at 400 per week. \|\| **1317 \| 2020-08-09**: \|\|
-**1318 \| 2020-08-10**: \|\| **1319 \| 2020-08-11**: \|\| **1320 \|
+unemployed Americans at 400 per week. \|\| **1297 \| 2020-08-09**: \|\|
+**1298 \| 2020-08-10**: \|\| **1299 \| 2020-08-11**: \|\| **1300 \|
 2020-08-12**: The number of deaths in the United States attributed to
 the coronavirus disease is 164,462. There are more than 5.1 million
-certified coronavirus cases. \|\| **1321 \| 2020-08-13**: The Trump
+certified coronavirus cases. \|\| **1301 \| 2020-08-13**: The Trump
 Administration brokers a peace agreement between United Arab Emirates
 and Israel, the first agreement between Israel and an Arab-Muslim
-nation. \|\| **1322 \| 2020-08-14**: During a White House press
+nation. \|\| **1302 \| 2020-08-14**: During a White House press
 conference, President Trump mentions the Kevin Clinesmith plea
 agreement, in which a former FBI lawyer admitted to altering an email
 for the C.I.A. used by the agency to continue a secret wiretap on the
 former Trump 2016 campaign adviser Carter Page. Trump claims Clinesmith
-was “corrupt” and the plea deal was “just the beginning”. \|\| **1323 \|
-2020-08-15**: \|\| **1324 \| 2020-08-16**: \|\| **1325 \| 2020-08-17**:
+was “corrupt” and the plea deal was “just the beginning”. \|\| **1303 \|
+2020-08-15**: \|\| **1304 \| 2020-08-16**: \|\| **1305 \| 2020-08-17**:
 President Trump holds a campaign rally in Mankato, Minnesota. \|
 President Trump holds a campaign rally in Oshkosh, Wisconsin. \|\|
-**1326 \| 2020-08-18**: President Trump visits Yuma, Arizona, along the
+**1306 \| 2020-08-18**: President Trump visits Yuma, Arizona, along the
 southern border and meets with Border Patrol personnel. \| President
-Trump holds a campaign rally in Yuma, Arizona. \|\| **1327 \|
+Trump holds a campaign rally in Yuma, Arizona. \|\| **1307 \|
 2020-08-19**: The number of deaths in the United States attributed to
 the coronavirus disease is 172,958. There are more than 5.5 million
-certified coronavirus cases. \|\| **1328 \| 2020-08-20**: President
+certified coronavirus cases. \|\| **1308 \| 2020-08-20**: President
 Trump holds a bilateral meeting with Iraqi prime minister Mustafa
 Al-Kadhimi at the White House. \| President Trump holds a campaign rally
-in Old Forge, Pennsylvania. \|\| **1329 \| 2020-08-21**: \|\| **1330 \|
-2020-08-22**: \|\| **1331 \| 2020-08-23**: \|\| **1332 \| 2020-08-24**:
+in Old Forge, Pennsylvania. \|\| **1309 \| 2020-08-21**: \|\| **1310 \|
+2020-08-22**: \|\| **1311 \| 2020-08-23**: \|\| **1312 \| 2020-08-24**:
 The four-day Republican National Convention begins. \| President Trump
 accepts the nomination of the Republican Party for the 2020 United
-States presidential election. \|\| **1333 \| 2020-08-25**: President
+States presidential election. \|\| **1313 \| 2020-08-25**: President
 Trump and Postmaster General Louis DeJoy are sued by the states of New
 York and New Jersey over changes to postal service operations such as
 the removal of mailboxes and mail sorting machines, the curtailing of
 overtime hours and the implementation of additional service reductions.
-\|\| **1334 \| 2020-08-26**: The number of deaths in the United States
+\|\| **1314 \| 2020-08-26**: The number of deaths in the United States
 attributed to the coronavirus disease is 179,215. There are more than
-5.8 million certified coronavirus cases. \|\| **1335 \| 2020-08-27**:
+5.8 million certified coronavirus cases. \|\| **1315 \| 2020-08-27**:
 President Trump delivers acceptance speech at the Republican National
 Convention at the South Lawn of the White House. Saying he “profoundly”
 accepted the nomination for a second term he spoke for 70-minutes on the
@@ -6191,17 +6164,17 @@ while leveling false or misleading attacks on Democrats, blaming them
 for America’s problems. \| The House Foreign Affairs Committee proceeds
 with contempt proceedings and a subpoena against Mike Pompeo related to
 the State Department’s involvement in attempts to link Joe Biden to
-corruption in Ukraine. \|\| **1336 \| 2020-08-28**: President Trump
+corruption in Ukraine. \|\| **1316 \| 2020-08-28**: President Trump
 holds a campaign rally in Londonderry, New Hampshire. \| Four people who
 attended the Republican National Convention (which had just ended) test
-positive for COVID-19. \|\| **1337 \| 2020-08-29**: \|\| **1338 \|
-2020-08-30**: \|\| **1339 \| 2020-08-31**: John Ratcliffe, the Director
+positive for COVID-19. \|\| **1317 \| 2020-08-29**: \|\| **1318 \|
+2020-08-30**: \|\| **1319 \| 2020-08-31**: John Ratcliffe, the Director
 of National Intelligence, says his agency will no longer give Congress
 in-person briefings about election security, citing concern over
 “unauthorized disclosures of sensitive information” and will switch to
-written updates. \|\| **1340 \| 2020-09-01**: While discussing the
+written updates. \|\| **1320 \| 2020-09-01**: While discussing the
 shooting of Jacob Blake, President Trump compares police officers to
-golfers who might “choke” while attempting a putt. \|\| **1341 \|
+golfers who might “choke” while attempting a putt. \|\| **1321 \|
 2020-09-02**: President Trump participates in the 75th anniversary of
 the end of World War II celebrations at the battleship North Carolina in
 Wilmington, North Carolina, and designates the city as the first
@@ -6212,8 +6185,8 @@ disease is 184,564. There are more than 6 million certified coronavirus
 cases. \| President Trump urges North Carolina voters to cast two votes
 in the upcoming presidential election, once by mail and then again in
 person, in order to test his unsubstantiated claims that mail-in voting
-is prone to fraud. \|\| **1342 \| 2020-09-03**: President Trump holds a
-campaign rally in Latrobe, Pennsylvania. \|\| **1343 \| 2020-09-04**:
+is prone to fraud. \|\| **1322 \| 2020-09-03**: President Trump holds a
+campaign rally in Latrobe, Pennsylvania. \|\| **1323 \| 2020-09-04**:
 President Trump holds a trilateral meeting with Serbian president
 Aleksandar Vucic and Kosovan prime minister Avdullah Hoti at the White
 House. \| A memo to government agencies from the Office of Management
@@ -6221,21 +6194,21 @@ and Budget calls on all agencies to ceases funding for diversity
 training. labelling it “divisive and anti-American propaganda”. \|
 President Trump disputes reports in the Atlantic magazine that he has
 called dead American service members “losers” and those signing to serve
-in the armed service as “suckers”. \|\| **1344 \| 2020-09-05**: \|\|
-**1345 \| 2020-09-06**: \|\| **1346 \| 2020-09-07**: \|\| **1347 \|
+in the armed service as “suckers”. \|\| **1324 \| 2020-09-05**: \|\|
+**1325 \| 2020-09-06**: \|\| **1326 \| 2020-09-07**: \|\| **1327 \|
 2020-09-08**: President Trump holds a campaign rally in Winston-Salem,
 North Carolina and promotes voting by mail and in person. \| The
 Department of Justice takes over the defense of the President in a
-defamation lawsuit accusing him of sexual assault. \|\| **1348 \|
+defamation lawsuit accusing him of sexual assault. \|\| **1328 \|
 2020-09-09**: The number of deaths in the United States attributed to
 the coronavirus disease is 189,538. There are more than 6.3 million
 certified coronavirus cases. \| Christian Tybring-Gjedde, a Norwegian
 politician, nominates President Trump for the Nobel Peace Prize. \|\|
-**1349 \| 2020-09-10**: President Trump holds a news conference and
+**1329 \| 2020-09-10**: President Trump holds a news conference and
 debates with journalists about the disparity between what was said about
 the severity of the coronavirus in interviews with Bob Woodward and his
 efforts to “play it down” to the American people. \| President Trump
-holds a campaign rally in Freeland, Michigan. \|\| **1350 \|
+holds a campaign rally in Freeland, Michigan. \|\| **1330 \|
 2020-09-11**: President Trump speaks at the Flight 93 National Memorial
 to commemorate the 19th anniversary of the September 11 attacks. \| The
 Trump Administration brokers a peace agreement between Bahrain and
@@ -6244,22 +6217,22 @@ less than one month. \| President Trump presents the Medal of Honor to
 Sergeant Major Thomas Payne. \| A member of the Swedish Parliament
 nominated President Trump and the governments of Kosovo and Serbia for
 the 2021 Nobel Peace Prize over economic cooperation and trade talks.
-\|\| **1351 \| 2020-09-12**: President Trump addresses a crowd of
-supporters at a campaign rally in Minden, Nevada. \|\| **1352 \|
+\|\| **1331 \| 2020-09-12**: President Trump addresses a crowd of
+supporters at a campaign rally in Minden, Nevada. \|\| **1332 \|
 2020-09-13**: President Trump holds a roundtable at the Treasure Island
 Hotel and Casino in Las Vegas, Nevada. \| President Trump addresses a
 crowd of supporters at a campaign rally in Henderson, Nevada. \|\|
-**1353 \| 2020-09-14**: President Trump participates in a briefing on
+**1333 \| 2020-09-14**: President Trump participates in a briefing on
 the 2020 California wildfires with state officials in McClellan Park,
 California. \| President Trump participates in a ceremony honoring
 soldiers of the California National Guard for their heroic actions
 during the 2020 California wildfires. \| President Trump holds a
-roundtable in Phoenix, Arizona. \|\| **1354 \| 2020-09-15**: President
+roundtable in Phoenix, Arizona. \|\| **1334 \| 2020-09-15**: President
 Trump participates in the signing of the Abraham Accord, normalizing
 relations between Israel and the United Arab Emirates. \| President
 Trump participates in a town-hall meeting style event with undecided
 Pennsylvania voters moderated by ABC’s George Stephanopoulos. \|\|
-**1355 \| 2020-09-16**: Michael Caputo, Assistant Secretary for Health
+**1335 \| 2020-09-16**: Michael Caputo, Assistant Secretary for Health
 and Human Services for Public Affairs, announces he will take a 60-day
 leave of absence after he accused government scientists of “sedition”
 and called on Trump’s supporters to arm themselves ahead of the November
@@ -6267,7 +6240,7 @@ and called on Trump’s supporters to arm themselves ahead of the November
 Brady Press Briefing Room, speaking on multiple topics including the
 Coronavirus and Hurricane Sally. \| The number of deaths in the United
 States attributed to the coronavirus disease is 196,410. There are more
-than 6.6 million certified coronavirus cases. \|\| **1356 \|
+than 6.6 million certified coronavirus cases. \|\| **1336 \|
 2020-09-17**: President Trump, alongside United States Secretary of the
 Interior David Bernhardt and United States Ambassador to Finland Robert
 Pence among others, announces that the Finnish government has agreed to
@@ -6279,7 +6252,7 @@ National Archives Building. He speaks on multiple topics including
 American history and recent civil unrest. \| President Trump addresses a
 crowd of supporters at a campaign rally in Mosinee, Wisconsin. \|
 President Trump announces the formation of The 1776 Commission a
-“patriotic education” commission. \|\| **1357 \| 2020-09-18**: President
+“patriotic education” commission. \|\| **1337 \| 2020-09-18**: President
 Trump presents the Legion of Merit to Emir Sabah Al-Ahmad Al-Jaber
 Al-Sabah of Kuwait in a private ceremony at the White House. \| The
 United States Department of Commerce announces that apps TikTok and
@@ -6295,7 +6268,7 @@ Briefing Room, speaking on multiple topics including a COVID-19 vaccine
 and relief to Puerto Rico. \| Associate Justice of the Supreme Court of
 the United States Ruth Bader Ginsburg passes away at age 87 due to
 pancreatic cancer. \| President Trump addresses a crowd of supporters at
-a campaign rally in Bemidji, Minnesota. \|\| **1358 \| 2020-09-19**: An
+a campaign rally in Bemidji, Minnesota. \|\| **1338 \| 2020-09-19**: An
 envelope addressed to the White House is intercepted and found to be
 laced with the deadly toxin ricin. Authorities say the envelope
 originated in Canada. \| President Trump announces his support of the
@@ -6306,13 +6279,13 @@ the app until September 27, 2020. \| President Trump addresses a crowd
 of supporters at a campaign rally in Fayetteville, North Carolina.
 During the rally he announces that he is planning on filling the vacant
 Supreme Court of the United States seat left by the death of Ruth Bader
-Ginsburg, pledging that he will nominate another woman. \|\| **1359 \|
+Ginsburg, pledging that he will nominate another woman. \|\| **1339 \|
 2020-09-20**: Laurel Beeler, U.S. Magistrate Judge of the United States
 District Court for the Northern District of California, files a
 preliminary injunction effectively barring the United States Department
 of Commerce’s plans to ban the Chinese owned app WeChat from the
 American market. \| President Trump approves a disaster declaration for
-the State of Alabama due to the effects of Hurricane Sally. \|\| **1360
+the State of Alabama due to the effects of Hurricane Sally. \|\| **1340
 \| 2020-09-21**: President Trump administration officials announce
 multiple new sanctions against the Iranian Defense Ministry and
 Venezuelan President Nicolas Maduro. \| Senior Judge of the United
@@ -6320,7 +6293,7 @@ States District Court for the District of Nevada James C. Mahan
 dismisses a lawsuit filed by President Trump against the State of Nevada
 challenging the state’s recent mail-in voting law. \| President Trump
 addresses a crowd of supporters at two campaign rallies: One in Dayton,
-Ohio and the other in Swanton, Ohio. \|\| **1361 \| 2020-09-22**:
+Ohio and the other in Swanton, Ohio. \|\| **1341 \| 2020-09-22**:
 President Trump speaks virtually at the General debate of the
 seventy-fifth session of the United Nations General Assembly. \| The
 number of people who have died as a result of the COVID-19 pandemic in
@@ -6329,7 +6302,7 @@ Senator Mitt Romney announces his support to push through a Supreme
 Court nominee, effectively giving President Trump the majority he needs
 in the United States Senate to confirm a nominee. \| President Trump
 addresses a crowd of supporters at a campaign rally in Pittsburgh,
-Pennsylvania. \|\| **1362 \| 2020-09-23**: President Trump honors
+Pennsylvania. \|\| **1342 \| 2020-09-23**: President Trump honors
 veterans of the Bay of Pigs Invasion in a ceremony in the East Room of
 the White House. He also takes the opportunity to announce further
 sanctions against Cuba. \| A New York state judge orders Eric Trump to
@@ -6343,14 +6316,14 @@ the James S. Brady Press Briefing Room. In response to a question about
 if he would committ to a peaceful transfer of power he says, “Well,
 we’ll have to see what happens. You know that. I’ve been complaining
 very strongly about the ballots. And the ballots are a disaster,”. \|\|
-**1363 \| 2020-09-24**: President Trump and First Lady Melania Trump pay
+**1343 \| 2020-09-24**: President Trump and First Lady Melania Trump pay
 respects to the late Justice Ruth Bader Ginsburg, who is lying in repose
 in the Great Hall of the United States Supreme Court Building. While
 paying their respects booing was heard from the crowd, as well as chants
 of “honor her wish”. \| President Trump speaks in Charlotte, North
 Carolina where he unveils his plan for the future of health care. \|
 President Trump addresses a crowd of supporters at a campaign rally in
-Jacksonville, Florida. \|\| **1364 \| 2020-09-25**: President Trump
+Jacksonville, Florida. \|\| **1344 \| 2020-09-25**: President Trump
 holds a roundtable in Doral, Florida. \| President Trump speaks at a
 forum, declaring that if re-elected he would fund more money into
 institutions that lend to African-American businesses. He called this
@@ -6359,326 +6332,470 @@ Northern District of California, rules that the Trump Administration is
 not allowed to end the 2020 United States Census early, and orders the
 United States Census Bureau to continue through October 31st. \|
 President Trump addresses a crowd of supporters at a campaign rally in
-Newport News, Virginia. \|\| **1365 \| 2020-09-26**: President Trump
+Newport News, Virginia. \|\| **1345 \| 2020-09-26**: President Trump
 nominates Amy Coney Barrett as an Associate Justice of the Supreme Court
 to fill the vacancy left by Ruth Bader Ginsburg, who died on September
 18. \| President Trump addresses a crowd of supporters at a campaign
 rally in Middletown, Pennsylvania. \| President Trump hosts a potential
 superspreading event at the White House Rose Garden leading to the White
-House COVID-19 outbreak. \|\| **1366 \| 2020-09-27**: \|\| **1367 \|
+House COVID-19 outbreak. \|\| **1346 \| 2020-09-27**: \|\| **1347 \|
 2020-09-28**: President Trump receives his third Nobel Peace Prize
-nomination from a group of Australian law professors. \|\| **1368 \|
+nomination from a group of Australian law professors. \|\| **1348 \|
 2020-09-29**: President Trump and former Vice President Joe Biden
 participate in the first presidential debate at Case Western Reserve
 University in Cleveland, Ohio. The debate was moderated by Chris Wallace
-of Fox News. \|\| **1369 \| 2020-09-30**: President Trump addresses a
+of Fox News. \|\| **1349 \| 2020-09-30**: President Trump addresses a
 crowd of supporters at a campaign rally in Duluth, Minnesota. \| The
 Trump administration announces plans to slash refugee admissions to the
 U.S. for 2021 to a record low 15,000 refugees, from a cap of 18,000 for
 2020. \| Ronna McDaniel, the chair of the Republican National Committee,
-tests positive for coronavirus. \|\| **1370 \| 2020-10-01**: Hope Hicks,
+tests positive for coronavirus. \|\| **1350 \| 2020-10-01**: Hope Hicks,
 senior counselor to President Trump, tests positive for coronavirus. She
 traveled with President Trump to the debate in Cleveland on September 29
 and to a rally in Minnesota on September 30. Although some White House
 officials were aware of her diagnosis in the morning, “Trump still took
 a trip to New Jersey for a fundraiser, and press secretary Kayleigh
-McEnany still held a news briefing at the White House.” \|\| **1371 \|
+McEnany still held a news briefing at the White House.” \|\| **1351 \|
 2020-10-02**: President Trump tweets that both he and First Lady Melania
 Trump had tested positive for coronavirus and would immediately
 quarantine. Later that day, President Trump boarded a helicopter to
 Walter Reed National Military Medical Center for treatment. \| President
 Trump’s campaign manager Bill Stepien, RNC chairwoman Ronna Romney
 McDaniel, and Senior Senator Mike Lee of Utah test positive for the
-coronavirus. \|\| **1372 \| 2020-10-03**: Nick Luna, one of President
+coronavirus. \|\| **1352 \| 2020-10-03**: Nick Luna, one of President
 Trump’s closest personal attendants in the White House, tests positive
 for coronavirus. \| Senators Thom Tillis, Mike Lee and Ron Johnson all
 test positive for coronavirus. As a result, Senate Majority Leader Mitch
-McConnell halts all Senate floor action for two weeks. \|\| **1373 \|
+McConnell halts all Senate floor action for two weeks. \|\| **1353 \|
 2020-10-04**: After President Trump rides in a motorcade around Walter
 Reed Medical Center, a physician at the hospital says that every Secret
 Service agent inside the vehicle will have to quarantine for 14 days.
-\|\| **1374 \| 2020-10-05**: White House press secretary Kayleigh
+\|\| **1354 \| 2020-10-05**: White House press secretary Kayleigh
 McEnany announces she has coronavirus and will quarantine. Two of her
 deputies also test positive. \| President Trump is discharged from the
-hospital and returns to the White House in the evening. \|\| **1375 \|
+hospital and returns to the White House in the evening. \|\| **1355 \|
 2020-10-06**: Stephen Miller, senior political advisor to the president,
-tests positive for the coronavirus. \|\| **1376 \| 2020-10-07**: Vice
+tests positive for the coronavirus. \|\| **1356 \| 2020-10-07**: Vice
 President Mike Pence and Senator Kamala Harris participate in the only
 vice presidential debate at University of Utah in Salt Lake City, Utah.
-The debate was moderated by Susan Page of USA Today. \|\| **1377 \|
+The debate was moderated by Susan Page of USA Today. \|\| **1357 \|
 2020-10-08**: President Trump, having suddenly announced two days ago
 that he was ending negotiations with lawmakers regarding a new economic
-stimulus package, now says the talks are back on. \|\| **1378 \|
+stimulus package, now says the talks are back on. \|\| **1358 \|
 2020-10-09**: The Commission on Presidential Debates cancels the October
 15 scheduled debate between the president and Joe Biden. President Trump
 had refused to participate virtually. The third and final debate remains
-scheduled for October 22. \|\| **1379 \| 2020-10-10**: President Trump
+scheduled for October 22. \|\| **1359 \| 2020-10-10**: President Trump
 holds a rally on the South Lawn of the White House. Attendees’ travel
 and lodging was paid for by Candace Owens’ group BLEXIT, which
-encourages Black Americans to leave the Democratic Party. \|\| **1380 \|
-2020-10-11**: \|\| **1381 \| 2020-10-12**: President Trump addresses a
-crowd of supporters at a campaign rally in Sanford, Florida. \|\| **1382
+encourages Black Americans to leave the Democratic Party. \|\| **1360 \|
+2020-10-11**: \|\| **1361 \| 2020-10-12**: President Trump addresses a
+crowd of supporters at a campaign rally in Sanford, Florida. \|\| **1362
 \| 2020-10-13**: President Trump addresses a crowd of supporters at a
-campaign rally in Johnstown, Pennsylvania. \|\| **1383 \| 2020-10-14**:
+campaign rally in Johnstown, Pennsylvania. \|\| **1363 \| 2020-10-14**:
 President Trump addresses a crowd of supporters at a campaign rally in
-Des Moines, Iowa. \|\| **1384 \| 2020-10-15**: President Trump addresses
+Des Moines, Iowa. \|\| **1364 \| 2020-10-15**: President Trump addresses
 a crowd of supporters at a campaign rally in Greenville, North Carolina.
 \| President Trump participates in a town-hall meeting style event with
 undecided Florida voters instead of a planned second presidential
 debate, which was cancelled after Trump refused to participate in a
-virtual event. \|\| **1385 \| 2020-10-16**: The Federal Emergency
+virtual event. \|\| **1365 \| 2020-10-16**: The Federal Emergency
 Management Agency (FEMA) rejects California’s request for federal aid
 for the on-going forest fires. A FEMA spokesperson remarked that the
 damage was “…not of such severity and magnitude to exceed the combined
 capabilities of the state, affected local governments, voluntary
 agencies and other responding federal agencies.” \| President Trump
 addresses a crowd of supporters at two campaign rallies: Ocala, Florida
-and Macon, Georgia. \|\| **1386 \| 2020-10-17**: President Trump
+and Macon, Georgia. \|\| **1366 \| 2020-10-17**: President Trump
 approves a federal disaster declaration for California’s wildfires after
 having rejected the request the previous day. \| President Trump
 addresses a crowd of supporters at two campaign rallies: Muskegon,
-Michigan and Janesville, Wisconsin. \|\| **1387 \| 2020-10-18**:
+Michigan and Janesville, Wisconsin. \|\| **1367 \| 2020-10-18**:
 President Trump addresses a crowd of supporters at a campaign rally in
-Carson City, Nevada. \|\| **1388 \| 2020-10-19**: President Trump
+Carson City, Nevada. \|\| **1368 \| 2020-10-19**: President Trump
 addresses a crowd of supporters at two campaign rallies in Arizona:
-Prescott and Tucson. \|\| **1389 \| 2020-10-20**: President Trump
+Prescott and Tucson. \|\| **1369 \| 2020-10-20**: President Trump
 addresses a crowd of supporters at a campaign rally in Erie,
-Pennsylvania. \|\| **1390 \| 2020-10-21**: President Trump addresses a
+Pennsylvania. \|\| **1370 \| 2020-10-21**: President Trump addresses a
 crowd of supporters at a campaign rally in Gastonia, North Carolina.
-\|\| **1391 \| 2020-10-22**: President Trump and former Vice President
+\|\| **1371 \| 2020-10-22**: President Trump and former Vice President
 Joe Biden participate in the final presidential debate at Belmont
 University in Nashville, Tennessee. The debate was moderated by Kristen
-Welker of NBC. \|\| **1392 \| 2020-10-23**: The Trump Administration
+Welker of NBC. \|\| **1372 \| 2020-10-23**: The Trump Administration
 brokers a peace agreement between Sudan and Israel, the third agreement
 between Israel and an Arab-Muslim nation in less than three months. \|
 President Trump addresses a crowd of supporters at two campaign rallies
-in Florida: The Villages and Pensacola. \|\| **1393 \| 2020-10-24**:
+in Florida: The Villages and Pensacola. \|\| **1373 \| 2020-10-24**:
 President Trump addresses a crowd of supporters at three campaign
 rallies: Lumberton, North Carolina; Circleville, Ohio; and Waukesha,
-Wisconsin. \|\| **1394 \| 2020-10-25**: CBS aired President Trump and
+Wisconsin. \|\| **1374 \| 2020-10-25**: CBS aired President Trump and
 Vice President Pence’s interview for its news show 60 Minutes which was
 filmed earlier in the week. President Trump was perturbed at host Lesley
 Stahl asking “hard questions” and complained that former Vice President
 Biden had received “softball questions”. Trump then walked off the set.
 \| President Trump addresses a crowd of supporters at a campaign rally
-in Manchester, New Hampshire. \|\| **1395 \| 2020-10-26**: President
+in Manchester, New Hampshire. \|\| **1375 \| 2020-10-26**: President
 Trump addresses a crowd of supporters at three campaign rallies in
 Pennsylvania: Allentown; Lititz; and Martinsburg. \| In a vote of 52-48
 the Senate confirms Amy Coney Barrett as Supreme Court Justice. \|
 President Trump attends the swearing in of Amy Coney Barrett as an
 Associate Justice of the Supreme Court by Justice Clarence Thomas on the
-South Lawn of the White House. \|\| **1396 \| 2020-10-27**: Amy Coney
+South Lawn of the White House. \|\| **1376 \| 2020-10-27**: Amy Coney
 Barrett takes the final judicial oath with Chief Justice John Roberts at
 the Supreme Court of the United States thereby officially starting her
 tenure as Associate Justice of the Supreme Court. \| President Trump
 addresses a crowd of supporters at three campaign rallies: Lansing,
-Michigan; West Salem, Wisconsin; and Omaha, Nebraska. \|\| **1397 \|
+Michigan; West Salem, Wisconsin; and Omaha, Nebraska. \|\| **1377 \|
 2020-10-28**: President Trump addresses a crowd of supporters at two
-campaign rallies in Arizona: Bullhead City and Goodyear. \|\| **1398 \|
+campaign rallies in Arizona: Bullhead City and Goodyear. \|\| **1378 \|
 2020-10-29**: President Trump addresses a crowd of supporters at a
-campaign rally in Tampa, Florida. \|\| **1399 \| 2020-10-30**: President
+campaign rally in Tampa, Florida. \|\| **1379 \| 2020-10-30**: President
 Trump addresses a crowd of supporters at three campaign rallies:
 Waterford Township, Michigan; Green Bay, Wisconsin; and Rochester,
-Minnesota. \|\| **1400 \| 2020-10-31**: President Trump addresses a
+Minnesota. \|\| **1380 \| 2020-10-31**: President Trump addresses a
 crowd of supporters at four campaign rallies in Pennsylvania: Newtown;
-Reading; Butler; and Montoursville. \|\| **1401 \| 2020-11-01**:
+Reading; Butler; and Montoursville. \|\| **1381 \| 2020-11-01**:
 President Trump addresses a crowd of supporters at five campaign
 rallies: Washington Township, Michigan; Dubuque, Iowa; Hickory, North
-Carolina; Rome, Georgia; and Opa-locka, Florida. \|\| **1402 \|
+Carolina; Rome, Georgia; and Opa-locka, Florida. \|\| **1382 \|
 2020-11-02**: President Trump addresses a crowd of supporters at five
 campaign rallies: Fayetteville, North Carolina; Scranton, Pennsylvania;
 Traverse City, Michigan; Kenosha, Wisconsin; and Grand Rapids, Michigan.
-\|\| **1403 \| 2020-11-03**: The 2020 United States presidential
-election is held. President Trump carries 23 states and 213 electoral
-college points but no winner is declared on election night. The interim
-results show former VP Biden leading with 238 to 213 with many swing
-states still being counted. \|\| **1404 \| 2020-11-04**: Despite the
-lack of a clear winner, President Trump declares victory at
-approximately 2:00 a.m., claiming concerns about fraud and mail-in
-ballots. He states his intention to request that the Supreme Court
-prevent any more ballots from being counted. \|\| **1405 \|
-2020-11-05**: An Election winner still remains to be called. Joe Biden
-leads with 264 electoral college points compared to President Trump’s
-214. Nevada, Pennsylvania, Georgia, North Carolina and Alaska are still
-yet to be called. \| President Trump holds a press conference in the
-White House. His opening statement is, “If you count the legal votes I
-easily win. If you count the illegal votes, they can try to steal the
-election from us.” He continued, displaying misinterpretation of the
-Constitution, the role of the Supreme Court and the rule of law
-regarding the counting of votes. He did not take questions. \|\| **1406
-\| 2020-11-06**: Biden overtakes President Trump’s leads in Pennsylvania
-and Georgia further jeopardizing the presidents re-election chances.
-Election winner remains to be called. \| President Trump joins Biden as
-the 2nd presidential candidate to reach 70 million votes in a United
-States presidential election and reaches 2nd place in highest number of
-votes in any election so far compared to Biden’s current count of 74
-million votes. \|\| **1407 \| 2020-11-07**: Joe Biden is named
-president-elect after he is projected to reach over 270 electoral
-college points. \|\| **1408 \| 2020-11-08**: The electoral college
-points stand at 290 points for Joe Biden and 214 for Donald Trump. Many
-states have not completed their vote counting with Alaska, Georgia and
-North Carolina having no projected winner as of yet. \|\| **1409 \|
-2020-11-09**: President Trump announces on Twitter that Secretary of
-Defense Mark Esper is fired and that Christopher C. Miller, Director of
-the National Counterterrorism, is nominated to replace him. \| Alaska,
-Georgia and North Carolina still remain to be called. Trump’s lead in AK
-and NC is maintained and Biden still leads in GA. \|\| **1410 \|
-2020-11-10**: Secretary of State Mike Pompeo denied President-elect
-Biden’s success in the recent 2020 presidential election, declaring that
-“there will be a smooth transition to a second Trump administration.”
-\|\| **1411 \| 2020-11-11**: In his first public appearance in six days,
-President Trump performs a wreath-laying ceremony at the Tomb of the
-Unknown Soldier at the Arlington National Cemetery commemorating
-Veterans Day. He did not speak at the event. \| President Trump is
-projected to win Alaska and its 3 electoral college points putting his
-projected total to 217. Georgia and North Carolina still remain to be
-called. \|\| **1412 \| 2020-11-12**: The Cybersecurity and
-Infrastructure Security Agency, part of the Department of Homeland
-Security, reports that the 2020 presidential election was “the most
-secure in American history”. The election officials also said they found
-“no evidence that any voting system deleted or lost votes, changed votes
-or was in any way compromised”. \|\| **1413 \| 2020-11-13**: President
-Trump is projected to win North Carolina and its 15 electoral college
-points putting his projected total to 232. Only Georgia remains to be
-called with Biden currently in the lead. \|\| **1414 \| 2020-11-14**:
-\|\| **1415 \| 2020-11-15**: \|\| **1416 \| 2020-11-16**: \|\| **1417 \|
-2020-11-17**: President Trump announces on Twitter that he is firing
-Director of the Cybersecurity and Infrastructure Security Agency (CISA)
-Chris Krebs for contradicting him on the prevalence of fraud in the
-recent presidential election. \|\| **1418 \| 2020-11-18**: Matthew
-Travis, Deputy Director of CISA, resigns. \|\| **1419 \| 2020-11-19**:
-After the Georgia recount is completed Joe Biden is confirmed as the
-winner putting the projected electoral college total to 306 for Biden
-and 232 for Trump. All states have now been called 16 days after the
-election. \|\| **1420 \| 2020-11-20**: President Trump participates in
-the virtual APEC summit in Malaysia, his first appearance at the APEC
-summit since 2017. \| President Trump meets with two Republican
-legislative leaders from Michigan at the White House to discuss the
-possibility that the Michigan board of canvassers could choose to not to
-certify the election results. The state legislatures would then appoint
-different electors who would possibly overturn the will of the voters.
-However, the lawmakers reaffirmed that they would honor the results of
-the election in Michigan and stated that there is no reason to overturn
-the results. \|\| **1421 \| 2020-11-21**: President Trump briefly
-participates in the virtual G20 summit in Riyadh in what will likely be
-his last G20 summit meeting with world leaders before handing powers to
-Joe Biden on January 20, 2021. \|\| **1422 \| 2020-11-22**: President
-Trump again participates in the virtual G20 summit in Riyadh and
-delivers a virtual address. Trump criticized the Paris Agreement and
-stated that it crippled the United States economy. \|\| **1423 \|
-2020-11-23**: The General Services Administration (GSA) informs Joe
-Biden that the Trump administration will be allowed to begin the formal
-transition. Trump praised GSA Administrator Emily W. Murphy for the move
-on Twitter. \|\| **1424 \| 2020-11-24**: President Trump and First Lady
-Melania Trump participate in the National Thanksgiving Turkey
-Presentation. \|\| **1425 \| 2020-11-25**: President Trump pardons
-former National Security Adivsor Michael Flynn, who pleaded guilty to
-making false statements during the Mueller investigation in 2017. \|\|
-**1426 \| 2020-11-26**: President Trump admits that he will leave office
-if the Electoral College votes for Joe Biden, adding it would be a
-mistake “and a very hard thing to concede”. \|\| **1427 \| 2020-11-27**:
-\|\| **1428 \| 2020-11-28**: \|\| **1429 \| 2020-11-29**: \|\| **1430 \|
-2020-11-30**: Scott Atlas, an advisor to President Trump and member of
-the White House Coronavirus Task Force, resigns. \|\| **1431 \|
-2020-12-01**: President Trump threatens to veto the National Defense
-Authorization Act unless lawmakers agree to repeal a legal shield for
-social media companies. \|\| **1432 \| 2020-12-02**: President Trump
-uploads a 46-minute speech on his claims of alleged voter fraud to his
-social media platforms titled “This may be the most important speech
-I’ve ever made….”. \|\| **1433 \| 2020-12-03**: President Trump presents
-the Presidential Medal of Freedom to former football coach Lou Holtz.
-\|\| **1434 \| 2020-12-04**: President Trump signs the Rodchenkov
-Anti-Doping Act, a law that would criminalize doping schemes. \|\|
-**1435 \| 2020-12-05**: President Trump holds a rally in Valdosta,
-Georgia for Senators David Perdue and Kelly Loeffler, and spends most of
-the 100 minute speech on his conspiratorial theories of electoral fraud
-rather than on the runoff elections against Raphael Warnock and Jon
-Ossoff, respectively. \|\| **1436 \| 2020-12-06**: President Trump’s
-personal attorney Rudy Giuliani is admitted to hospital after testing
-positive for COVID-19. \|\| **1437 \| 2020-12-07**: President Trump
-presents the Presidential Medal of Freedom to Olympic wrestler Dan
-Gable. \|\| **1438 \| 2020-12-08**: President Trump hosts a Operation
-Warp Speed vaccine summit. \| President Trump says that he will invoke
-the Defense Production Act of 1950 if needed for vaccine doses. \|\|
-**1439 \| 2020-12-09**: Texas Attorney General Ken Paxton files an
-amicus brief with the Supreme Court asking to block four states -
-Pennsylvania, Michigan, Wisconsin, and Georgia - from casting electoral
-votes for President-elect Joe Biden. \| President Trump hosts the annual
-White House Hanukkah Party and in a speech to guests claims he will be
+\|\| **1383 \| 2020-11-03**: The 2020 United States presidential
+election is held. The interim results show President Trump carries 23
+states and 213 electoral votes compared to former Vice President Joe
+Biden, who carries 20 states and leads 238 electoral votes. However, no
+winner is declared on election night with seven states still have not
+completed their vote counting. These states still being counted are
+Alaska, Georgia, Michigan, Nevada, North Carolina, Pennsylvania and
+Wisconsin. \|\| **1384 \| 2020-11-04**: Despite the lack of a clear
+winner, President Trump declares victory at approximately 2:00 a.m.,
+claiming concerns about fraud and mail-in ballots. He states his
+intention to request that the Supreme Court prevent any more ballots
+from being counted. \| Former Vice President Joe Biden had secured 264
+electoral votes by winning Michigan and Wisconsin compared to President
+Trump’s 214 electoral votes. However, a projected winner of the election
+is still yet to be called with five states have not completed their vote
+counting. These states still being counted are Alaska, Georgia, Nevada,
+North Carolina and Pennsylvania. \|\| **1385 \| 2020-11-05**: President
+Trump holds a press conference in the White House. His opening statement
+is, “If you count the legal votes I easily win. If you count the illegal
+votes, they can try to steal the election from us.” He continued,
+displaying misinterpretation of the Constitution, the role of the
+Supreme Court and the rule of law regarding the counting of votes. He
+did not take questions. \|\| **1386 \| 2020-11-06**: Former Vice
+President Joe Biden overtakes President Trump’s leads in Pennsylvania
+and Georgia further jeopardizing the presidents re-election chances. A
+projected winner of the election was still yet to be called. \|
+President Trump joins Biden as the second presidential candidate to
+reach 70 million votes in a United States presidential election and
+reaches second place in highest number of votes in any election so far
+compared to Biden’s current count of 74 million votes. \|\| **1387 \|
+2020-11-07**: Former Vice President Joe Biden becomes president-elect
+after he had secured 290 electoral votes by winning Nevada and
+Pennsylvania, which he have reached over 270 electoral votes. However,
+President Trump refuses to concede defeat. \|\| **1388 \| 2020-11-08**:
+The interim results show President Trump carries 23 states and 214
+electoral votes compared to President-elect Joe Biden, who carries 24
+states and leads 290 electoral votes. Three states still being counted
+are Alaska, Georgia and North Carolina. \|\| **1389 \| 2020-11-09**:
+President Trump announces on Twitter that Secretary of Defense Mark
+Esper is fired and that Christopher C. Miller, Director of the National
+Counterterrorism, is nominated to replace him. \| Alaska, Georgia and
+North Carolina still yet to be called. President Trump’s lead in Alaska
+and North Carolina is maintained and President-elect Joe Biden still
+leads in Georgia. \|\| **1390 \| 2020-11-10**: Secretary of State Mike
+Pompeo denied President-elect Joe Biden’s success in the recent 2020
+presidential election, declaring that “there will be a smooth transition
+to a second Trump administration.” \|\| **1391 \| 2020-11-11**: In his
+first public appearance in six days, President Trump performs a
+wreath-laying ceremony at the Tomb of the Unknown Soldier at the
+Arlington National Cemetery commemorating Veterans Day. He did not speak
+at the event. \| President Trump is projected to win Alaska and its 3
+electoral votes putting his projected total to 217. Georgia and North
+Carolina are still yet to be called. \|\| **1392 \| 2020-11-12**: The
+Cybersecurity and Infrastructure Security Agency, part of the Department
+of Homeland Security, reports that the 2020 presidential election was
+“the most secure in American history”. The election officials also said
+they found “no evidence that any voting system deleted or lost votes,
+changed votes or was in any way compromised”. \|\| **1393 \|
+2020-11-13**: President Trump is projected to win North Carolina and its
+15 electoral votes putting his projected total to 232. Only Georgia is
+still yet to be called with President-elect Joe Biden is currently in
+the lead. \|\| **1394 \| 2020-11-14**: \|\| **1395 \| 2020-11-15**: \|\|
+**1396 \| 2020-11-16**: \|\| **1397 \| 2020-11-17**: President Trump
+announces on Twitter that he is firing Director of the Cybersecurity and
+Infrastructure Security Agency (CISA) Chris Krebs for contradicting him
+on the prevalence of fraud in the recent presidential election. \|\|
+**1398 \| 2020-11-18**: Matthew Travis, Deputy Director of CISA,
+resigns. \|\| **1399 \| 2020-11-19**: After the Georgia recount is
+completed, President-elect Joe Biden is projected to win Georgia and its
+16 electoral votes putting the total projected electoral votes to 306
+for Biden and 232 for Trump. All states have now been called within 16
+days after the election. \|\| **1400 \| 2020-11-20**: President Trump
+briefly participates in the virtual APEC summit in Malaysia, his first
+appearance at the APEC summit since 2017. \| President Trump meets with
+two Republican legislative leaders from Michigan at the White House to
+discuss the possibility that the Michigan board of canvassers could
+choose to not to certify the election results. The state legislatures
+would then appoint different electors who would possibly overturn the
+will of the voters. However, the lawmakers reaffirmed that they would
+honor the results of the election in Michigan and stated that there is
+no reason to overturn the results. \|\| **1401 \| 2020-11-21**:
+President Trump briefly participates in the virtual G20 summit in Riyadh
+in what will likely be his last G20 summit meeting with world leaders
+before handing powers to Joe Biden on January 20, 2021. \|\| **1402 \|
+2020-11-22**: President Trump again briefly participates in the virtual
+G20 summit in Riyadh and delivers a virtual address. Trump criticized
+the Paris Agreement and stated that it crippled the United States
+economy. \|\| **1403 \| 2020-11-23**: The General Services
+Administration (GSA) informs Joe Biden that the Trump administration
+will be allowed to begin the formal transition. Trump praised GSA
+Administrator Emily W. Murphy for the move on Twitter. \|\| **1404 \|
+2020-11-24**: President Trump and First Lady Melania Trump participate
+in the National Thanksgiving Turkey Presentation. \|\| **1405 \|
+2020-11-25**: President Trump pardons former National Security Advisor
+Michael Flynn, who pleaded guilty to making false statements during the
+Mueller investigation in 2017. \|\| **1406 \| 2020-11-26**: President
+Trump admits that he will leave office if the electoral college votes
+for Joe Biden, adding it would be a mistake “and a very hard thing to
+concede”. \|\| **1407 \| 2020-11-27**: \|\| **1408 \| 2020-11-28**: \|\|
+**1409 \| 2020-11-29**: \|\| **1410 \| 2020-11-30**: Scott Atlas, an
+advisor to President Trump and member of the White House Coronavirus
+Task Force, resigns. \|\| **1411 \| 2020-12-01**: President Trump
+threatens to veto the National Defense Authorization Act unless
+lawmakers agree to repeal a legal shield for social media companies.
+\|\| **1412 \| 2020-12-02**: President Trump uploads a 46-minute speech
+on his claims of alleged voter fraud to his social media platforms
+titled “This may be the most important speech I’ve ever made….”. \|\|
+**1413 \| 2020-12-03**: President Trump presents the Presidential Medal
+of Freedom to former football coach Lou Holtz. \|\| **1414 \|
+2020-12-04**: President Trump signs the Rodchenkov Anti-Doping Act, a
+law that would criminalize doping schemes. \|\| **1415 \| 2020-12-05**:
+President Trump holds a rally for Senators David Perdue and Kelly
+Loeffler in Valdosta, Georgia, and spends most of the 100 minute speech
+on his conspiratorial theories of electoral fraud rather than on the
+runoff elections against Raphael Warnock and Jon Ossoff, respectively.
+\|\| **1416 \| 2020-12-06**: President Trump’s personal attorney Rudy
+Giuliani is admitted to hospital after testing positive for COVID-19.
+\|\| **1417 \| 2020-12-07**: President Trump presents the Presidential
+Medal of Freedom to Olympic wrestler Dan Gable. \|\| **1418 \|
+2020-12-08**: President Trump hosts a Operation Warp Speed vaccine
+summit. \| President Trump says that he will invoke the Defense
+Production Act of 1950 if needed for vaccine doses. \|\| **1419 \|
+2020-12-09**: Texas Attorney General Ken Paxton files an amicus brief
+with the Supreme Court asking to block four states - Pennsylvania,
+Michigan, Wisconsin, and Georgia - from casting electoral votes for
+President-elect Joe Biden. \| President Trump hosts the annual White
+House Hanukkah Party and in a speech to guests claims he will be
 re-elected, despite losing the election, if the Supreme Court “\[has\]
-courage”. \|\| **1440 \| 2020-12-10**: The Trump Administration brokers
+courage”. \|\| **1420 \| 2020-12-10**: The Trump Administration brokers
 a normalization agreement between Morocco and Israel, the fourth
 agreement between Israel and an Arab nation since August. The White
-House said the US would recognize Morocco’s claim over Western Sahara as
-part of the deal. \| The third (No portrait was taken for 2019) and
+House said the U.S. would recognize Morocco’s claim over Western Sahara
+as part of the deal. \| The third (No portrait was taken for 2019) and
 final official White House Christmas portrait of the Trump
 administration is taken on the Grand Staircase by White House
 photographer Andrea Hanks. It is not released publicly until December
-18, 2020. \|\| **1441 \| 2020-12-11**: President Trump acknowledges that
+18, 2020. \|\| **1421 \| 2020-12-11**: President Trump acknowledges that
 there will be a Biden administration, admitting that he lost the
 election. He also called for the Supreme Court to follow the
 Constitution and “do what has to be done”. \| President Trump signs a
 one-week spending bill to avoid a government shutdown. \| The Supreme
 Court declines to hear the Paxton lawsuit (seeking to overturn the 2020
 presidential election) stating that the State of Texas did not have
-legal standing to bring the case before the Court. \|\| **1442 \|
+legal standing to bring the case before the Court. \|\| **1422 \|
 2020-12-12**: President Trump takes part in the coin toss for his last
-Army-Navy Game as commander-in-chief. \|\| **1443 \| 2020-12-13**: \|\|
-**1444 \| 2020-12-14**: All 538 electors for the electoral college met
+Army-Navy Game as commander-in-chief. \|\| **1423 \| 2020-12-13**: \|\|
+**1424 \| 2020-12-14**: All 538 electors for the electoral college met
 to cast their votes and finalize the 2020 election results. Both
-candidates received their projected counts of Biden 306 and Trump 232
-with 0 faithless electors. \| President Trump announces that Bill Barr
-will resign as United States Attorney General on December 23. \|\|
-**1445 \| 2020-12-15**: Senate majority leader Mitch McConnell
+candidates received their projected counts of 306 for Biden and 232 for
+Trump without faithless electors. \| President Trump announces that Bill
+Barr will resign as United States Attorney General on December 23. \|\|
+**1425 \| 2020-12-15**: Senate majority leader Mitch McConnell
 congratulates Joe Biden and Kamala Harris, accepting the results of the
 2020 election in another blow to President Trump’s attempt to
 delegitimise the election results, saying, “Many of us had hoped the
 presidential election would yield a different result” and that “all
 Americans can take pride that our nation has a female vice
-president-elect for the very first time”. \|\| **1446 \| 2020-12-16**:
-\|\| **1447 \| 2020-12-17**: President Trump signs a bill authorizing an
+president-elect for the very first time”. \|\| **1426 \| 2020-12-16**:
+\|\| **1427 \| 2020-12-17**: President Trump signs a bill authorizing an
 outdoor federal monument in Washington, D.C., to the women’s suffrage
 movement to honor the activists who won women the right to vote such as
 Susan B. Anthony, Elizabeth Cady Stanton, and Sojourner Truth. \|\|
-**1448 \| 2020-12-18**: Vice President Mike Pence, Second Lady Karen
+**1428 \| 2020-12-18**: Vice President Mike Pence, Second Lady Karen
 Pence and Surgeon General Jerome Adams all receive the Pfizer/BioNTech
 Coronavirus vaccine in a televised White House event with VP Pence
-becoming the most senior figure in the US so far to receive the vaccine.
-\| The Trump administration announces they will close the remaining two
-U.S. consulates in Russia following a suspected cyberattack on
-government agencies. \| First Lady Melania Trump releases the third (no
-portrait was taken for 2019) and final official White House Christmas
-portrait of the Trump administration taken by White House photographer
-Andrea Hanks on December 10, 2020. \|\| **1449 \| 2020-12-19**: \|\|
-**1450 \| 2020-12-20**: \|\| **1451 \| 2020-12-21**: The United States
-National Security Council announces that President Trump has awarded the
-Legion of Merit to former Japanese Prime Minister Shinzo Abe, Indian
-Prime Minister Narendra Modi, and Australian Prime Minister Scott
-Morrison. \|\| **1452 \| 2020-12-22**: President Trump announces that he
-may not sign the 900B COVID-19 relief bill, which was passed by both the
-House and Senate. He also calls for Congress to amend the bill and
-increase the stimulus amount from 600 to 2,000. \| President Trump
-grants 20 high-profile pardons. Among them are 4 Blackwater guards
-convicted of 17 murders in 2007, 2 Border Patrol agents in prison for
-murder and several corrupt former politicians. \|\| **1453 \|
-2020-12-23**: President Trump vetoes the National Defense Authorization
-Act for Fiscal Year 2021. \| President Trump signs the Fallen
-Journalists Memorial Act, a law that honors the memory of slain
+becoming the most senior figure in the U.S. so far to receive the
+vaccine. \| The Trump administration announces they will close the
+remaining two U.S. consulates in Russia following a suspected
+cyberattack on government agencies. \| First Lady Melania Trump releases
+the third (no portrait was taken for 2019) and final official White
+House Christmas portrait of the Trump administration taken by White
+House photographer Andrea Hanks on December 10, 2020. \|\| **1429 \|
+2020-12-19**: \|\| **1430 \| 2020-12-20**: \|\| **1431 \| 2020-12-21**:
+The United States National Security Council announces that President
+Trump has awarded the Legion of Merit to former Japanese Prime Minister
+Shinzo Abe, Indian Prime Minister Narendra Modi, and Australian Prime
+Minister Scott Morrison. \|\| **1432 \| 2020-12-22**: President Trump
+announces that he may not sign the 900B COVID-19 relief bill, which was
+passed by both the House and Senate. He also calls for Congress to amend
+the bill and increase the stimulus amount from 600 to 2,000. \|
+President Trump grants 20 high-profile pardons. Among them are 4
+Blackwater guards convicted of 17 murders in 2007, 2 Border Patrol
+agents in prison for murder and several corrupt former politicians. \|\|
+**1433 \| 2020-12-23**: President Trump vetoes the National Defense
+Authorization Act for Fiscal Year 2021. \| President Trump signs the
+Fallen Journalists Memorial Act, a law that honors the memory of slain
 journalists, including the victims of the Capital Gazette shooting. \|
 President Trump departs the White House for Mar-a-Lago to celebrate
-Christmas. \|\| **1454 \| 2020-12-24**: Jeff Rosen takes over as
+Christmas. \|\| **1434 \| 2020-12-24**: Jeff Rosen takes over as
 attorney general following William Barr’s departure the previous day.
-\|\| **1455 \| 2020-12-25**: President Trump celebrates the fourth and
-final Christmas of his administration at Mar-a-Lago. \|\| **1456 \|
-2020-12-26**: \|\| **1457 \| 2020-12-27**: Despite previously calling
+\|\| **1435 \| 2020-12-25**: President Trump celebrates the fourth and
+final Christmas of his administration at Mar-a-Lago. \|\| **1436 \|
+2020-12-26**: \|\| **1437 \| 2020-12-27**: Despite previously calling
 the 900 billion COVID-19 relief package “a disgrace”, President Trump
-signs the bill, averting a government shutdown. \|\| **1458 \|
+signs the bill, averting a government shutdown. \|\| **1438 \|
 2020-12-28**: The House of Representatives votes 322-87 to override
 President Trump’s veto of the National Defense Authorization Act for
-Fiscal Year 2021. \|\| **1459 \| 2020-12-29**: \|\| **1460 \|
-2020-12-30**: Senator Bernie Sanders of Vermont presents a display of
-Trump’s tweet calling for 2,000. \|\| **1461 \| 2020-12-31**: Republican
-Senator Josh Hawley of Missouri announces he plans to object to the
-election result certification on January 6. \| President Trump returns
-to Washington, D.C. early cutting short his Christmas and New Year
-celebrations at Mar-a-Lago.
+Fiscal Year 2021. \|\| **1439 \| 2020-12-29**: \|\| **1440 \|
+2020-12-30**: \|\| **1441 \| 2020-12-31**: Republican Senator Josh
+Hawley of Missouri announces he plans to object to the election result
+certification on January 6. \| President Trump returns to Washington,
+D.C. cutting short his Christmas and New Year celebrations at
+Mar-a-Lago. \|\| **1442 \| 2021-01-01**: The United States Senate votes
+81-13 to override President Trump’s veto of the National Defense
+Authorization Act for Fiscal Year 2021. This marks the first successful
+veto override of the Trump presidency. \|\| **1443 \| 2021-01-02**: \|\|
+**1444 \| 2021-01-03**: A phone call between President Trump and Georgia
+Secretary of State, Brad Raffensperger is leaked showing Trump telling
+him the election was a fraud and demanding he find “11,780 votes, which
+is one more than we have.” Raffensperger responds that the election
+results were correct and that Trump’s data is wrong. Trump continued to
+claim voter fraud and said Raffensperger would be a “criminal” if he did
+not change the election results. \|\| **1445 \| 2021-01-04**: President
+Trump presents the Presidential Medal of Freedom to Devin Nunes. \|
+President Trump holds a rally for Senators David Perdue and Kelly
+Loeffler in Dalton, Georgia, ahead of the upcoming runoffs to determine
+who controls the Senate. President-elect Joe Biden and Vice President
+Mike Pence also hold rallies. \|\| **1446 \| 2021-01-05**: U.S. District
+Judge Mark Howard Cohen denies an emergency injunction from President
+Trump to decertify the 2020 United States presidential election results
+in Georgia calling the lawsuit “beyond unprecedented”. \| Democrat
+Raphael Warnock is declared the winner of the 2020-21 Senate special
+election in Georgia defeating incumbent Republican Kelly Loeffler
+meaning a Republican majority in the Senate will be determined by the
+final runoff election between Republican David Perdue and Democrat Jon
+Ossoff which was too close to call on this day. \|\| **1447 \|
+2021-01-06**: President Trump holds a rally in Washington DC to decry
+the certification of Joe Biden as the victor in the November election.
+He also calls on Vice President Mike Pence to reject the electoral
+votes, even though the Vice President does not hold such legal power. \|
+The U.S. Capitol building is evacuated during the Electoral College
+results certification process after seditionists and insurrectionists
+broke the security barrier and stormed the building. Both Houses of
+Congress recess the Electoral College debate after the mob forced a
+lockdown of the building. Vice President Mike Pence was evacuated. \|
+Democrat Jon Ossoff is declared winner of the final Senate runoff
+election defeating Republican David Perdue giving Republicans and the
+Democrat caucus a 50/50 split in the Senate during the first 2 years of
+the Biden administration with the tie-breaking vote going to Vice
+President-elect Kamala Harris. \|\| **1448 \| 2021-01-07**: Vice
+President Mike Pence declares Joe Biden the winner of the 2020
+presidential election after certification of the electoral votes resumed
+in a joint session of Congress. \| As a result of yesterday’s Capitol
+Hill breach, President Trump was suspended from Facebook and Instagram
+until after Joe Biden’s Inauguration for allegedly inciting the riot. He
+was also suspended from Twitter for 24 hours, with the suspension only
+being lifted if he deleted three Tweets that Twitter say violated their
+terms of service because they used the platform “for the purpose of
+manipulating or interfering in elections or other civic processes”. \|
+White House Deputy Chief of Staff Chris Liddell orders all Trump
+administration staff to resign by January 20 as a step to clear the way
+for Biden to fill the government with his own staff. \| House Speaker
+Nancy Pelosi calls for President Trump to be removed from office by way
+of the 25th Amendment over his involvement in the storming of Capitol
+Hill and states impeachment proceedings will be started should this not
+happen. \| For the first time, President Trump condemns the attack on
+the United States Capitol and concedes the race to Joe Biden. He also
+says that his focus is to ensure a smooth transition of power to the
+“next administration”. \|\| **1449 \| 2021-01-08**: President Trump
+announces he will not be attending Joe Biden’s inauguration making him
+the first outgoing President not to attend his successor’s inauguration
+since the 1974 Inauguration of Gerald Ford. \| President-elect Joe Biden
+calls President Trump’s decision not to attend his inauguration “One of
+the few things he and I have ever agreed on. It’s a good thing, him not
+showing up.” \| President Trump’s personal Twitter account
+@realDonaldTrump is permanently suspended with Twitter citing “risk of
+further incitement of violence” following the storming of Capitol Hill
+which Twitter allege Trump incited. \|\| **1450 \| 2021-01-09**: \|\|
+**1451 \| 2021-01-10**: Vice President Mike Pence announced he will be
+attending Joe Biden’s Inauguration despite President Trump refusing to
+attend. \| President Trump orders all federal flags to be flown at
+half-staff in honor of Brian Sicknick, a police officer who was killed
+during the storming of Capitol Hill four days earlier. \|\| **1452 \|
+2021-01-11**: House Speaker Nancy Pelosi gives Vice President Mike Pence
+an ultimatum: Invoke the 25th Amendment within 24 hours to remove
+President Trump from office or they will begin Impeachment proceedings
+against the President. \| The Professional Golfer’s Association
+announced the PGA Championship will no longer be taking place at
+President Trump’s Golf course in New Jersey as they say it would be
+“detrimental to the brand”. \| President Trump awards the Presidential
+Medal of Freedom to Jim Jordan. \| Democrats in the House of
+Representatives formally charge President Trump with one count of
+“incitement of insurrection” after Republicans in the House block
+invocation of the 25th Amendment making Trump the first President to
+face two Impeachment trials. \| President Trump and Vice President Pence
+speak for the first time since the storming of the Capitol. \| President
+Trump approves a emergency declaration from DC Mayor Muriel Bowser ahead
+of Joe Biden’s inauguration. \| Vice President Mike Pence tells House
+Speaker Nancy Pelosi that he won’t invoke the 25th amendment. \|\|
+**1453 \| 2021-01-12**: President Trump travels to Alamo, Texas, near
+the U.S.-Mexico border to examine progress on the US-Mexico border wall
+and meets with Border Patrol personnel. \| Alex Azar announces that HHS
+will make changes to their vaccine distributions in an effort to speed
+up the rollout by encouraging states to open vaccination sites to all
+persons older than 65, however at the time the announcement was made,
+stockpiles were already exhausted. \| President Trump speaks publicly
+for the first time since his permanent Twitter ban and articles of
+Impeachment being drawn against him calling it a “continuation of the
+greatest witch hunt in political history” when speaking to reporters. \|
+During his speech at Alamo, President Trump asserted the 25th Amendment
+is of “zero risk” to him and claimed it will “come back to haunt the
+Biden administration” adding “be careful what you wish for”. \|\| **1454
+\| 2021-01-13**: President Trump releases a statement calling for “no
+violence” in wakes of reports of planned armed demonstrations ahead of
+Biden’s inauguration. \| President Trump becomes the first president in
+U.S. history to be impeached twice after the House of Representatives
+voted yes to impeach Trump on the charge of “Incitement of
+insurrection”. 222 Democrats and 10 Republicans voted yea while 197
+Republicans voted nay with 4 Republicans not voting. He now faces trial
+at the Senate which will likely not take place until after his term has
+expired. \|\| **1455 \| 2021-01-14**: Vice President Mike Pence makes an
+unscheduled stop at the United States Capitol to meet with United States
+National Guard troops ahead of Biden’s inauguration. \|\| **1456 \|
+2021-01-15**: Vice President Mike Pence congratulates incoming Vice
+President Kamala Harris, 73 days after the presidential election. \|
+President Trump awards the Legion of Merit to Morocco King Mohammed VI
+during a private ceremony. In addition, Trump also received the Order of
+Muhammad award from Princess Lalla Joumala Alaoui for his work in
+advancing a normalization deal between Israel and Morocco. \|\| **1457
+\| 2021-01-16**: \|\| **1458 \| 2021-01-17**: Secretary of State Mike
+Pompeo accuses Iran of actively supporting Al Qaeda, saying the country
+now serves as a “home base” for the terror group and provides operatives
+with travel documents and logistical support. \|\| **1459 \|
+2021-01-18**: First Lady Melania Trump delivers a farewell address,
+urging Americans to Be Best. \| President Trump signs an executive order
+that lifts travel restrictions on Brazil, the United Kingdom, China, and
+Europe after January 26. However, Jen Psaki, Biden’s Press Secretary,
+says that the restrictions are expected to remain in place. \|\| **1460
+\| 2021-01-19**: President Trump delivers his farewell address from the
+White House. He talks about the accomplishments of his term as president
+and wishes good luck to the upcoming administration. \| The Trump
+administration declares that China has committed genocide against Uyghur
+Muslims and other ethnic minority groups. \|\| **1461 \| 2021-01-20**:
+President Trump finishes his time in office and leaves the White House.
+He holds a departing ceremony and then departs aboard Air Force One with
+his wife, Melania Trump. \| Joe Biden was inaugurated the 46th president
+at noon EST. President Trump did not attend the ceremony and begins his
+post-presidency.
